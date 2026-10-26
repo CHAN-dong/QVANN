@@ -54,26 +54,38 @@ Routing evidence follows graph-expansion accesses. Refinement data are committed
 ```text
 QVANN/
 |-- src/
-|   |-- qvann_benchmark.cpp          # QVANN entry point, VO generation, and verification
-|   |-- veriann_query_lut.hpp       # Query lookup tables for quantized evaluation
-|   |-- verifiable_ann_common.hpp  # Vector loading, graph access, and shared primitives
-|   |-- paper_repro_common.hpp     # Serialization, hashing, configuration, and measurement
-|   `-- experiments/
-|       |-- relaxed_hnsw_harvest.cpp
-|       |-- e_budget_relaxed_hnsw.cpp
-|       |-- expansion_centric_merkle.cpp
-|       `-- refinement_merkle_ordering.cpp
+|   |-- index/             # Graph, quantizer, Merkle trees, authenticated index
+|   |-- optimize/
+|   |   |-- refinement/    # Distance bounds and progressive disclosure
+|   |   |-- traversal/     # Coarse routing and query lookup tables
+|   |   `-- expansion/     # Expansion records and BFS ordering
+|   |-- query/             # Server search, top-k selection, and VO generation
+|   |-- verify/            # Client authentication, replay, and certification
+|   |-- common/            # Shared types, digest, VO, binary serialization
+|   |-- utils/             # Input, hashing, configuration, measurements, timing
+|   `-- main.cpp           # Command-line entry point
+|-- tests/                 # Quantization, multiproof, and tamper checks
 |-- scripts/
-|   |-- build.sh                   # Builds the QVANN executable
-|   |-- run_benchmark.py           # Configures and runs QVANN
-|   `-- smoke_test.py              # Temporary synthetic-input integrity checks
+|   |-- run.py             # Dataset presets and controlled single-thread runs
+|   `-- smoke.py           # Temporary synthetic-input end-to-end checks
+|-- CMakeLists.txt
+|-- .clang-format
 |-- .gitignore
 `-- README.md
 ```
 
-The four files under `src/experiments/` form the existing implementation include chain used by QVANN. They are required source components, rather than separately packaged comparison methods. Some source identifiers and output labels retain the historical name **VeriANN**.
+Each module has short, responsibility-based file names. Non-template implementations
+are compiled from `.cpp` files with public declarations in `.h` files; source files
+do not include other `.cpp` files.
 
-This repository contains QVANN source code and supporting scripts. Papers, baseline implementations, datasets, cached indexes, result spreadsheets, measured result archives, and precompiled dependencies are not included.
+`qvann_core` contains the server-side index and query implementation. `qvann_client`
+contains VO parsing, authentication, replay, and result verification and can be
+linked without the Faiss graph library. The three optimization directories form
+one QVANN protocol rather than three independent search methods.
+
+This repository contains QVANN source code and supporting scripts. Papers, baseline
+implementations, datasets, cached indexes, result spreadsheets, measured result
+archives, and precompiled dependencies are not included.
 
 ---
 
@@ -81,12 +93,12 @@ This repository contains QVANN source code and supporting scripts. Papers, basel
 
 ### C++ and System Environment
 
-- Linux or Windows with WSL; the supplied build script targets Linux.
-- A C++17 compiler, such as `g++`.
+- Linux or Windows with WSL; the build configuration targets Linux.
+- A C++17 compiler, such as `g++`, and CMake 3.18 or newer.
 - OpenMP support and OpenSSL development headers/libraries.
 - The compatible modified Faiss/HNSW dependency and matching LightGBM library used by the implementation.
 
-**Dependency compatibility:** The code accesses the modified Faiss interface `hnsw.lselect`. A stock Faiss installation is not a drop-in replacement. The required fork and libraries must be supplied externally; they are not downloaded or built by `scripts/build.sh`.
+**Dependency compatibility:** The code accesses the modified Faiss interface `hnsw.lselect`. A stock Faiss installation is not a drop-in replacement. The required fork and libraries must be supplied externally; they are not downloaded or built by this project's CMake configuration.
 
 ### Python
 
@@ -156,25 +168,43 @@ Keep this variable set for both building and running. Windows users should execu
 ### 3. Build QVANN
 
 ```bash
-bash scripts/build.sh
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j4
 ```
 
-The executable is generated at `build/qvann`. The compiler can be selected through the `CXX` environment variable.
+The executable is generated at `build/qvann`. Set `CXX` before the initial CMake configuration to select a compiler. Alternatively, pass `-DQVANN_DEPS_DIR=/absolute/path/to/external/dependencies` to CMake.
+
+The test targets are enabled by default. A core build without test executables can be configured with `-DBUILD_TESTING=OFF`.
 
 ### 4. Run the smoke check
 
 ```bash
-python3 scripts/smoke_test.py
+python3 scripts/smoke.py
 ```
 
-The check creates **2,048 synthetic 16-dimensional base vectors** and **120 query vectors** in a temporary directory. It verifies **20 queries over three repetitions**, checks successful verification of all 60 executions, and checks rejection of tampered evidence. Temporary inputs and outputs are removed after the check.
+The script first runs the CTest checks for quantizer bounds, shared multiproofs,
+and client integrity verification. The tamper check exercises 13 attacks per query,
+including altered records, wrong roots, wrong queries, truncated data, and incorrect
+expansion budgets.
+
+It then creates **2,048 synthetic 16-dimensional base vectors** and **120 query
+vectors** in a temporary directory and verifies **20 queries over three repetitions**.
+All 60 honest executions must pass verification. Temporary workload inputs and
+outputs are removed after the check. CTest writes its tamper details locally under
+`build/test-output/`.
+
+To run only the C++ tests:
+
+```bash
+ctest --test-dir build --output-on-failure
+```
 
 ### 5. Evaluate your dataset
 
 For the SIFT preset:
 
 ```bash
-python3 scripts/run_benchmark.py \
+python3 scripts/run.py \
   --dataset /absolute/path/to/vectors \
   --preset sift \
   --output results/sift-default
@@ -183,7 +213,7 @@ python3 scripts/run_benchmark.py \
 For a custom configuration:
 
 ```bash
-python3 scripts/run_benchmark.py \
+python3 scripts/run.py \
   --dataset /absolute/path/to/vectors \
   --base 100000 \
   --M 16 \
@@ -218,7 +248,19 @@ The launcher exposes the following main parameters:
 - `--cache`: Local directory for generated index caches.
 - `--output`: Local output directory.
 
-**Expansion-budget semantics:** The launcher passes `--budget` to the executable as `--ef-search`, and generated CSV files retain the field name `ef_search`. For QVANN, this value denotes **E**, the expansion budget, rather than conventional HNSW `efSearch`.
+**Expansion-budget semantics:** `--budget` controls **E**, the number of unique
+expanded nodes, rather than conventional HNSW `efSearch`. Generated measurements
+use the column name `budget`. The executable also accepts `--ef-search` as a legacy
+alias and accepts comma-separated budgets and result sizes. For example:
+
+```bash
+./build/qvann --dataset /path/to/vectors --base 100000 \
+  --budget 32,64,128 --k 1,10 --output results/sweep
+```
+
+Run `./build/qvann --help` for executable options. The direct executable defaults
+to 100 queries starting at offset zero, whereas `scripts/run.py` defaults to 20
+queries starting at offset 100.
 
 The current launcher presets are:
 
@@ -237,15 +279,13 @@ Each evaluation generates local files, including:
 
 - `summary.csv`: Aggregated recall, VO size, timing, and index/authentication statistics.
 - `per_query.csv`: Per-execution measurements and verification status.
-- `tamper_tests.csv`: Rejection outcomes for integrity checks.
 - `query0.vo`: A serialized example verification object.
 - `trusted_roots.txt`: Authentication roots used by the local evaluation.
-- `invocation.json`: Launcher arguments and execution configuration.
 - `manifest.json` and `optimizations.json`: Run metadata and implementation settings.
 
 The launcher fixes relevant thread settings to one for controlled evaluation. Search, VO generation, authentication, and verification times are reported separately. Timing excludes network transport. VO fields expressed in **KiB** use 1,024 bytes; compare units explicitly when relating these outputs to paper figures.
 
-The benchmark evaluates owner/server/client responsibilities within one local executable. Trusted roots must be delivered through an authenticated owner channel in a deployment; writing them to a local file is not an implementation of that channel. The client verification routine uses trusted metadata and the VO without requiring the server's complete graph or vector arrays.
+The benchmark evaluates owner/server/client responsibilities within one local executable, using separately compiled modules. Trusted roots must be delivered through an authenticated owner channel in a deployment; writing them to a local file is not an implementation of that channel. The client verification routine uses trusted metadata and the VO without requiring the server's complete graph or vector arrays.
 
 Generated measurements, data, indexes, and binaries remain local and are excluded by `.gitignore`.
 
@@ -263,6 +303,12 @@ The associated paper evaluates four real-world vector datasets:
 The paper additionally evaluates SIFT and DEEP prefixes of up to 10 million vectors for scalability. Dataset descriptions summarize the paper's evaluation scope; this source-only repository does not redistribute these datasets or their experimental result tables.
 
 ---
+
+## Code Formatting
+
+The repository's `.clang-format` defines four-space indentation, a 100-column
+limit, explicit control-flow braces, and separate function definitions. Format
+changed C++ files with `clang-format -i src/path/to/file.cpp src/path/to/file.h`.
 
 ## Notes
 

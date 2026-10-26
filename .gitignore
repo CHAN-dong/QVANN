@@ -6,9 +6,7 @@
 __pycache__/
 *.pyc
 *.csv
-*.json
 *.xlsx
-*.xls
 *.pdf
 *.tex
 *.fvecs
@@ -20,6 +18,4 @@ __pycache__/
 *.bin
 *.vo
 *.so*
-*.exe
-*.zip
 .env*
