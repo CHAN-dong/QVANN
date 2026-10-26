@@ -1,1 +1,0 @@
-Dense exact/SQ4 E calibration; search only.

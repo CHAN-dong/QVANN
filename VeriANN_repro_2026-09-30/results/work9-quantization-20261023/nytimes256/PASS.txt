@@ -1,1 +1,0 @@
-240 authenticated searches; fixed SQ4 traversal and answers; SQ6 baseline byte-identical to original; all honest and negative cases pass.

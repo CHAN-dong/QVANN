@@ -1,9 +1,0 @@
-attack,rejected
-vector_bit_flip,1
-adjacency_bit_flip,1
-result_id_change,1
-proof_bit_flip,1
-truncated_vo,1
-omitted_record,1
-wrong_trusted_roots,1
-wrong_query_binding,1

@@ -1,5 +1,0 @@
-{
-  "error": "NYTimes-256",
-  "traceback": "Traceback (most recent call last):\n  File \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/scripts/work9_resource_matched.py\", line 516, in main\n    initialize();import_defaults()\n    ^^^^^^^^^^^^\n  File \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/scripts/work9_resource_matched.py\", line 98, in initialize\n    checkpoint()\n  File \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/scripts/work9_resource_matched.py\", line 135, in checkpoint\n    assert ws['E8'].value=='Recall@10' and ws['F128'].value=='Recall@10',ws.title\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: NYTimes-256\n",
-  "time": "2026-10-20T09:49:03+0800"
-}

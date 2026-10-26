@@ -1,8 +1,0 @@
-{
-  "ef": 100,
-  "probes": 203,
-  "recall": 0.95,
-  "valid": true,
-  "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-deep10m-20261015/deep10m/VLAH-pilot-5000000-refine1-probes-200-204",
-  "target": 0.95
-}

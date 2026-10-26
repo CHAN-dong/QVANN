@@ -1,3 +1,0 @@
-model,recall,query_ms,vo_kb,verify_ms,gates,samples,source,source_sha256
-openai_arxiv1m-1000000-M128,0.20500000000000002,512405.77005000046,235.694,21.633049999763898,773176,1,/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/V3DB/openai_arxiv1m-1000000-M128-p1-k10-q1-r1-t1/per_query.csv,d997f62b065bb5f5f3ac9dbba4720d89b3a0d46ae92804d30fbd1c968e432953
-openai_arxiv1m-1000000-M256,0.255,512825.49645899906,235.359,13.356735000343178,994355,1,/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/V3DB/openai_arxiv1m-1000000-M256-p1-k10-q1-r1-t1/per_query.csv,deb896bdb7213f314596866a96067ada06cfd6fce927590968536c3e45c8b55e

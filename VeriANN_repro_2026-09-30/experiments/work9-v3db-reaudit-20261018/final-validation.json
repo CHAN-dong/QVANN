@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "updated_original": true,
-  "reviewed_cells": 428,
-  "predicted_cells": 255,
-  "unrelated_nonempty_cells_preserved": 21094,
-  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/work9.xlsx",
-  "sha256": "39df6fb5b8de42b3f36fc19c3c6c5fed8e86ed12bb2fce6b07a33040f51b6411"
-}

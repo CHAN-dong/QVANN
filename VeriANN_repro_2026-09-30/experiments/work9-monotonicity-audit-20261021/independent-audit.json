@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "preserved_saved_values": 83533,
-  "real_new_samples": 60,
-  "tamper_rejections": 8,
-  "corrected_recall": 0.95,
-  "scaled_size_point_verified": true,
-  "unscaled_defaults_preserved": true
-}

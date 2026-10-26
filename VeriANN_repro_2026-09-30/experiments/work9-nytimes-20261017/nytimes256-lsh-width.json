@@ -1,7 +1,0 @@
-{
-  "width": 0.3508760872900476,
-  "pairs": 4096,
-  "seed": 20261015,
-  "rule": "median base-only pairwise L2 distance / 4",
-  "base_file_sha256": "a6bc563ab50dc7dc78b606ad6791a527f850416a8da448548b3ba9c48b6b0b0e"
-}

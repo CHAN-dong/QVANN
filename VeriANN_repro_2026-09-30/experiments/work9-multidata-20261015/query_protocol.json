@@ -1,8 +1,0 @@
-{
-  "scope": "quick preview",
-  "queries": 20,
-  "query_offset": 100,
-  "repeats": 3,
-  "reason": "explicit user choice",
-  "reuse": "completed 100-query raw records filtered to query IDs 100..119; all new runs use 20 queries"
-}

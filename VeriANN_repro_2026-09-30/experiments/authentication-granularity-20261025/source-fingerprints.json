@@ -1,8 +1,0 @@
-{
-  "src/experiments/authentication_granularity.cpp": "79990033c00d5d5a3c8d18e8782d6a1fbe8c6bb0658b8034d7d85058440187fb",
-  "scripts/run_authentication_granularity_20261025.py": "58c5760598ebe30a8f373a2c6e54e33d77afd009884d444990e66aa25c5993cc",
-  "scripts/audit_authentication_granularity_20261025.py": "4260cc853d3118d2799db7ce723121bf46e296dfd9b76b8e499d79c7dffb0347",
-  "build/veriann_lut_benchmark.cpp": "5d5c39d871d46ee88d4e8164463bb9c79fe99686abd34aaa7dec85e8b768b077",
-  "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
-  "src/veriann_query_lut.hpp": "fccc86d3ac5d9391f06131594b6512062db649655be49dc0e2e4ac056ec9d96d"
-}

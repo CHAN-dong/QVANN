@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "points": 20,
-  "accounted_query_samples": 1200,
-  "fresh_mr_authenticated_queries": 240,
-  "fresh_glove_ads_authenticated_queries": 120
-}

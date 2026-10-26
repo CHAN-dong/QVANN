@@ -1,1 +1,0 @@
-Training traces only; no test traversals or ground truth have been computed.

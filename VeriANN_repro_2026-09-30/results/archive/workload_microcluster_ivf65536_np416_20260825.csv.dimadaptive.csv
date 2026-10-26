@@ -1,2 +1,0 @@
-scheme,downgraded_dimensions,base_bits,base_bytes,train_vo,test_vo,reduction_vs_vt_identity,reduction_vs_vt_trace,avg_refined,avg_exact,base_payload,refine_payload,exact_payload,local_merkle,routing,eval_ms,violations,recall
-dimension-adaptive->SQ6,24,488,61,199193.585,221777.94,14.2589886627,0.158942245792,464.53,173.41,46448.35,16258.55,88785.92,17578.88,52706.24,1.1053318,0,0.9944

@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "comparisons": 300,
-  "columns": [
-    "recall_at_k",
-    "visited",
-    "expanded"
-  ]
-}

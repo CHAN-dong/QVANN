@@ -1,2 +1,0 @@
-method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
-ANNProof-algorithmic,10,1024,1,60,12.3265,13.1524,15.1975,30.3479,166.525,204.923,149.859,14.4649,12962.8,15851.9,0.95,1,1,1583.78,3506.63,378.148,104854400,1027.41

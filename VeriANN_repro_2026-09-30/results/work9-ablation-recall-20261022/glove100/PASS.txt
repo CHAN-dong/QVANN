@@ -1,1 +1,0 @@
-Fresh recall runs; complete top10; exact ground truth; paired answers unchanged. No proof-time measurement.

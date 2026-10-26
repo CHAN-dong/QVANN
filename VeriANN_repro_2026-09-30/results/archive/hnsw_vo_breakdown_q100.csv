@@ -1,4 +1,0 @@
-scheme,recall_at_10,avg_expanded,avg_discovered,avg_raw,sq4_payload_kib,sq4_proof_kib,sq6_payload_kib,sq6_proof_kib,raw_payload_kib,raw_proof_kib,adjacency_payload_kib,adjacency_proof_kib,ids_metadata_kib,total_merkle_proof_kib,total_vo_kib
-Basic-HNSW-no-quantization,0.990,57.63,754.65,754.65,0,0,0,0,377.325,135.113,4.39461,16.3741,3.77987,151.487,536.987
-Basic-HNSW-offline-evidence,0.990,57.63,754.65,197.11,0,0,70.7484,135.113,98.555,45.5481,4.39461,16.3741,4.54983,197.035,375.283
-Relaxed-HNSW-SQ6-b5-r12,0.991,62.99,833.23,22.74,0,0,78.1153,145.648,11.37,7.10031,4.89957,17.7291,4.25835,170.477,269.12

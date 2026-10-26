@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "points": 8,
-  "formal_authenticated_queries": 480,
-  "legacy_equivalence_checks": 240,
-  "semantic_auth_passing_replay_rejections": 4
-}

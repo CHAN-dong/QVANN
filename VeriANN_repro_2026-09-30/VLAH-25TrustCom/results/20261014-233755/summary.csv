@@ -1,4 +1,0 @@
-method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
-VLAH-algorithmic,10,50,29,100,5.92371,5.90881,7.06722,20.8652,72.3265,89.2827,66.0533,4.99558,10423.7,12715.1,0.852,0.86,1,4249.66,1765.59,4835.08,104856000,1430.99
-VLAH-algorithmic,10,50,41,100,8.12406,8.11539,9.52766,28.0866,98.6931,115.149,89.7378,7.07416,14155,16326.2,0.954,0.96,1,4249.66,1765.59,4835.08,104856000,1430.99
-VLAH-algorithmic,10,50,50,100,9.66461,9.7664,11.0243,33.1098,117.078,130.902,106.216,8.49331,16747.6,18726.4,0.993,0.99,1,4249.66,1765.59,4835.08,104856000,1430.99

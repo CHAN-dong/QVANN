@@ -1,2 +1,0 @@
-base,k,nprobe,max_block,train_queries,test_queries,train_flat_bytes,train_learned_bytes,train_reduction,test_flat_bytes,test_learned_bytes,test_reduction,avg_batch_segments,avg_raw_objects,test_prune_ratio,test_exact_open
-1000000,100,100,16,20,10,7.26995e+07,4.75767e+07,0.345571,7.2705e+07,5.14559e+07,0.292265,109780,40288,0.459797,1377

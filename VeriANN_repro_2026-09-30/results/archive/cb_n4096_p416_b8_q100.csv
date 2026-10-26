@@ -1,2 +1,0 @@
-codec,base,nlist,nprobe,max_block,train_queries,test_queries,recall,avg_visited,avg_block_records,avg_pruned_vectors,avg_opened,avg_refined,avg_exact,base_bits,block_payload,base_payload,refine_payload,exact_payload,local_merkle,routing_total,plain_leaf_total,block_leaf_total,total_vo,leaf_reduction,ann_query_ms,vo_generation_ms,violations
-pq16,100000,4096,416,8,200,100,0.9933,11480.85,20.13,39.05,11441.8,1134.23,173.27,432,2174.04,617857.2,47637.66,2633.55,88781.12,89218.88,759060.79,759083.57,848302.45,-3.00107716011e-05,3.84694104,11.47331144,0

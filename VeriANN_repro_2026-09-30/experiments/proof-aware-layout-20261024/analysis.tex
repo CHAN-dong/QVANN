@@ -1,5 +1,0 @@
-\paragraph{Proof-cost-aware leaf ordering.}
-We keep the graph, SQ4 traversal, expansion targets, and refinement records fixed and vary only routing-tree leaf order. Layout optimization uses256 training queries; evaluation uses100 disjoint queries per dataset with three timing repetitions. BFS reduces held-out sibling hashes relative to ID and random layouts. Training-based reordering substantially reduces training proof costs but does not generalize to the held-out queries.
-On \textsf{SIFT}, training sibling hashes decrease by 64.63\%, whereas held-out sibling hashes and total VO increase by 0.89\% and 0.14\%, respectively; 72 of100 test queries incur larger routing proofs.
-On \textsf{DEEP}, training sibling hashes decrease by 45.05\%, whereas held-out sibling hashes and total VO increase by 0.99\% and 0.08\%, respectively; 62 of100 test queries incur larger routing proofs.
-Thus, this lightweight optimizer provides no stable online benefit over BFS in the evaluated setting. We report it as a negative ablation rather than a new contribution; these results do not rule out other objectives, training coverage, or layout algorithms.

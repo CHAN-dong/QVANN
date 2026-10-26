@@ -1,2 +1,0 @@
-scheme,alpha,bits2,bits3,bits4,bits5,bits6,train_vo,test_vo,reduction_vs_vt_identity,reduction_vs_vt_trace,avg_refined,avg_exact,base_payload,refine_payload,exact_payload,local_merkle,routing,eval_ms,violations,recall
-object-adaptive->SQ6,0,25,2032,57514,17392,23037,230816.66,254187.31,13.0431193558,-2.95013854006,257.45,173.23,70658.99,7689.6,88693.76,27579.84,59565.12,1.39362665,0,0.9971

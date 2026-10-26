@@ -1,6 +1,0 @@
-{
-  "width": 0.17173320405561338,
-  "seed": 20261024,
-  "pairs": 4096,
-  "rule": "base-only median pairwise L2/4"
-}

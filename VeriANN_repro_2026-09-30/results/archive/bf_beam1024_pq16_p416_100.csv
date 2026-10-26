@@ -1,2 +1,0 @@
-codec,base,nlist,nprobe,beam,train_queries,test_queries,recall,avg_expanded_internal,avg_routing_records,avg_visited,avg_refined,avg_exact,base_bits,base_payload,refine_payload,exact_payload,local_merkle,routing_parameters,routing_records,routing_total,leaf_total,total_vo,ann_query_ms,vo_generation_ms,violations
-pq16,100000,65536,416,1024,200,100,0.9254,8187.34,16374.68,686.21,446.87,163,464,39800.18,16981.06,2490.88,16806.72,8288,933356.76,941644.76,76078.84,1017723.6,32.64057607,0.98236731,0

@@ -1,4 +1,0 @@
-ordering,recall_at_10,avg_expanded,avg_disclosed,delta_leaf_targets,raw_leaf_targets,refinement_unique_leaf_targets,refinement_multiproof_sibling_hashes,delta_proof_kib,raw_proof_kib,total_refinement_merkle_proof_kib,route_proof_kib,whole_query_merkle_proof_kib,total_vo_kib,refinement_proof_reduction_percent,total_vo_reduction_percent
-Node-ID,0.992,64,811.86,136.04,22.8,158.84,1243.26,31.7334,7.11844,38.8519,17.6438,56.4956,132.444,0,0
-HNSW-BFS,0.992,64,811.86,136.04,22.8,158.84,885.21,21.7978,5.865,27.6628,17.6438,45.3066,121.255,28.7993,8.44812
-SQ4-code,0.992,64,811.86,136.04,22.8,158.84,1154.14,29.3009,6.76594,36.0669,17.6438,53.7106,129.659,7.16825,2.10277

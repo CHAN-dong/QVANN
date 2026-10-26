@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "datasets": 4,
-  "configurations": 16,
-  "queries_executed": 960,
-  "legacy_wire_checks": 240
-}

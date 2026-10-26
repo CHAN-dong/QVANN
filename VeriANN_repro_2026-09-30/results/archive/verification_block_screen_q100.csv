@@ -1,3 +1,0 @@
-block_size,block_count,avg_radius,avg_candidate_blocks,avg_candidate_objects,candidate_inflation,avg_excluded_blocks,block_exclusion_ratio,avg_excluded_objects,object_exclusion_ratio,avg_opened_blocks,avg_opened_objects,avg_refined_sq6,avg_raw,recall_at_10,summary_kib,opened_sq4_kib,delta46_kib,raw_kib,member_ids_kib,mac_kib,screen_payload_kib,current_object_payload_kib,bound_violations
-2,50000,120.701,684.52,1369.04,1.6863,112.21,0.163925,224.42,0.163925,572.31,1144.62,146.15,22.72,0.996,72.1955,71.5387,4.56719,11.36,5.13082,0.078125,164.87,70.2468,0
-4,25000,187.545,574.44,2297.76,2.83024,24.53,0.0427025,98.12,0.0427025,549.91,2199.64,155.74,22.84,0.995,60.5855,137.477,4.86688,11.42,9.28992,0.078125,223.718,70.2468,0

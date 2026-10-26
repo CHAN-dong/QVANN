@@ -1,1 +1,0 @@
-2000 honest measurements, 11 attacks rejected; wire size checked.

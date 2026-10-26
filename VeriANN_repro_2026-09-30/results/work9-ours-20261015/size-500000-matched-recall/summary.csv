@@ -1,4 +1,0 @@
-method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
-VeriANN-optimized,10,112,1,300,1.04241,1.07765,1.26849,2.78395,5.88156,8.06649,3.01046,2.80769,198.417,261.836,0.949,0.97,1,1069.5,4178.11,2363.46,134217632,541.301
-VeriANN-optimized,10,128,1,300,1.18585,1.22425,1.44318,3.04119,6.42814,8.75714,3.18795,3.17036,215.58,279.52,0.962,0.97,1,1069.5,4178.11,2363.46,134217632,541.301
-VeriANN-optimized,10,144,1,300,1.32112,1.35333,1.62086,3.32302,6.94235,9.33837,3.40442,3.46228,232.109,300.07,0.969,0.97,1,1069.5,4178.11,2363.46,134217632,541.301

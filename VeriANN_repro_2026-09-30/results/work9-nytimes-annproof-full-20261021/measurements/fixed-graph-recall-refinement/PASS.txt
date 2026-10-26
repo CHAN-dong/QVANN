@@ -1,1 +1,0 @@
-All queries verified; 8 tamper attacks rejected; actual wire-size checked.
