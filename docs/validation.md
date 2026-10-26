@@ -6,6 +6,13 @@ NumPy 2.5.4, h5py 3.16.0 and Matplotlib 3.11.2; `requirements.lock` records the
 resolved environment. These are tested versions, not a claim that older supported
 systems produce identical timings.
 
+A fresh Ubuntu 24.04 GitHub runner also passed the dependency build, QVANN build,
+all three CTest checks, and all 60 smoke query executions:
+[successful CI run](https://github.com/CHAN-dong/QVANN/actions/runs/40283994989).
+That run used revision `2292a35`, Python 3.12.3, GCC 13.3.0, CMake 3.31.6 and
+OpenSSL 3.0.13. Dependencies were fetched from the pinned public source commits
+and compiled on the runner; no local dependency directory was supplied.
+
 ## Checks completed
 
 - Retrieved the pinned Faiss and LightGBM source revisions into separate checkouts.
@@ -34,10 +41,10 @@ systems produce identical timings.
 
 ## Remaining limits
 
-- This was a fresh **source/dependency/build-directory** test on an existing OS,
-  not a container-isolated OS installation. Docker was unavailable. The manual
-  GitHub Actions workflow targets Ubuntu 24.04 but has not been run as part of
-  these local checks.
+- The local real-data tests used fresh source/dependency/build directories on an
+  existing WSL OS; Docker was unavailable. The separate clean Ubuntu 24.04 CI run
+  passed building and synthetic integrity checks, but did not download the full
+  real datasets or execute paper-scale experiments.
 - Full four-dataset paper-scale experiment runs, historical graph identity and
   workstation timing have not been rerun here. The original cached graphs were
   constructed with multiple threads; fixed source seeds do not eliminate schedule
