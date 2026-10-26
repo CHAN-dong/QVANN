@@ -1,0 +1,17 @@
+{
+  "k": 5,
+  "ef": 14,
+  "probes": 1,
+  "recall": 0.75,
+  "query_ms": 0.64995135,
+  "verify_ms": 3.3707121,
+  "vo_kb": 274.499,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-k5-e14",
+  "csv_sha256": "2c57c35b1b0a16745ec7d748e44474d6633db364cd8476a0aefc7e941ee85097",
+  "dataset": "sift1m",
+  "method": "ANNProof",
+  "kind": "k",
+  "N": 1000000
+}

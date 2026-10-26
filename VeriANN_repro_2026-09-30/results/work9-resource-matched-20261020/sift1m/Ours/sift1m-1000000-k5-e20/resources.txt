@@ -1,0 +1,23 @@
+	Command being timed: "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/build/veriann_lut_benchmark --dataset /mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/sift1m --output /mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/Ours/sift1m-1000000-k5-e20 --cache /mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache --ef-search 20 --k 5 --base 1000000 --queries 20 --query-offset 100 --repeats 3 --M 8 --ef-construction 100 --build-threads 1"
+	User time (seconds): 9.68
+	System time (seconds): 1.56
+	Percent of CPU this job got: 59%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1095412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 85
+	Minor (reclaiming a frame) page faults: 517988
+	Voluntary context switches: 72624
+	Involuntary context switches: 510
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

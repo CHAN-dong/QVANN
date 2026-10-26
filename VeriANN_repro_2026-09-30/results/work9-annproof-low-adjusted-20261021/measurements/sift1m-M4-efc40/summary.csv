@@ -1,0 +1,4 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+ANNProof-algorithmic,10,15,1,60,0.106241,0.100261,0.129982,0.315502,2.09305,2.62027,2.02437,0.0394389,156.227,200.09,0.5,0.55,1,2598.97,7968.46,992.391,209708800,2210.3
+ANNProof-algorithmic,10,18,1,60,0.12065,0.112329,0.184149,0.381225,2.40954,3.56735,2.33212,0.0459398,176.966,268.648,0.56,0.55,1,2598.97,7968.46,992.391,209708800,2210.3
+ANNProof-algorithmic,10,23,1,60,0.144127,0.131965,0.215492,0.41068,2.72577,3.8558,2.63542,0.0531667,204.181,284.746,0.62,0.6,1,2598.97,7968.46,992.391,209708800,2210.3

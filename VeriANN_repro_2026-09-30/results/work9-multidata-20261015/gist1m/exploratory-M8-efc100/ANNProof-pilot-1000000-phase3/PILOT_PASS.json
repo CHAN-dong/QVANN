@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/build/multidata_pilot_ANNProof",
+    "--dataset",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/gist1m",
+    "--base",
+    "1000000",
+    "--output",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/ANNProof-pilot-1000000-phase3",
+    "--cache",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache",
+    "--queries",
+    "100",
+    "--query-offset",
+    "100",
+    "--build-threads",
+    "16",
+    "--k",
+    "10",
+    "--ef-search",
+    "65536,131072",
+    "--probes",
+    "1",
+    "--lsh-width",
+    "0.46715420226885673"
+  ],
+  "binary_sha256": "982ca86a3710901fc3bb55a64133aa7d3041b7509d7d05e102154b027c27294b",
+  "source_sha256": "8b2b4b13b5adacaaaddc57a4987fa226a8c7d54f3020f84e7e0bd4d9e01d3dd3",
+  "rows": 200,
+  "role": "search-only operating-point selection; NOT timing/VO measurements"
+}

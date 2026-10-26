@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "paired_answer_comparisons": 60,
+  "tamper_tests": 25,
+  "summary": [
+    {
+      "variant": 2,
+      "name": "Merkle+HNSW",
+      "recall": 0.955,
+      "query_ms": 106.66482933333333,
+      "search_ms": 6.570136016666667,
+      "vo_generation_ms": 100.09469331666666,
+      "verify_ms": 75.3057179,
+      "authentication_ms": 68.00523001666666,
+      "replay_ms": 5.96653025,
+      "vo_kb": 23188.4736,
+      "parameter": 384,
+      "visited": 5685.95,
+      "expanded": 394.45,
+      "samples": 60,
+      "tamper_tests": 12,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/gist1m/formal-2-4/variant-2",
+      "source_sha256": "c08c03fcad41808b96920d3ad0644bb8fa4f9a1feb50d38731224a9db5462184"
+    },
+    {
+      "variant": 4,
+      "name": "Merkle+HNSW+(i)",
+      "recall": 0.955,
+      "query_ms": 98.71423766666666,
+      "search_ms": 22.08259425,
+      "vo_generation_ms": 76.63164341666668,
+      "verify_ms": 130.82050786666667,
+      "authentication_ms": 106.63221338333332,
+      "replay_ms": 21.7281818,
+      "vo_kb": 21367.5812,
+      "parameter": 384,
+      "visited": 5685.95,
+      "expanded": 394.45,
+      "samples": 60,
+      "tamper_tests": 13,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/gist1m/formal-2-4/variant-4",
+      "source_sha256": "8535990ecc04ee63b6391f94b7fb1b1c8eab2c06553d6d46f9d2561e897fa9a7"
+    }
+  ]
+}

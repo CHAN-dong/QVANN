@@ -1,0 +1,21 @@
+{
+  "gates": 175722,
+  "degree_bits": 18,
+  "static_peak_rss_KiB": 1427216,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "nytimes256",
+    "source": "nytimes256",
+    "N": 100000,
+    "D": 256,
+    "M": 256,
+    "K": 256,
+    "n_list": 512,
+    "capacity": 512
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

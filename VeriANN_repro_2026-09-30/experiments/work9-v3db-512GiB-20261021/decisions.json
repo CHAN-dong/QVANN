@@ -1,0 +1,3788 @@
+[
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 18,
+    "target": 0.75,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 64,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 535412,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 20,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 82.05112800598144,
+      "fits_512GiB_scenario": true,
+      "query_ms": 526862.9791631823,
+      "verify_ms": 25.06509857237039,
+      "vo_kb": 270.381,
+      "declared_sensitivity": {
+        "query_ms": [
+          263431.48958159116,
+          1053725.9583263646
+        ],
+        "verify_ms": [
+          12.532549286185194,
+          50.13019714474078
+        ],
+        "vo_kb": [
+          229.82384999999996,
+          310.93814999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M64",
+      "recall": 0.775,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M64/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 64,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 535412,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 20,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 82.05112800598144,
+      "fits_512GiB_scenario": true,
+      "query_ms": 526862.9791631823,
+      "verify_ms": 25.06509857237039,
+      "vo_kb": 270.381,
+      "declared_sensitivity": {
+        "query_ms": [
+          263431.48958159116,
+          1053725.9583263646
+        ],
+        "verify_ms": [
+          12.532549286185194,
+          50.13019714474078
+        ],
+        "vo_kb": [
+          229.82384999999996,
+          310.93814999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M64",
+      "recall": 0.775,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M64/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 19,
+    "target": 0.8,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 977156,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 546727.9549280506,
+      "verify_ms": 25.06509857237039,
+      "vo_kb": 270.381,
+      "declared_sensitivity": {
+        "query_ms": [
+          273363.9774640253,
+          1093455.9098561013
+        ],
+        "verify_ms": [
+          12.532549286185194,
+          50.13019714474078
+        ],
+        "vo_kb": [
+          229.82384999999996,
+          310.93814999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.8399999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 977156,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 546727.9549280506,
+      "verify_ms": 25.06509857237039,
+      "vo_kb": 270.381,
+      "declared_sensitivity": {
+        "query_ms": [
+          273363.9774640253,
+          1093455.9098561013
+        ],
+        "verify_ms": [
+          12.532549286185194,
+          50.13019714474078
+        ],
+        "vo_kb": [
+          229.82384999999996,
+          310.93814999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.8399999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 20,
+    "target": 0.85,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 64,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1027151,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 546727.9549280506,
+      "verify_ms": 26.55926640830789,
+      "vo_kb": 335.917,
+      "declared_sensitivity": {
+        "query_ms": [
+          273363.9774640253,
+          1093455.9098561013
+        ],
+        "verify_ms": [
+          13.279633204153946,
+          53.11853281661578
+        ],
+        "vo_kb": [
+          285.52945,
+          386.30454999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M64",
+      "recall": 0.8499999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M64/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 1108650,
+      "gate_source": "exact observed static count",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1106506.8513653728,
+      "verify_ms": 26.21434358784885,
+      "vo_kb": 278.592,
+      "declared_sensitivity": {
+        "query_ms": [
+          553253.4256826864,
+          2213013.7027307455
+        ],
+        "verify_ms": [
+          13.107171793924426,
+          52.4286871756977
+        ],
+        "vo_kb": [
+          236.80319999999998,
+          320.38079999999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128-K1024",
+      "recall": 0.85,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 21,
+    "target": 0.9,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 512,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1993393,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1148128.705348906,
+      "verify_ms": 27.70851142378635,
+      "vo_kb": 344.128,
+      "declared_sensitivity": {
+        "query_ms": [
+          574064.352674453,
+          2296257.410697812
+        ],
+        "verify_ms": [
+          13.854255711893176,
+          55.4170228475727
+        ],
+        "vo_kb": [
+          292.5088,
+          395.74719999999996
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128-K512",
+      "recall": 0.9199999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128-K512/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1910640,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1148128.705348906,
+      "verify_ms": 27.70851142378635,
+      "vo_kb": 344.128,
+      "declared_sensitivity": {
+        "query_ms": [
+          574064.352674453,
+          2296257.410697812
+        ],
+        "verify_ms": [
+          13.854255711893176,
+          55.4170228475727
+        ],
+        "vo_kb": [
+          292.5088,
+          395.74719999999996
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.9249999999999998,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 22,
+    "target": 0.95,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3777607,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2405603.0016834224,
+      "verify_ms": 31.846092111139814,
+      "vo_kb": 483.411,
+      "declared_sensitivity": {
+        "query_ms": [
+          1202801.5008417112,
+          4811206.003366845
+        ],
+        "verify_ms": [
+          15.923046055569907,
+          63.69218422227963
+        ],
+        "vo_kb": [
+          410.89934999999997,
+          555.92265
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.95,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3777607,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2405603.0016834224,
+      "verify_ms": 31.846092111139814,
+      "vo_kb": 483.411,
+      "declared_sensitivity": {
+        "query_ms": [
+          1202801.5008417112,
+          4811206.003366845
+        ],
+        "verify_ms": [
+          15.923046055569907,
+          63.69218422227963
+        ],
+        "vo_kb": [
+          410.89934999999997,
+          555.92265
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.95,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 23,
+    "target": 0.97,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 7511542,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 5029897.185338065,
+      "verify_ms": 38.97200847036827,
+      "vo_kb": 753.766,
+      "declared_sensitivity": {
+        "query_ms": [
+          2514948.5926690325,
+          10059794.37067613
+        ],
+        "verify_ms": [
+          19.486004235184136,
+          77.94401694073655
+        ],
+        "vo_kb": [
+          640.7011,
+          866.8308999999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.97,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 7511542,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 5029897.185338065,
+      "verify_ms": 38.97200847036827,
+      "vo_kb": 753.766,
+      "declared_sensitivity": {
+        "query_ms": [
+          2514948.5926690325,
+          10059794.37067613
+        ],
+        "verify_ms": [
+          19.486004235184136,
+          77.94401694073655
+        ],
+        "vo_kb": [
+          640.7011,
+          866.8308999999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.97,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 24,
+    "target": 0.98,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 64,
+      "k": 10,
+      "gates": 14979411,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10497176.73461857,
+      "verify_ms": 52.074596173346734,
+      "vo_kb": 1286.265,
+      "declared_sensitivity": {
+        "query_ms": [
+          5248588.367309285,
+          20994353.46923714
+        ],
+        "verify_ms": [
+          26.037298086673367,
+          104.14919234669347
+        ],
+        "vo_kb": [
+          1093.32525,
+          1479.20475
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128",
+      "recall": 0.9799999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 25,
+    "target": 0.99,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "sift1m",
+        "source": "sift1m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 64,
+      "k": 10,
+      "gates": 16880827,
+      "gate_source": "structural estimate",
+      "domain_bits": 25,
+      "guard_domain_bits": 25,
+      "proof_phase_memory_estimate_GiB": 1035.2515869140625,
+      "planned_machine_memory_GiB": 1633.636096191406,
+      "fits_512GiB_scenario": false,
+      "query_ms": 21082086.776342478,
+      "verify_ms": 53.2238411888252,
+      "vo_kb": 1294.476,
+      "declared_sensitivity": {
+        "query_ms": [
+          10541043.388171239,
+          42164173.552684955
+        ],
+        "verify_ms": [
+          26.6119205944126,
+          106.4476823776504
+        ],
+        "vo_kb": [
+          1100.3046000000002,
+          1488.6474
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "sift1m-1000000-M128-K1024",
+      "recall": 0.9949999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/sift1m-1000000-M128-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "size",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 7,
+    "N": 500000,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "bigann10m",
+        "N": 500000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 1024,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1266110,
+      "gate_source": "exact observed static count",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1106506.8513653728,
+      "verify_ms": 26.027572608356664,
+      "vo_kb": 270.4,
+      "declared_sensitivity": {
+        "query_ms": [
+          553253.4256826864,
+          2213013.7027307455
+        ],
+        "verify_ms": [
+          13.013786304178332,
+          52.05514521671333
+        ],
+        "vo_kb": [
+          229.83999999999997,
+          310.9599999999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "bigann10m-500000-M128-K1024",
+      "recall": 0.78,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/bigann10m-500000-M128-K1024/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing prefix-index calibration reaches the existing default target",
+    "resource_assessment": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "bigann10m",
+        "N": 500000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 1024,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1266110,
+      "gate_source": "exact observed static count",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1106506.8513653728,
+      "verify_ms": 26.027572608356664,
+      "vo_kb": 270.4,
+      "declared_sensitivity": {
+        "query_ms": [
+          553253.4256826864,
+          2213013.7027307455
+        ],
+        "verify_ms": [
+          13.013786304178332,
+          52.05514521671333
+        ],
+        "vo_kb": [
+          229.83999999999997,
+          310.9599999999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "bigann10m-500000-M128-K1024",
+      "recall": 0.78,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/bigann10m-500000-M128-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "size",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 8,
+    "N": 1000000,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "bigann10m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 2158901,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2318575.488808762,
+      "verify_ms": 28.857756439264815,
+      "vo_kb": 352.339,
+      "declared_sensitivity": {
+        "query_ms": [
+          1159287.744404381,
+          4637150.977617524
+        ],
+        "verify_ms": [
+          14.428878219632407,
+          57.71551287852963
+        ],
+        "vo_kb": [
+          299.48815,
+          405.18985
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "bigann10m-1000000-M128-K1024",
+      "recall": 0.79,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/bigann10m-1000000-M128-K1024/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing prefix-index calibration reaches the existing default target",
+    "resource_assessment": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "sift1m",
+        "source": "bigann10m",
+        "N": 1000000,
+        "D": 128,
+        "n_list": 1024,
+        "M": 128,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 2158901,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2318575.488808762,
+      "verify_ms": 28.857756439264815,
+      "vo_kb": 352.339,
+      "declared_sensitivity": {
+        "query_ms": [
+          1159287.744404381,
+          4637150.977617524
+        ],
+        "verify_ms": [
+          14.428878219632407,
+          57.71551287852963
+        ],
+        "vo_kb": [
+          299.48815,
+          405.18985
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "bigann10m-1000000-M128-K1024",
+      "recall": 0.79,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/bigann10m-1000000-M128-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "size",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 9,
+    "N": 5000000,
+    "choice": null,
+    "reason": "no index/recall calibration; matched-recall performance is unsupported",
+    "fixed_budget_hypothesis": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "sift1m",
+        "source": "bigann10m",
+        "N": 5000000,
+        "D": 128,
+        "M": 128,
+        "K": 1024,
+        "n_list": 1024,
+        "capacity": 16384
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 14674282,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10497176.73461857,
+      "verify_ms": 54.689389886237365,
+      "vo_kb": 1400.953,
+      "declared_sensitivity": {
+        "query_ms": [
+          5248588.367309285,
+          20994353.46923714
+        ],
+        "verify_ms": [
+          27.344694943118682,
+          109.37877977247473
+        ],
+        "vo_kb": [
+          1190.81005,
+          1611.09595
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "parameter_assumption": true,
+      "recall": null,
+      "reason": "fixed query budget hypothesis only; no trained/calibrated index for this prefix. Not an equal/default-recall result."
+    }
+  },
+  {
+    "kind": "size",
+    "dataset": "sift1m",
+    "sheet": "SIFT1M",
+    "column": 10,
+    "N": 10000000,
+    "choice": null,
+    "reason": "no index/recall calibration; matched-recall performance is unsupported",
+    "fixed_budget_hypothesis": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "sift1m",
+        "source": "bigann10m",
+        "N": 10000000,
+        "D": 128,
+        "M": 128,
+        "K": 1024,
+        "n_list": 1024,
+        "capacity": 32768
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 28977576,
+      "gate_source": "structural estimate",
+      "domain_bits": 25,
+      "guard_domain_bits": 25,
+      "proof_phase_memory_estimate_GiB": 1035.2515869140625,
+      "planned_machine_memory_GiB": 1633.636096191406,
+      "fits_512GiB_scenario": false,
+      "query_ms": 21869118.197122023,
+      "verify_ms": 82.73365594859082,
+      "vo_kb": 2588.812,
+      "declared_sensitivity": {
+        "query_ms": [
+          10934559.098561011,
+          43738236.394244045
+        ],
+        "verify_ms": [
+          41.36682797429541,
+          165.46731189718165
+        ],
+        "vo_kb": [
+          2200.4901999999997,
+          2977.1337999999996
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "parameter_assumption": true,
+      "recall": null,
+      "reason": "fixed query budget hypothesis only; no trained/calibrated index for this prefix. Not an equal/default-recall result."
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 15,
+    "target": 0.6,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 999179,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 546727.9549280506,
+      "verify_ms": 24.99505945506082,
+      "vo_kb": 267.309,
+      "declared_sensitivity": {
+        "query_ms": [
+          273363.9774640253,
+          1093455.9098561013
+        ],
+        "verify_ms": [
+          12.49752972753041,
+          49.99011891012164
+        ],
+        "vo_kb": [
+          227.21265000000002,
+          307.40535
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.625,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 999179,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 546727.9549280506,
+      "verify_ms": 24.99505945506082,
+      "vo_kb": 267.309,
+      "declared_sensitivity": {
+        "query_ms": [
+          273363.9774640253,
+          1093455.9098561013
+        ],
+        "verify_ms": [
+          12.49752972753041,
+          49.99011891012164
+        ],
+        "vo_kb": [
+          227.21265000000002,
+          307.40535
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.625,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 16,
+    "target": 0.65,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 64,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 2091784,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1148128.705348906,
+      "verify_ms": 30.62680797835178,
+      "vo_kb": 472.128,
+      "declared_sensitivity": {
+        "query_ms": [
+          574064.352674453,
+          2296257.410697812
+        ],
+        "verify_ms": [
+          15.31340398917589,
+          61.25361595670356
+        ],
+        "vo_kb": [
+          401.30879999999996,
+          542.9472
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M64",
+      "recall": 0.655,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M64/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1952373,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1148128.705348906,
+      "verify_ms": 27.63847230647678,
+      "vo_kb": 341.056,
+      "declared_sensitivity": {
+        "query_ms": [
+          574064.352674453,
+          2296257.410697812
+        ],
+        "verify_ms": [
+          13.81923615323839,
+          55.27694461295356
+        ],
+        "vo_kb": [
+          289.89759999999995,
+          392.21439999999996
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.66,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 17,
+    "target": 0.7,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 64,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 4137582,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2405603.0016834224,
+      "verify_ms": 37.75272433758025,
+      "vo_kb": 742.483,
+      "declared_sensitivity": {
+        "query_ms": [
+          1202801.5008417112,
+          4811206.003366845
+        ],
+        "verify_ms": [
+          18.876362168790124,
+          75.5054486751605
+        ],
+        "vo_kb": [
+          631.11055,
+          853.8554499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M64",
+      "recall": 0.72,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M64/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3858761,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2405603.0016834224,
+      "verify_ms": 31.776052993830245,
+      "vo_kb": 480.339,
+      "declared_sensitivity": {
+        "query_ms": [
+          1202801.5008417112,
+          4811206.003366845
+        ],
+        "verify_ms": [
+          15.888026496915122,
+          63.55210598766049
+        ],
+        "vo_kb": [
+          408.28815,
+          552.3898499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.7600000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 18,
+    "target": 0.75,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3858761,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2405603.0016834224,
+      "verify_ms": 31.776052993830245,
+      "vo_kb": 480.339,
+      "declared_sensitivity": {
+        "query_ms": [
+          1202801.5008417112,
+          4811206.003366845
+        ],
+        "verify_ms": [
+          15.888026496915122,
+          63.55210598766049
+        ],
+        "vo_kb": [
+          408.28815,
+          552.3898499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.7600000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3858761,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2405603.0016834224,
+      "verify_ms": 31.776052993830245,
+      "vo_kb": 480.339,
+      "declared_sensitivity": {
+        "query_ms": [
+          1202801.5008417112,
+          4811206.003366845
+        ],
+        "verify_ms": [
+          15.888026496915122,
+          63.55210598766049
+        ],
+        "vo_kb": [
+          408.28815,
+          552.3898499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.7600000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 19,
+    "target": 0.8,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 128,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 7671536,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 5029897.185338065,
+      "verify_ms": 38.9019693530587,
+      "vo_kb": 750.694,
+      "declared_sensitivity": {
+        "query_ms": [
+          2514948.5926690325,
+          10059794.37067613
+        ],
+        "verify_ms": [
+          19.45098467652935,
+          77.8039387061174
+        ],
+        "vo_kb": [
+          638.0899,
+          863.2980999999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M128",
+      "recall": 0.8250000000000002,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M128/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 20,
+    "target": 0.85,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 256,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 14739445,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10497176.73461857,
+      "verify_ms": 40.05121436853717,
+      "vo_kb": 758.905,
+      "declared_sensitivity": {
+        "query_ms": [
+          5248588.367309285,
+          20994353.46923714
+        ],
+        "verify_ms": [
+          20.025607184268583,
+          80.10242873707433
+        ],
+        "vo_kb": [
+          645.06925,
+          872.7407499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M256",
+      "recall": 0.8500000000000002,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M256/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 21,
+    "target": 0.9,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 256,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 128,
+      "k": 10,
+      "gates": 58819823,
+      "gate_source": "structural estimate",
+      "domain_bits": 26,
+      "guard_domain_bits": 26,
+      "proof_phase_memory_estimate_GiB": 2070.503173828125,
+      "planned_machine_memory_GiB": 3235.272192382812,
+      "fits_512GiB_scenario": false,
+      "query_ms": 45487765.85001381,
+      "verify_ms": 78.2097324619941,
+      "vo_kb": 2348.191,
+      "declared_sensitivity": {
+        "query_ms": [
+          22743882.925006904,
+          90975531.70002761
+        ],
+        "verify_ms": [
+          39.10486623099705,
+          156.4194649239882
+        ],
+        "vo_kb": [
+          1995.9623499999998,
+          2700.4196499999994
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M256",
+      "recall": 0.915,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M256/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 22,
+    "target": 0.95,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 256,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 256,
+      "k": 10,
+      "gates": 117593662,
+      "gate_source": "structural estimate",
+      "domain_bits": 27,
+      "guard_domain_bits": 27,
+      "proof_phase_memory_estimate_GiB": 4141.00634765625,
+      "planned_machine_memory_GiB": 6438.544384765624,
+      "fits_512GiB_scenario": false,
+      "query_ms": 94474590.61156714,
+      "verify_ms": 127.17234822747255,
+      "vo_kb": 4453.554,
+      "declared_sensitivity": {
+        "query_ms": [
+          47237295.30578357,
+          188949181.22313428
+        ],
+        "verify_ms": [
+          63.58617411373628,
+          254.3446964549451
+        ],
+        "vo_kb": [
+          3785.5209,
+          5121.5871
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M256",
+      "recall": 0.975,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M256/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 23,
+    "target": 0.97,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 256,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 256,
+      "k": 10,
+      "gates": 117593662,
+      "gate_source": "structural estimate",
+      "domain_bits": 27,
+      "guard_domain_bits": 27,
+      "proof_phase_memory_estimate_GiB": 4141.00634765625,
+      "planned_machine_memory_GiB": 6438.544384765624,
+      "fits_512GiB_scenario": false,
+      "query_ms": 94474590.61156714,
+      "verify_ms": 127.17234822747255,
+      "vo_kb": 4453.554,
+      "declared_sensitivity": {
+        "query_ms": [
+          47237295.30578357,
+          188949181.22313428
+        ],
+        "verify_ms": [
+          63.58617411373628,
+          254.3446964549451
+        ],
+        "vo_kb": [
+          3785.5209,
+          5121.5871
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M256",
+      "recall": 0.975,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M256/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 24,
+    "target": 0.98,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 256,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 512,
+      "k": 10,
+      "gates": 235141338,
+      "gate_source": "structural estimate",
+      "domain_bits": 28,
+      "guard_domain_bits": 28,
+      "proof_phase_memory_estimate_GiB": 8282.0126953125,
+      "planned_machine_memory_GiB": 12845.088769531249,
+      "fits_512GiB_scenario": false,
+      "query_ms": 195947299.04621333,
+      "verify_ms": 223.94833474295103,
+      "vo_kb": 8656.069,
+      "declared_sensitivity": {
+        "query_ms": [
+          97973649.52310666,
+          391894598.09242666
+        ],
+        "verify_ms": [
+          111.97416737147552,
+          447.89666948590207
+        ],
+        "vo_kb": [
+          7357.658649999999,
+          9954.479349999998
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M256",
+      "recall": 1.0,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M256/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 25,
+    "target": 0.99,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "nytimes256",
+        "source": "nytimes256",
+        "N": 289761,
+        "D": 256,
+        "n_list": 512,
+        "M": 256,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 512,
+      "k": 10,
+      "gates": 235141338,
+      "gate_source": "structural estimate",
+      "domain_bits": 28,
+      "guard_domain_bits": 28,
+      "proof_phase_memory_estimate_GiB": 8282.0126953125,
+      "planned_machine_memory_GiB": 12845.088769531249,
+      "fits_512GiB_scenario": false,
+      "query_ms": 195947299.04621333,
+      "verify_ms": 223.94833474295103,
+      "vo_kb": 8656.069,
+      "declared_sensitivity": {
+        "query_ms": [
+          97973649.52310666,
+          391894598.09242666
+        ],
+        "verify_ms": [
+          111.97416737147552,
+          447.89666948590207
+        ],
+        "vo_kb": [
+          7357.658649999999,
+          9954.479349999998
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "nytimes256-289761-M256",
+      "recall": 1.0,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/nytimes256-289761-M256/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "size",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 7,
+    "N": 500000,
+    "choice": null,
+    "reason": "requested size exceeds actual available corpus; not a RAM question"
+  },
+  {
+    "kind": "size",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 8,
+    "N": 1000000,
+    "choice": null,
+    "reason": "requested size exceeds actual available corpus; not a RAM question"
+  },
+  {
+    "kind": "size",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 9,
+    "N": 5000000,
+    "choice": null,
+    "reason": "requested size exceeds actual available corpus; not a RAM question"
+  },
+  {
+    "kind": "size",
+    "dataset": "nytimes256",
+    "sheet": "NYTimes-256",
+    "column": 10,
+    "N": 10000000,
+    "choice": null,
+    "reason": "requested size exceeds actual available corpus; not a RAM question"
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 12,
+    "target": 0.45,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 793306,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 20,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 82.05112800598144,
+      "fits_512GiB_scenario": true,
+      "query_ms": 537924.4837641967,
+      "verify_ms": 26.927701348321776,
+      "vo_kb": 352.077,
+      "declared_sensitivity": {
+        "query_ms": [
+          268962.2418820984,
+          1075848.9675283935
+        ],
+        "verify_ms": [
+          13.463850674160888,
+          53.85540269664355
+        ],
+        "vo_kb": [
+          299.26545,
+          404.88854999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.47000000000000003,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 793306,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 20,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 82.05112800598144,
+      "fits_512GiB_scenario": true,
+      "query_ms": 537924.4837641967,
+      "verify_ms": 26.927701348321776,
+      "vo_kb": 352.077,
+      "declared_sensitivity": {
+        "query_ms": [
+          268962.2418820984,
+          1075848.9675283935
+        ],
+        "verify_ms": [
+          13.463850674160888,
+          53.85540269664355
+        ],
+        "vo_kb": [
+          299.26545,
+          404.88854999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.47000000000000003,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 13,
+    "target": 0.5,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1551731,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1129694.0556976623,
+      "verify_ms": 31.065282035675235,
+      "vo_kb": 491.36,
+      "declared_sensitivity": {
+        "query_ms": [
+          564847.0278488311,
+          2259388.1113953246
+        ],
+        "verify_ms": [
+          15.532641017837618,
+          62.13056407135047
+        ],
+        "vo_kb": [
+          417.656,
+          565.064
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.55,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1551731,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1129694.0556976623,
+      "verify_ms": 31.065282035675235,
+      "vo_kb": 491.36,
+      "declared_sensitivity": {
+        "query_ms": [
+          564847.0278488311,
+          2259388.1113953246
+        ],
+        "verify_ms": [
+          15.532641017837618,
+          62.13056407135047
+        ],
+        "vo_kb": [
+          417.656,
+          565.064
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.55,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 14,
+    "target": 0.55,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1551731,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1129694.0556976623,
+      "verify_ms": 31.065282035675235,
+      "vo_kb": 491.36,
+      "declared_sensitivity": {
+        "query_ms": [
+          564847.0278488311,
+          2259388.1113953246
+        ],
+        "verify_ms": [
+          15.532641017837618,
+          62.13056407135047
+        ],
+        "vo_kb": [
+          417.656,
+          565.064
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.55,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1551731,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1129694.0556976623,
+      "verify_ms": 31.065282035675235,
+      "vo_kb": 491.36,
+      "declared_sensitivity": {
+        "query_ms": [
+          564847.0278488311,
+          2259388.1113953246
+        ],
+        "verify_ms": [
+          15.532641017837618,
+          62.13056407135047
+        ],
+        "vo_kb": [
+          417.656,
+          565.064
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.55,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 15,
+    "target": 0.6,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3068581,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2367078.2877338626,
+      "verify_ms": 38.1911983949037,
+      "vo_kb": 761.715,
+      "declared_sensitivity": {
+        "query_ms": [
+          1183539.1438669313,
+          4734156.575467725
+        ],
+        "verify_ms": [
+          19.09559919745185,
+          76.3823967898074
+        ],
+        "vo_kb": [
+          647.45775,
+          875.9722499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.6450000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3068581,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2367078.2877338626,
+      "verify_ms": 38.1911983949037,
+      "vo_kb": 761.715,
+      "declared_sensitivity": {
+        "query_ms": [
+          1183539.1438669313,
+          4734156.575467725
+        ],
+        "verify_ms": [
+          19.09559919745185,
+          76.3823967898074
+        ],
+        "vo_kb": [
+          647.45775,
+          875.9722499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.6450000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 16,
+    "target": 0.65,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 5798570,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4949536.928144801,
+      "verify_ms": 39.340443410382164,
+      "vo_kb": 769.926,
+      "declared_sensitivity": {
+        "query_ms": [
+          2474768.4640724007,
+          9899073.856289603
+        ],
+        "verify_ms": [
+          19.670221705191082,
+          78.68088682076433
+        ],
+        "vo_kb": [
+          654.4371,
+          885.4149
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100",
+      "recall": 0.6799999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 5798570,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4949536.928144801,
+      "verify_ms": 39.340443410382164,
+      "vo_kb": 769.926,
+      "declared_sensitivity": {
+        "query_ms": [
+          2474768.4640724007,
+          9899073.856289603
+        ],
+        "verify_ms": [
+          19.670221705191082,
+          78.68088682076433
+        ],
+        "vo_kb": [
+          654.4371,
+          885.4149
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100",
+      "recall": 0.6799999999999999,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 17,
+    "target": 0.7,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 6102281,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4949536.928144801,
+      "verify_ms": 51.29378609788216,
+      "vo_kb": 1294.214,
+      "declared_sensitivity": {
+        "query_ms": [
+          2474768.4640724007,
+          9899073.856289603
+        ],
+        "verify_ms": [
+          25.64689304894108,
+          102.58757219576432
+        ],
+        "vo_kb": [
+          1100.0819,
+          1488.3460999999998
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.7150000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 50,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 6102281,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4949536.928144801,
+      "verify_ms": 51.29378609788216,
+      "vo_kb": 1294.214,
+      "declared_sensitivity": {
+        "query_ms": [
+          2474768.4640724007,
+          9899073.856289603
+        ],
+        "verify_ms": [
+          25.64689304894108,
+          102.58757219576432
+        ],
+        "vo_kb": [
+          1100.0819,
+          1488.3460999999998
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M50",
+      "recall": 0.7150000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M50/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 18,
+    "target": 0.75,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 11562258,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10329834.561643753,
+      "verify_ms": 52.443031113360625,
+      "vo_kb": 1302.425,
+      "declared_sensitivity": {
+        "query_ms": [
+          5164917.280821877,
+          20659669.123287506
+        ],
+        "verify_ms": [
+          26.221515556680313,
+          104.88606222672125
+        ],
+        "vo_kb": [
+          1107.06125,
+          1497.78875
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100",
+      "recall": 0.78,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 19,
+    "target": 0.8,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 512,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 32,
+      "k": 10,
+      "gates": 11811413,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10329834.561643753,
+      "verify_ms": 52.443031113360625,
+      "vo_kb": 1302.425,
+      "declared_sensitivity": {
+        "query_ms": [
+          5164917.280821877,
+          20659669.123287506
+        ],
+        "verify_ms": [
+          26.221515556680313,
+          104.88606222672125
+        ],
+        "vo_kb": [
+          1107.06125,
+          1497.78875
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100-K512",
+      "recall": 0.8,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100-K512/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 20,
+    "target": 0.85,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 64,
+      "k": 10,
+      "gates": 24575116,
+      "gate_source": "structural estimate",
+      "domain_bits": 25,
+      "guard_domain_bits": 25,
+      "proof_phase_memory_estimate_GiB": 1035.2515869140625,
+      "planned_machine_memory_GiB": 1633.636096191406,
+      "fits_512GiB_scenario": false,
+      "query_ms": 21521190.533995807,
+      "verify_ms": 77.49896150383908,
+      "vo_kb": 2359.212,
+      "declared_sensitivity": {
+        "query_ms": [
+          10760595.266997904,
+          43042381.067991614
+        ],
+        "verify_ms": [
+          38.74948075191954,
+          154.99792300767817
+        ],
+        "vo_kb": [
+          2005.3301999999999,
+          2713.0937999999996
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100-K1024",
+      "recall": 0.86,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 21,
+    "target": 0.9,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 128,
+      "k": 10,
+      "gates": 49105901,
+      "gate_source": "structural estimate",
+      "domain_bits": 26,
+      "guard_domain_bits": 26,
+      "proof_phase_memory_estimate_GiB": 2070.503173828125,
+      "planned_machine_memory_GiB": 3235.272192382812,
+      "fits_512GiB_scenario": false,
+      "query_ms": 44765423.889408216,
+      "verify_ms": 126.46157726931756,
+      "vo_kb": 4464.575,
+      "declared_sensitivity": {
+        "query_ms": [
+          22382711.944704108,
+          89530847.77881643
+        ],
+        "verify_ms": [
+          63.23078863465878,
+          252.92315453863512
+        ],
+        "vo_kb": [
+          3794.8887499999996,
+          5134.26125
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100-K1024",
+      "recall": 0.9100000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 22,
+    "target": 0.95,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 256,
+      "k": 10,
+      "gates": 98167471,
+      "gate_source": "structural estimate",
+      "domain_bits": 27,
+      "guard_domain_bits": 27,
+      "proof_phase_memory_estimate_GiB": 4141.00634765625,
+      "planned_machine_memory_GiB": 6438.544384765624,
+      "fits_512GiB_scenario": false,
+      "query_ms": 92976933.42164965,
+      "verify_ms": 223.237563784796,
+      "vo_kb": 8667.09,
+      "declared_sensitivity": {
+        "query_ms": [
+          46488466.710824825,
+          185953866.8432993
+        ],
+        "verify_ms": [
+          111.618781892398,
+          446.475127569592
+        ],
+        "vo_kb": [
+          7367.0265,
+          9967.153499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100-K1024",
+      "recall": 0.9650000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 23,
+    "target": 0.97,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 512,
+      "k": 10,
+      "gates": 196290610,
+      "gate_source": "structural estimate",
+      "domain_bits": 28,
+      "guard_domain_bits": 28,
+      "proof_phase_memory_estimate_GiB": 8282.0126953125,
+      "planned_machine_memory_GiB": 12845.088769531249,
+      "fits_512GiB_scenario": false,
+      "query_ms": 192846038.1289657,
+      "verify_ms": 415.6402918002745,
+      "vo_kb": 17063.909,
+      "declared_sensitivity": {
+        "query_ms": [
+          96423019.06448285,
+          385692076.2579314
+        ],
+        "verify_ms": [
+          207.82014590013725,
+          831.280583600549
+        ],
+        "vo_kb": [
+          14504.32265,
+          19623.495349999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100-K1024",
+      "recall": 0.9800000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 24,
+    "target": 0.98,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "glove100",
+        "source": "glove100",
+        "N": 1183514,
+        "D": 100,
+        "n_list": 1024,
+        "M": 100,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 4096,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 512,
+      "k": 10,
+      "gates": 196290610,
+      "gate_source": "structural estimate",
+      "domain_bits": 28,
+      "guard_domain_bits": 28,
+      "proof_phase_memory_estimate_GiB": 8282.0126953125,
+      "planned_machine_memory_GiB": 12845.088769531249,
+      "fits_512GiB_scenario": false,
+      "query_ms": 192846038.1289657,
+      "verify_ms": 415.6402918002745,
+      "vo_kb": 17063.909,
+      "declared_sensitivity": {
+        "query_ms": [
+          96423019.06448285,
+          385692076.2579314
+        ],
+        "verify_ms": [
+          207.82014590013725,
+          831.280583600549
+        ],
+        "vo_kb": [
+          14504.32265,
+          19623.495349999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "glove100-1183514-M100-K1024",
+      "recall": 0.9800000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/glove100-1183514-M100-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 25,
+    "target": 0.99,
+    "choice": null,
+    "reason": "no existing calibrated configuration reaches target; recall cannot be invented",
+    "smallest_memory_reaching_target": null
+  },
+  {
+    "kind": "size",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 9,
+    "N": 5000000,
+    "choice": null,
+    "reason": "requested size exceeds actual available corpus; not a RAM question"
+  },
+  {
+    "kind": "size",
+    "dataset": "glove100",
+    "sheet": "GloVe-100",
+    "column": 10,
+    "N": 10000000,
+    "choice": null,
+    "reason": "requested size exceeds actual available corpus; not a RAM question"
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 19,
+    "target": 0.8,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 48,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 786360,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 20,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 82.05112800598144,
+      "fits_512GiB_scenario": true,
+      "query_ms": 536679.5348115881,
+      "verify_ms": 26.55342981519876,
+      "vo_kb": 335.661,
+      "declared_sensitivity": {
+        "query_ms": [
+          268339.76740579406,
+          1073359.0696231762
+        ],
+        "verify_ms": [
+          13.27671490759938,
+          53.10685963039752
+        ],
+        "vo_kb": [
+          285.31185,
+          386.01014999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M48",
+      "recall": 0.8000000000000002,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M48/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 48,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 786360,
+      "gate_source": "structural estimate",
+      "domain_bits": 20,
+      "guard_domain_bits": 20,
+      "proof_phase_memory_estimate_GiB": 32.35161209106445,
+      "planned_machine_memory_GiB": 82.05112800598144,
+      "fits_512GiB_scenario": true,
+      "query_ms": 536679.5348115881,
+      "verify_ms": 26.55342981519876,
+      "vo_kb": 335.661,
+      "declared_sensitivity": {
+        "query_ms": [
+          268339.76740579406,
+          1073359.0696231762
+        ],
+        "verify_ms": [
+          13.27671490759938,
+          53.10685963039752
+        ],
+        "vo_kb": [
+          285.31185,
+          386.01014999999995
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M48",
+      "recall": 0.8000000000000002,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M48/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 20,
+    "target": 0.85,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 512,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1511042,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1127085.9138890828,
+      "verify_ms": 27.702674830677218,
+      "vo_kb": 343.872,
+      "declared_sensitivity": {
+        "query_ms": [
+          563542.9569445414,
+          2254171.8277781657
+        ],
+        "verify_ms": [
+          13.851337415338609,
+          55.405349661354435
+        ],
+        "vo_kb": [
+          292.2912,
+          395.45279999999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K512",
+      "recall": 0.8850000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K512/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 256,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1448977,
+      "gate_source": "structural estimate",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1127085.9138890828,
+      "verify_ms": 27.702674830677218,
+      "vo_kb": 343.872,
+      "declared_sensitivity": {
+        "query_ms": [
+          563542.9569445414,
+          2254171.8277781657
+        ],
+        "verify_ms": [
+          13.851337415338609,
+          55.405349661354435
+        ],
+        "vo_kb": [
+          292.2912,
+          395.45279999999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96",
+      "recall": 0.8900000000000002,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 21,
+    "target": 0.9,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1637124,
+      "gate_source": "exact observed static count",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1127085.9138890828,
+      "verify_ms": 27.702674830677218,
+      "vo_kb": 343.872,
+      "declared_sensitivity": {
+        "query_ms": [
+          563542.9569445414,
+          2254171.8277781657
+        ],
+        "verify_ms": [
+          13.851337415338609,
+          55.405349661354435
+        ],
+        "vo_kb": [
+          292.2912,
+          395.45279999999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K1024",
+      "recall": 0.9,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 8,
+      "k": 10,
+      "gates": 1637124,
+      "gate_source": "exact observed static count",
+      "domain_bits": 21,
+      "guard_domain_bits": 21,
+      "proof_phase_memory_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 132.10225601196288,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1127085.9138890828,
+      "verify_ms": 27.702674830677218,
+      "vo_kb": 343.872,
+      "declared_sensitivity": {
+        "query_ms": [
+          563542.9569445414,
+          2254171.8277781657
+        ],
+        "verify_ms": [
+          13.851337415338609,
+          55.405349661354435
+        ],
+        "vo_kb": [
+          292.2912,
+          395.45279999999997
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K1024",
+      "recall": 0.9,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 22,
+    "target": 0.95,
+    "choice": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3227647,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2361625.516309979,
+      "verify_ms": 31.840255518030684,
+      "vo_kb": 483.155,
+      "declared_sensitivity": {
+        "query_ms": [
+          1180812.7581549895,
+          4723251.032619958
+        ],
+        "verify_ms": [
+          15.920127759015342,
+          63.68051103606137
+        ],
+        "vo_kb": [
+          410.68174999999997,
+          555.62825
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K1024",
+      "recall": 0.9550000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json",
+      "recall_queries": 20
+    },
+    "reason": "existing calibrated configuration fits declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 16,
+      "k": 10,
+      "gates": 3227647,
+      "gate_source": "structural estimate",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "proof_phase_memory_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2361625.516309979,
+      "verify_ms": 31.840255518030684,
+      "vo_kb": 483.155,
+      "declared_sensitivity": {
+        "query_ms": [
+          1180812.7581549895,
+          4723251.032619958
+        ],
+        "verify_ms": [
+          15.920127759015342,
+          63.68051103606137
+        ],
+        "vo_kb": [
+          410.68174999999997,
+          555.62825
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K1024",
+      "recall": 0.9550000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 23,
+    "target": 0.97,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 64,
+      "k": 10,
+      "gates": 12782497,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10306131.57349442,
+      "verify_ms": 52.06875958023761,
+      "vo_kb": 1286.009,
+      "declared_sensitivity": {
+        "query_ms": [
+          5153065.78674721,
+          20612263.14698884
+        ],
+        "verify_ms": [
+          26.034379790118805,
+          104.13751916047522
+        ],
+        "vo_kb": [
+          1093.10765,
+          1478.9103499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K1024",
+      "recall": 0.9800000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 24,
+    "target": 0.98,
+    "choice": null,
+    "reason": "all calibrated configurations reaching this target exceed the declared 512GiB planning envelope",
+    "smallest_memory_reaching_target": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "n_probe": 64,
+      "k": 10,
+      "gates": 12782497,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10306131.57349442,
+      "verify_ms": 52.06875958023761,
+      "vo_kb": 1286.009,
+      "declared_sensitivity": {
+        "query_ms": [
+          5153065.78674721,
+          20612263.14698884
+        ],
+        "verify_ms": [
+          26.034379790118805,
+          104.13751916047522
+        ],
+        "vo_kb": [
+          1093.10765,
+          1478.9103499999999
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "model": "deep1m-1000000-M96-K1024",
+      "recall": 0.9800000000000001,
+      "recall_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json",
+      "recall_queries": 20
+    }
+  },
+  {
+    "kind": "curve",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 25,
+    "target": 0.99,
+    "choice": null,
+    "reason": "no existing calibrated configuration reaches target; recall cannot be invented",
+    "smallest_memory_reaching_target": null
+  },
+  {
+    "kind": "size",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 9,
+    "N": 5000000,
+    "choice": null,
+    "reason": "no index/recall calibration; matched-recall performance is unsupported",
+    "fixed_budget_hypothesis": {
+      "status": "conditional_forecast",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep10m",
+        "N": 5000000,
+        "D": 96,
+        "M": 96,
+        "K": 1024,
+        "n_list": 1024,
+        "capacity": 16384
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 5585143,
+      "gate_source": "structural estimate",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "proof_phase_memory_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4938158.409683584,
+      "verify_ms": 41.580965590149766,
+      "vo_kb": 868.198,
+      "declared_sensitivity": {
+        "query_ms": [
+          2469079.204841792,
+          9876316.819367168
+        ],
+        "verify_ms": [
+          20.790482795074883,
+          83.16193118029953
+        ],
+        "vo_kb": [
+          737.9683,
+          998.4276999999998
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "parameter_assumption": true,
+      "recall": null,
+      "reason": "fixed query budget hypothesis only; no trained/calibrated index for this prefix. Not an equal/default-recall result."
+    }
+  },
+  {
+    "kind": "size",
+    "dataset": "deep1m",
+    "sheet": "DEEP1M",
+    "column": 10,
+    "N": 10000000,
+    "choice": null,
+    "reason": "no index/recall calibration; matched-recall performance is unsupported",
+    "fixed_budget_hypothesis": {
+      "status": "outside_512GiB_scenario",
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep10m",
+        "N": 10000000,
+        "D": 96,
+        "M": 96,
+        "K": 1024,
+        "n_list": 1024,
+        "capacity": 32768
+      },
+      "n_probe": 4,
+      "k": 10,
+      "gates": 11009381,
+      "gate_source": "structural estimate",
+      "domain_bits": 24,
+      "guard_domain_bits": 24,
+      "proof_phase_memory_estimate_GiB": 517.6257934570312,
+      "planned_machine_memory_GiB": 832.818048095703,
+      "fits_512GiB_scenario": false,
+      "query_ms": 10306131.57349442,
+      "verify_ms": 57.671888965003234,
+      "vo_kb": 1531.769,
+      "declared_sensitivity": {
+        "query_ms": [
+          5153065.78674721,
+          20612263.14698884
+        ],
+        "verify_ms": [
+          28.835944482501617,
+          115.34377793000647
+        ],
+        "vo_kb": [
+          1302.0036499999999,
+          1761.53435
+        ]
+      },
+      "label": "512GiB条件预测，未在512GiB机器实测",
+      "recall_scope": "existing search calibration only",
+      "parameter_assumption": true,
+      "recall": null,
+      "reason": "fixed query budget hypothesis only; no trained/calibrated index for this prefix. Not an equal/default-recall result."
+    }
+  }
+]

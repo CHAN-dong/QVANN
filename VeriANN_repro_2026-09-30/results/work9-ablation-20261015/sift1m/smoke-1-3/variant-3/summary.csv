@@ -1,0 +1,2 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+Merkle+IVF+(i),10,8,8,5,0.19698,0.194815,0.219844,0.583185,2.80742,3.25668,2.46351,0.271261,147.267,161.984,1,1,1,37.4675,4.35935,0.463015,0,19.3242

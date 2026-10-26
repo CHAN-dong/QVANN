@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "fresh_raw_samples": 240,
+  "matched_traces_and_answers": 240,
+  "rejected_tamper_cases": 48
+}

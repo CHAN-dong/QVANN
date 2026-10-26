@@ -1,0 +1,842 @@
+[
+  {
+    "ef": 100,
+    "probes": 1,
+    "recall": 0.125,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 2,
+    "recall": 0.16,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 3,
+    "recall": 0.19,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 4,
+    "recall": 0.21000000000000002,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 5,
+    "recall": 0.265,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 6,
+    "recall": 0.27999999999999997,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 7,
+    "recall": 0.315,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 8,
+    "recall": 0.32999999999999996,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 9,
+    "recall": 0.335,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 10,
+    "recall": 0.33999999999999997,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 11,
+    "recall": 0.365,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 12,
+    "recall": 0.38,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 13,
+    "recall": 0.385,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 14,
+    "recall": 0.41,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 15,
+    "recall": 0.425,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 16,
+    "recall": 0.43499999999999994,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 17,
+    "recall": 0.45,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 18,
+    "recall": 0.45499999999999996,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 19,
+    "recall": 0.48,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 20,
+    "recall": 0.485,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 21,
+    "recall": 0.525,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 22,
+    "recall": 0.54,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 23,
+    "recall": 0.5549999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 24,
+    "recall": 0.575,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 25,
+    "recall": 0.58,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 26,
+    "recall": 0.5900000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 27,
+    "recall": 0.6,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 28,
+    "recall": 0.62,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 29,
+    "recall": 0.645,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 30,
+    "recall": 0.645,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 31,
+    "recall": 0.645,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 32,
+    "recall": 0.65,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 33,
+    "recall": 0.665,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 34,
+    "recall": 0.6799999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 35,
+    "recall": 0.6900000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 36,
+    "recall": 0.71,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 37,
+    "recall": 0.73,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 38,
+    "recall": 0.74,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 39,
+    "recall": 0.75,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 40,
+    "recall": 0.775,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 41,
+    "recall": 0.78,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 42,
+    "recall": 0.7849999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 43,
+    "recall": 0.795,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 44,
+    "recall": 0.795,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 45,
+    "recall": 0.8,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 46,
+    "recall": 0.805,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 47,
+    "recall": 0.82,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 48,
+    "recall": 0.825,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 49,
+    "recall": 0.8400000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 50,
+    "recall": 0.8550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 51,
+    "recall": 0.8699999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 52,
+    "recall": 0.875,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 53,
+    "recall": 0.8949999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 54,
+    "recall": 0.9,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 55,
+    "recall": 0.9199999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 56,
+    "recall": 0.925,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 57,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 58,
+    "recall": 0.95,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 59,
+    "recall": 0.95,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 100,
+    "probes": 60,
+    "recall": 0.9650000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+  },
+  {
+    "ef": 200,
+    "probes": 1,
+    "recall": 0.135,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 2,
+    "recall": 0.16999999999999998,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 3,
+    "recall": 0.2,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 4,
+    "recall": 0.21999999999999997,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 5,
+    "recall": 0.275,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 6,
+    "recall": 0.29,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 7,
+    "recall": 0.325,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 8,
+    "recall": 0.33999999999999997,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 9,
+    "recall": 0.34500000000000003,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 10,
+    "recall": 0.35,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 11,
+    "recall": 0.375,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 12,
+    "recall": 0.39,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 13,
+    "recall": 0.395,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 14,
+    "recall": 0.42000000000000004,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 15,
+    "recall": 0.43499999999999994,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 16,
+    "recall": 0.445,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 17,
+    "recall": 0.45999999999999996,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 18,
+    "recall": 0.465,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 19,
+    "recall": 0.49000000000000005,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 20,
+    "recall": 0.495,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 21,
+    "recall": 0.5349999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 22,
+    "recall": 0.55,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 23,
+    "recall": 0.5650000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 24,
+    "recall": 0.585,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 25,
+    "recall": 0.5900000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 26,
+    "recall": 0.6,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 27,
+    "recall": 0.61,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 28,
+    "recall": 0.635,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 29,
+    "recall": 0.6599999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 30,
+    "recall": 0.6599999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 31,
+    "recall": 0.6599999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 32,
+    "recall": 0.67,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 33,
+    "recall": 0.6849999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 34,
+    "recall": 0.7,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 35,
+    "recall": 0.71,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 36,
+    "recall": 0.73,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 37,
+    "recall": 0.755,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 38,
+    "recall": 0.765,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 39,
+    "recall": 0.775,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 40,
+    "recall": 0.8,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 41,
+    "recall": 0.805,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 42,
+    "recall": 0.8099999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 43,
+    "recall": 0.82,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 44,
+    "recall": 0.82,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 45,
+    "recall": 0.825,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 46,
+    "recall": 0.8300000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 47,
+    "recall": 0.845,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 48,
+    "recall": 0.85,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 49,
+    "recall": 0.865,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 50,
+    "recall": 0.8800000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 51,
+    "recall": 0.8949999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 52,
+    "recall": 0.9,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 53,
+    "recall": 0.9199999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 54,
+    "recall": 0.925,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 55,
+    "recall": 0.945,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 56,
+    "recall": 0.95,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 57,
+    "recall": 0.9550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 58,
+    "recall": 0.975,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 59,
+    "recall": 0.975,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  },
+  {
+    "ef": 200,
+    "probes": 60,
+    "recall": 0.99,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/glove100/VLAH-pilot-1183514-resource-phase1-7d50f80609"
+  }
+]

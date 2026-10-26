@@ -1,0 +1,40 @@
+{
+  "N": 289761,
+  "M": 6,
+  "efc": 20,
+  "points": [
+    {
+      "ef": 65536,
+      "recall": 0.96,
+      "valid": true
+    }
+  ],
+  "csv_sha256": "704bb4e75f3ecfe1a2f247a1659c2bda35a39b2f04b9a71191c227c19bb0a833",
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/build/multidata_pilot_ANNProof",
+    "--dataset",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/nytimes256",
+    "--base",
+    "289761",
+    "--M",
+    "6",
+    "--ef-construction",
+    "20",
+    "--cache",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-nytimes-annproof-full-20261021/cache/candidate-M6-efc20",
+    "--queries",
+    "20",
+    "--query-offset",
+    "100",
+    "--build-threads",
+    "1",
+    "--probes",
+    "1",
+    "--output",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/pilots/candidate-M6-efc20-extend-65536",
+    "--k",
+    "10",
+    "--ef-search",
+    "65536"
+  ]
+}

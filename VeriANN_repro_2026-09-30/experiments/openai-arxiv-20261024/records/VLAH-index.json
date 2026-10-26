@@ -1,0 +1,10 @@
+{
+  "method": "VLAH",
+  "kind": "index",
+  "status": "measured",
+  "index_mb": 6443.342342,
+  "index_seconds": 248.070539433,
+  "threads": 8,
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/indexes/VLAH/offline.json",
+  "source_sha256": "229d8f148b84624539a1b4b0ec0340eaad7128c78e62a26c06edb648a65137c8"
+}

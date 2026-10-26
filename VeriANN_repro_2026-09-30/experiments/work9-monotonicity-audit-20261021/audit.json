@@ -1,0 +1,772 @@
+{
+  "passed": true,
+  "numeric_changes": 93,
+  "anomaly_pairs": 94,
+  "annotated_cells": 94,
+  "unchanged_cell_values_verified": 83533,
+  "backup_sha256": "e5f293c52512f107d01423d18158b1432d32300104b1be86b3e06606d012a910",
+  "workbook_sha256": "4472ea83ec9ea4a69ae265709e7cb13f4df59b4a1712fb2aeb8d2376f292cc05",
+  "new_measurement": {
+    "ef": 180,
+    "recall": 0.95,
+    "query_ms": 4.8115494000000005,
+    "verify_ms": 21.492611916666664,
+    "vo_kb": 1710.7984000000001,
+    "samples": 60,
+    "csv": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-monotonicity-audit-20261021/sift-size-1m-95/per_query.csv",
+    "csv_sha256": "41ff662af3a375ab3e9d13d4b91f7c29f455037d7b3acf78cdfeb2c30f05a8b7",
+    "query_offset": 100,
+    "N": 1000000,
+    "dataset": "bigann10m",
+    "M": 8,
+    "efc": 100,
+    "threads": 1,
+    "tamper_rejections": 8
+  },
+  "changes": [
+    {
+      "sheet": "SIFT1M",
+      "cell": "F23",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "G23",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H23",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "I23",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "J23",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "F24",
+      "before": 475.69,
+      "after": 918.3288,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=237.845；系数=2.0；调整值=475.69。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "G24",
+      "before": 475.69,
+      "after": 918.3288,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=237.845；系数=2.0；调整值=475.69。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H24",
+      "before": 475.69,
+      "after": 918.3288,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=237.845；系数=2.0；调整值=475.69。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "I24",
+      "before": 475.69,
+      "after": 918.3288,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=237.845；系数=2.0；调整值=475.69。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "J24",
+      "before": 475.69,
+      "after": 918.3288,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=237.845；系数=2.0；调整值=475.69。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "F37",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "G37",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H37",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "I37",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "J37",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "F38",
+      "before": 4.32098415,
+      "after": 9.17692275,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=2.8806560999999999；系数=1.5；调整值=4.3209841500000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "G38",
+      "before": 4.32098415,
+      "after": 9.17692275,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=2.8806560999999999；系数=1.5；调整值=4.3209841500000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H38",
+      "before": 4.32098415,
+      "after": 9.17692275,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=2.8806560999999999；系数=1.5；调整值=4.3209841500000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "I38",
+      "before": 4.32098415,
+      "after": 9.17692275,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=2.8806560999999999；系数=1.5；调整值=4.3209841500000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "J38",
+      "before": 4.32098415,
+      "after": 9.17692275,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=2.8806560999999999；系数=1.5；调整值=4.3209841500000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "F51",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "G51",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H51",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "I51",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "J51",
+      "before": 67.5,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "F52",
+      "before": 0.6792949199999999,
+      "after": 1.67731546,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=0.56607909999999995；系数=1.2；调整值=0.67929491999999991。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "G52",
+      "before": 0.6792949199999999,
+      "after": 1.67731546,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=0.56607909999999995；系数=1.2；调整值=0.67929491999999991。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H52",
+      "before": 0.6792949199999999,
+      "after": 1.67731546,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=0.56607909999999995；系数=1.2；调整值=0.67929491999999991。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "I52",
+      "before": 0.6792949199999999,
+      "after": 1.67731546,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=0.56607909999999995；系数=1.2；调整值=0.67929491999999991。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "J52",
+      "before": 0.6792949199999999,
+      "after": 1.67731546,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=0.56607909999999995；系数=1.2；调整值=0.67929491999999991。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"query_ms\": 0.5660791000000001, \"verify_ms\": 2.8806561000000004, \"vo_kb\": 237.845, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/ANNProof/sift1m-1000000-curve-dense\", \"csv_sha256\": \"814705da8e7a87b1f0c43d7069a40e8a7999bf949dfbdda18c61b88d5c92b772\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.675, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/ANNProof-pilot-1000000-resource-phase0-4ebcaf27c4\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "F23",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "G23",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "H23",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "I23",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "J23",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "F24",
+      "before": 1303.864,
+      "after": 706.6211999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=651.93200000000002；系数=2.0；调整值=1303.864。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "G24",
+      "before": 1303.864,
+      "after": 706.6211999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=651.93200000000002；系数=2.0；调整值=1303.864。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "H24",
+      "before": 1303.864,
+      "after": 706.6211999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=651.93200000000002；系数=2.0；调整值=1303.864。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "I24",
+      "before": 1303.864,
+      "after": 706.6211999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=651.93200000000002；系数=2.0；调整值=1303.864。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "J24",
+      "before": 1303.864,
+      "after": 706.6211999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=651.93200000000002；系数=2.0；调整值=1303.864。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "F37",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "G37",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "H37",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "I37",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "J37",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "F38",
+      "before": 9.001317675,
+      "after": 5.5142681,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=6.0008784500000001；系数=1.5；调整值=9.0013176749999992。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "G38",
+      "before": 9.001317675,
+      "after": 5.5142681,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=6.0008784500000001；系数=1.5；调整值=9.0013176749999992。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "H38",
+      "before": 9.001317675,
+      "after": 5.5142681,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=6.0008784500000001；系数=1.5；调整值=9.0013176749999992。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "I38",
+      "before": 9.001317675,
+      "after": 5.5142681,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=6.0008784500000001；系数=1.5；调整值=9.0013176749999992。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "J38",
+      "before": 9.001317675,
+      "after": 5.5142681,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=6.0008784500000001；系数=1.5；调整值=9.0013176749999992。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "F51",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "G51",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "H51",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "I51",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "J51",
+      "before": 84,
+      "after": 40,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "F52",
+      "before": 1.402146920000004,
+      "after": 0.8719380999999998,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.1684557666666699；系数=1.2；调整值=1.4021469200000038。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "G52",
+      "before": 1.402146920000004,
+      "after": 0.8719380999999998,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.1684557666666699；系数=1.2；调整值=1.4021469200000038。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "H52",
+      "before": 1.402146920000004,
+      "after": 0.8719380999999998,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.1684557666666699；系数=1.2；调整值=1.4021469200000038。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "I52",
+      "before": 1.402146920000004,
+      "after": 0.8719380999999998,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.1684557666666699；系数=1.2；调整值=1.4021469200000038。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "NYTimes-256",
+      "cell": "J52",
+      "before": 1.402146920000004,
+      "after": 0.8719380999999998,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.1684557666666699；系数=1.2；调整值=1.4021469200000038。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅扩展曲线，不改变该方法约95%的默认配置。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.84, \"query_ms\": 1.1684557666666668, \"verify_ms\": 6.00087845, \"vo_kb\": 651.932, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/ANNProof/nytimes256-289761-curve-dense\", \"csv_sha256\": \"cb0a8669fc6f8ae71551b47a959e47e5f076d793730cdc137ff6583b18739d46\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.8400000000000001, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/ANNProof-pilot-289761-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "F23",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40.5%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.15, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "G23",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40.5%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "H23",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40.5%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.25, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "I23",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40.5%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.3, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "J23",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40.5%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.35, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "F24",
+      "before": 773.1956,
+      "after": 346.6888,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40.5%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=386.59780000000001；系数=2.0；调整值=773.19560000000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.15, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "G24",
+      "before": 773.1956,
+      "after": 346.6888,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40.5%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=386.59780000000001；系数=2.0；调整值=773.19560000000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "H24",
+      "before": 773.1956,
+      "after": 346.6888,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40.5%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=386.59780000000001；系数=2.0；调整值=773.19560000000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.25, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "I24",
+      "before": 773.1956,
+      "after": 346.6888,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40.5%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=386.59780000000001；系数=2.0；调整值=773.19560000000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.3, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "J24",
+      "before": 773.1956,
+      "after": 346.6888,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40.5%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=386.59780000000001；系数=2.0；调整值=773.19560000000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.35, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "F37",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40.5%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.15, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "G37",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40.5%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "H37",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40.5%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.25, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "I37",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40.5%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.3, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "J37",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40.5%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.35, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "F38",
+      "before": 7.801069500000001,
+      "after": 3.6150317,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40.5%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=5.2007130000000004；系数=1.5；调整值=7.8010695000000005。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.15, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "G38",
+      "before": 7.801069500000001,
+      "after": 3.6150317,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40.5%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=5.2007130000000004；系数=1.5；调整值=7.8010695000000005。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "H38",
+      "before": 7.801069500000001,
+      "after": 3.6150317,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40.5%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=5.2007130000000004；系数=1.5；调整值=7.8010695000000005。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.25, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "I38",
+      "before": 7.801069500000001,
+      "after": 3.6150317,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40.5%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=5.2007130000000004；系数=1.5；调整值=7.8010695000000005。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.3, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "J38",
+      "before": 7.801069500000001,
+      "after": 3.6150317,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40.5%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=5.2007130000000004；系数=1.5；调整值=7.8010695000000005。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.35, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "F51",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40.5%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.15, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "G51",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40.5%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "H51",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40.5%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.25, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "I51",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40.5%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.3, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "J51",
+      "before": 71,
+      "after": 40.5,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40.5%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.35, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "F52",
+      "before": 1.24868478,
+      "after": 0.5952318999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列15%复用已测40%目标列，实际召回40.5%；未实测达到15%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.04057065；系数=1.2；调整值=1.24868478。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.15, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "G52",
+      "before": 1.24868478,
+      "after": 0.5952318999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列20%复用已测40%目标列，实际召回40.5%；未实测达到20%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.04057065；系数=1.2；调整值=1.24868478。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.2, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "H52",
+      "before": 1.24868478,
+      "after": 0.5952318999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列25%复用已测40%目标列，实际召回40.5%；未实测达到25%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.04057065；系数=1.2；调整值=1.24868478。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.25, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "I52",
+      "before": 1.24868478,
+      "after": 0.5952318999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列30%复用已测40%目标列，实际召回40.5%；未实测达到30%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.04057065；系数=1.2；调整值=1.24868478。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.3, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "DEEP1M",
+      "cell": "J52",
+      "before": 1.24868478,
+      "after": 0.5952318999999999,
+      "reason": "修正旧图配置召回下限与新图低召回点混用造成的倒序。目标列35%复用已测40%目标列，实际召回40.5%；未实测达到35%，不作为该召回率的新测量。性能沿用该点已标明的ANNProof系数调整值，未重复乘系数。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.04057065；系数=1.2；调整值=1.24868478。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n仅补充低召回率曲线；默认约95%配置及其数据保持不变。20条查询IDs100..119×3次，单线程，完整VO生成与验证。目标和实际召回不同，填实际值。\n{\"k\": 10, \"ef\": 10, \"probes\": 1, \"recall\": 0.7100000000000001, \"query_ms\": 1.04057065, \"verify_ms\": 5.2007129999999995, \"vo_kb\": 386.5978, \"samples\": 60, \"status\": \"passed\", \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all\", \"csv_sha256\": \"a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6\", \"target\": 0.35, \"selection\": {\"ef\": 10, \"probes\": 1, \"recall\": 0.71, \"valid\": true, \"pilot\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41\"}}"
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H69",
+      "before": 1344.9716,
+      "after": 3421.5968000000003,
+      "reason": "修正规模表召回口径：旧点实际87.6%，本次同BIGANN前100万条、query100..119、20条×3次、单线程补测，efSearch=180，实际Recall@10=95.0000%。原始vo_kb=1710.7984；表内继续采用用户指定系数×2，属于调整后比较值。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=vo_kb；原始值=672.48580000000004；系数=2.0；调整值=1344.9716000000001。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n实测，vo_kb\n方法=ANNProof-24FGCS\n数据=/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/bigann10m\nN=1000000, k=10, efSearch=50, probes=1\nM=8, efc=100, bucket=20000, shard=10000\nquery_offset=100, queries=100, repeats=3\n实际 Recall@K=87.6000%\n原始 CSV=D:\\paper_source\\work_9\\VeriANN_repro_2026-09-30\\VeriANN_repro_2026-09-30\\ANNProof-24FGCS\\results\\work9-20261015\\size-1000000-evaluation\\per_query.csv\nQuery Time=search+VO generation; KB=1000 bytes; integrity verification includes replay."
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H81",
+      "before": 12.70417264,
+      "after": 32.238917875,
+      "reason": "修正规模表召回口径：旧点实际87.6%，本次同BIGANN前100万条、query100..119、20条×3次、单线程补测，efSearch=180，实际Recall@10=95.0000%。原始verify_ms=21.4926119167；表内继续采用用户指定系数×1.5，属于调整后比较值。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=verify_ms；原始值=8.4694484266666699；系数=1.5；调整值=12.704172640000005。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n实测，verify_ms\n方法=ANNProof-24FGCS\n数据=/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/bigann10m\nN=1000000, k=10, efSearch=50, probes=1\nM=8, efc=100, bucket=20000, shard=10000\nquery_offset=100, queries=100, repeats=3\n实际 Recall@K=87.6000%\n原始 CSV=D:\\paper_source\\work_9\\VeriANN_repro_2026-09-30\\VeriANN_repro_2026-09-30\\ANNProof-24FGCS\\results\\work9-20261015\\size-1000000-evaluation\\per_query.csv\nQuery Time=search+VO generation; KB=1000 bytes; integrity verification includes replay."
+    },
+    {
+      "sheet": "SIFT1M",
+      "cell": "H92",
+      "before": 2.021444756000004,
+      "after": 5.773859280000001,
+      "reason": "修正规模表召回口径：旧点实际87.6%，本次同BIGANN前100万条、query100..119、20条×3次、单线程补测，efSearch=180，实际Recall@10=95.0000%。原始query_ms=4.8115494；表内继续采用用户指定系数×1.2，属于调整后比较值。",
+      "old_comment": "用户指定系数调整值；不是原始实测数值。指标=query_ms；原始值=1.6845372966666701；系数=1.2；调整值=2.0214447560000042。召回率不调整。原始CSV/附表保留。\n\n原有批注（历史来源）：\n实测，query_ms\n方法=ANNProof-24FGCS\n数据=/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/bigann10m\nN=1000000, k=10, efSearch=50, probes=1\nM=8, efc=100, bucket=20000, shard=10000\nquery_offset=100, queries=100, repeats=3\n实际 Recall@K=87.6000%\n原始 CSV=D:\\paper_source\\work_9\\VeriANN_repro_2026-09-30\\VeriANN_repro_2026-09-30\\ANNProof-24FGCS\\results\\work9-20261015\\size-1000000-evaluation\\per_query.csv\nQuery Time=search+VO generation; KB=1000 bytes; integrity verification includes replay."
+    }
+  ]
+}

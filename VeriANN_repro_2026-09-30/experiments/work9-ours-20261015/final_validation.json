@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "ours_numeric_cells": 103,
+  "baseline_numeric_cells_preserved": 206,
+  "total_numeric_result_cells": 309,
+  "merged_ranges_preserved": 53,
+  "passed_jobs": 16,
+  "configurations": 108,
+  "verified_query_measurements": 16800,
+  "tamper_tests_rejected": 208,
+  "protocol_tests": {
+    "status": "PASS",
+    "honest": 90,
+    "valid_proof_refinement_omissions_rejected": 90,
+    "valid_proof_incomplete_traversals_rejected": 90,
+    "reordered_answers_rejected": 60
+  },
+  "workbook_sha256": "46a6b589559bcb2124e27e64e1892c6835477d31962102f2f03c55496e0b9bd3",
+  "backup_sha256": "12a73c2c833348437f6ca4c7974fa505da8c02854045b6e3be2650490508c672"
+}

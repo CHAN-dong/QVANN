@@ -1,0 +1,24 @@
+{
+  "dataset": "glove100",
+  "method": "VLAH",
+  "base": 500000,
+  "purpose": "size",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/glove100/VLAH-size-500000",
+  "selection": [
+    {
+      "ef": 100,
+      "probes": 25,
+      "recall": 0.975,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/glove100/VLAH-pilot-500000-ef100",
+      "target": 0.95
+    }
+  ],
+  "width": 0.33011345496943795,
+  "M": 16,
+  "ef_construction": 200,
+  "query_count": 20,
+  "query_offset": 100,
+  "repeats": 3,
+  "measurement_scope": "20-query quick preview"
+}

@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "qvann_samples": 240,
+  "independent_wire_checks": [
+    {
+      "dataset": "sift1m",
+      "file": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-quantization-20261023/sift1m/configuration1.vo",
+      "sha256": "c6b6d2ba7e59783724245f9d31f5f43f0669af84968be4d8be4561398d7203b1",
+      "record_bytes": 114428,
+      "proof_bytes": 89708
+    },
+    {
+      "dataset": "nytimes256",
+      "file": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-quantization-20261023/nytimes256/configuration1.vo",
+      "sha256": "95058c076c14970381310c00181f3cf489d574da17e60d12ba027d2105f32454",
+      "record_bytes": 1139216,
+      "proof_bytes": 636236
+    },
+    {
+      "dataset": "glove100",
+      "file": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-quantization-20261023/glove100/configuration1.vo",
+      "sha256": "25f39f76b2cbdd6218bfa01071390bc040ac4fa59b5e0a4139a27c42f7fa54ef",
+      "record_bytes": 2505041,
+      "proof_bytes": 2209292
+    },
+    {
+      "dataset": "deep1m",
+      "file": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-quantization-20261023/deep1m/configuration1.vo",
+      "sha256": "a669c5036571ffb1f369e690db1c33791c98e89936edb68f169d978520c6da1b",
+      "record_bytes": 126376,
+      "proof_bytes": 179756
+    }
+  ],
+  "original_values_and_comments_preserved": 93081,
+  "workbook_sha256": "600ac1ab9ac8b775f73a495fbf04b77ff6d8078298691531441ca2a766bbe249",
+  "backup_sha256": "5046e58e48d017c725c1e9968044bcdc6da212d8a2aa481ffac0c0e1e0552cf3",
+  "tables": {
+    "sift1m": {
+      "sheet": "SIFT1M",
+      "title_row": 164,
+      "header_row": 168,
+      "last_row": 174,
+      "qvann_row": 175
+    },
+    "nytimes256": {
+      "sheet": "NYTimes-256",
+      "title_row": 163,
+      "header_row": 167,
+      "last_row": 173,
+      "qvann_row": 174
+    },
+    "glove100": {
+      "sheet": "GloVe-100",
+      "title_row": 163,
+      "header_row": 167,
+      "last_row": 173,
+      "qvann_row": 174
+    },
+    "deep1m": {
+      "sheet": "DEEP1M",
+      "title_row": 165,
+      "header_row": 169,
+      "last_row": 175,
+      "qvann_row": 176
+    }
+  }
+}

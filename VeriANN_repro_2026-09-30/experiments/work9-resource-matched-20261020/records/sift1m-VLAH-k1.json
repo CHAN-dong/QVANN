@@ -1,0 +1,17 @@
+{
+  "k": 1,
+  "ef": 100,
+  "probes": 11,
+  "recall": 0.85,
+  "query_ms": 15.325525383333332,
+  "verify_ms": 40.8755781,
+  "vo_kb": 6290.1952,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-k1-e100",
+  "csv_sha256": "97e72b2b6d74730cb401ed21a3f22f8a9933c4a74a1a7f172ee56e07491a5863",
+  "dataset": "sift1m",
+  "method": "VLAH",
+  "kind": "k",
+  "N": 1000000
+}

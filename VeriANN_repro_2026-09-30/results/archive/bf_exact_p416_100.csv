@@ -1,0 +1,2 @@
+codec,base,nlist,nprobe,train_queries,test_queries,recall,avg_expanded_internal,avg_routing_records,avg_visited,avg_refined,avg_exact,base_bits,base_payload,refine_payload,exact_payload,local_merkle,routing_parameters,routing_records,routing_total,leaf_total,total_vo,ann_query_ms,vo_generation_ms,violations
+exact,100000,65536,416,200,100,0.8359,1450.58,2901.16,712.6,437.06,164.47,488,43468.6,15297.1,2503.37,17489.6,96,1604341.48,1604437.48,78758.67,1683196.15,1.22929766,1.06233549,0

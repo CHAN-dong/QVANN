@@ -1,0 +1,418 @@
+[
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 157599,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 259242,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 167516,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 279085,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 207183,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 358458,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 256,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 137792,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 128,
+      "M": 128,
+      "K": 1024,
+      "n_list": 256,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 249358,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 512,
+      "n_probe": 1,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 101588,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 512,
+      "n_probe": 2,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 157166,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 512,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 120720,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 512,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 195442,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 512,
+      "n_probe": 1,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 285725,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 512,
+      "n_probe": 2,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 525489,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 256,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 101801,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 256,
+      "M": 256,
+      "K": 256,
+      "n_list": 256,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 176520,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 123406,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 202838,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 131211,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 218457,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 162430,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 280934,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 256,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 107784,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 100,
+      "M": 100,
+      "K": 1024,
+      "n_list": 256,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 195027,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 119143,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 64,
+      "k": 10
+    },
+    "gates": 195439,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 126756,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 210675,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 1,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 157207,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 1024,
+      "n_probe": 2,
+      "capacity": 1024,
+      "k": 10
+    },
+    "gates": 271615,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 256,
+      "n_probe": 1,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 103791,
+    "role": "exact static gate count only; no proof or timing measurement"
+  },
+  {
+    "config": {
+      "D": 96,
+      "M": 96,
+      "K": 1024,
+      "n_list": 256,
+      "n_probe": 2,
+      "capacity": 256,
+      "k": 10
+    },
+    "gates": 187705,
+    "role": "exact static gate count only; no proof or timing measurement"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "measured",
+  "ef": 384,
+  "probes": 1,
+  "recall": 0.965,
+  "query_ms": 58.68166795,
+  "vo_kb": 9318.9016,
+  "verify_ms": 87.75620068333333,
+  "samples": 60,
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/measurements/Ours-curve-all/per_query.csv",
+  "source_sha256": "1550a7614dc9dabe60329b43e641557c9a13cb16f171c90facf2b73fdfad90c6",
+  "target": 0.95,
+  "method": "Ours",
+  "kind": "overall"
+}

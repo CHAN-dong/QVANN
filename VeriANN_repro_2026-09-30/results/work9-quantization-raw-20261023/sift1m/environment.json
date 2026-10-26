@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-quantization-raw-20261023/raw_probe",
+    "--dataset",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/sift1m",
+    "--base",
+    "1000000",
+    "--M",
+    "8",
+    "--ef-construction",
+    "100",
+    "--cache",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache",
+    "--output",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-quantization-raw-20261023/sift1m",
+    "--queries",
+    "20",
+    "--query-offset",
+    "100",
+    "--repeats",
+    "3",
+    "--build-threads",
+    "1",
+    "--k",
+    "10",
+    "--ef-search",
+    "128"
+  ],
+  "binary_sha256": "ba3f23f0768ab979ac6e069290b9076ef31c3f6022960074fc39a65ace03a4bb",
+  "graph_sha256": "c20230da78aa37cceb406d13a1ed20331c30e2a9ddaa4a7bfa189ad08f287416"
+}

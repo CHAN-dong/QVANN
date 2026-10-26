@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "variant_dataset_rows": 24,
+  "filled_metric_cells": 96,
+  "formal_measurements": 1440,
+  "tamper_tests": 312,
+  "paired_answer_comparisons": 720,
+  "workbook_sha256": "d91d51440cab311502a2aa203944d568c9d77f37e9d4c03ad1012e4fd71176ae"
+}

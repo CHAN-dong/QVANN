@@ -1,0 +1,29 @@
+{
+  "status": "resource_limit",
+  "label": "超构建预算，未出证",
+  "reason": "p*max(capacity,K)*M exceeds 2,000,000 padded relation entries",
+  "relation_tuples": 2097152,
+  "actual_attempt": false,
+  "config": {
+    "dataset": "sift1m",
+    "source": "bigann10m",
+    "N": 1000000,
+    "D": 128,
+    "n_list": 1024,
+    "M": 128,
+    "K": 1024,
+    "n_iter": 25,
+    "seed": 0,
+    "capacity": 2048,
+    "query_offset": 100,
+    "query_count": 20,
+    "scale": 65536,
+    "rebalance": "author algorithm with identical row-chunk distances"
+  },
+  "n_probe": 8,
+  "k": 10,
+  "address_space_limit_GiB": 50,
+  "dataset": "sift1m",
+  "kind": "size",
+  "N": 1000000
+}

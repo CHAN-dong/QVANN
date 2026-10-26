@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "numeric_cells": 873,
+  "not_applicable_cells": 54,
+  "experiment_records": 45,
+  "unique_formal_runs": 39,
+  "formal_measurements": 9360,
+  "raw_measurements_preserved": 12720,
+  "query_count": 20,
+  "repeats": 3,
+  "scope": "quick preview",
+  "tamper_rejections": 416,
+  "original_updated": true,
+  "workbook_sha256": "1bc4264938fa8263c68e3c46446014f63f61d469d43abffa82fd4d3cf9007ae2",
+  "backup_sha256": "7f31aac47d969e267b94cb2ab3ee3933da8e724db132e8582ab3af4462735aa7"
+}

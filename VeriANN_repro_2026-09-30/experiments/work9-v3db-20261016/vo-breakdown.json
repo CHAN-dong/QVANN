@@ -1,0 +1,42 @@
+[
+  {
+    "job": "sift1m-1000000-M128-K1024-p2-k10-q20-r3-t1",
+    "sample": "query100 repeat0",
+    "actual_wire_bytes": 235675,
+    "public_field_count": 7309,
+    "public_field_bytes": 58472,
+    "public_length_bytes": 0,
+    "cryptographic_compressed_proof_bytes": 177203,
+    "public_constant_lookup_numbers": 2048,
+    "public_constant_zero": 1,
+    "public_constant_centroid_numbers": 1024,
+    "public_constant_cluster_slot_numbers": 4096,
+    "deterministic_constant_bytes": 57352,
+    "public_query_dimensions": 128,
+    "public_topk": 10,
+    "public_snapshot_roots": 2,
+    "mean_wire_kb_over_60": 238.05463333333333,
+    "actual_measured_recall": 0.705,
+    "gates": 582254
+  },
+  {
+    "job": "nytimes256-289761-M256-p2-k10-q20-r3-t1",
+    "sample": "query100 repeat0",
+    "actual_wire_bytes": 236430,
+    "public_field_count": 6925,
+    "public_field_bytes": 55400,
+    "public_length_bytes": 0,
+    "cryptographic_compressed_proof_bytes": 181030,
+    "public_constant_lookup_numbers": 2048,
+    "public_constant_zero": 1,
+    "public_constant_centroid_numbers": 512,
+    "public_constant_cluster_slot_numbers": 4096,
+    "deterministic_constant_bytes": 53256,
+    "public_query_dimensions": 256,
+    "public_topk": 10,
+    "public_snapshot_roots": 2,
+    "mean_wire_kb_over_60": 234.92606666666669,
+    "actual_measured_recall": 0.58,
+    "gates": 965553
+  }
+]

@@ -1,0 +1,3 @@
+base,depth,counts,codecs,efvo_kib,radius_alpha,cost_lambda,cal_recall,recall,charged_kib,actual_route_kib,leaf_kib,total_kib,avg_visited,expanded_by_level,ann_query_ms,vo_generation_ms,index_build_s,forced_queries,prefix_violations,object_violations
+5000,3,16/256/4096,sq4/pq16/pq16,64,0.1,0,0.98,0.935,63.8517578125,61.06015625,8.7142578125,69.7744140625,73.95,6/62.3/56.8,0.27287125,0.29983995,0.188343818,0,0,0
+5000,3,16/256/4096,sq4/pq16/pq16,96,0.1,0,1,0.985,95.8265625,70.95703125,20.2615234375,91.2185546875,185.8,6.6/81.05/143.85,0.33045345,0.4175992,0.188343818,0,0,0

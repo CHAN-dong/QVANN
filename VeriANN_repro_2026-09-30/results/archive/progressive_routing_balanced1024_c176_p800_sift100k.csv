@@ -1,0 +1,2 @@
+group_slots,adaptive_order,block_size,recall,avg_candidates,active_by_stage,stage_payload_kib,stage_proofs_kib,extra_roots_kib,ideal_child_kib,progressive_child_kib,baseline_child_huffman_kib,ideal_total_kib,total_kib,reduction,selection_mismatches,bound_violations,query_ms,vo_generation_ms
+16,1,4,0.99028,11264,11264/4264.38,202.46953125,10.6405,5.5,207.98515625,218.62565625,256.587907715,524.669384766,535.309884766,0.0678463205974,0,0,2.404673052,1.730137754

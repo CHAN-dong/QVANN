@@ -1,0 +1,39 @@
+{
+  "method": "VeriANN-LUT",
+  "name": "size-10000000-evaluation",
+  "dataset": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/bigann10m",
+  "base": 10000000,
+  "queries": 100,
+  "query_offset": 100,
+  "repeats": 3,
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-10000000-evaluation",
+  "summary": [
+    {
+      "method": "VeriANN-LUT",
+      "k": "10",
+      "ef_search": "512",
+      "probes": "1",
+      "samples": "300",
+      "search_mean_ms": "6.11746",
+      "search_p50_ms": "6.3143",
+      "search_p95_ms": "7.71506",
+      "vo_generation_mean_ms": "4.6028",
+      "verification_mean_ms": "17.241",
+      "verification_p95_ms": "23.7549",
+      "authentication_mean_ms": "12.5738",
+      "replay_mean_ms": "4.4333",
+      "vo_mean_kib": "803.785",
+      "vo_p95_kib": "1058.97",
+      "recall_at_k": "0.949",
+      "recall_at_1": "0.98",
+      "verified_fraction": "1",
+      "index_ms": "22235.6",
+      "ads_ms": "93154.2",
+      "ground_truth_ms": "52200.9",
+      "ads_bytes": "3221225376",
+      "peak_rss_mib": "10545.3"
+    }
+  ],
+  "selection_basis": "fixed_matched_workpoint",
+  "previous_output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-20261015/size-10000000-matched-recall"
+}

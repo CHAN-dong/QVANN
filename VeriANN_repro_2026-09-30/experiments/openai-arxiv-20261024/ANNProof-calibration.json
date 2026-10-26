@@ -1,0 +1,135 @@
+[
+  {
+    "ef": 10,
+    "probes": 1,
+    "recall": 0.515,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 12,
+    "probes": 1,
+    "recall": 0.5650000000000001,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 16,
+    "probes": 1,
+    "recall": 0.6,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 24,
+    "probes": 1,
+    "recall": 0.6950000000000001,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 32,
+    "probes": 1,
+    "recall": 0.735,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 48,
+    "probes": 1,
+    "recall": 0.8099999999999999,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 64,
+    "probes": 1,
+    "recall": 0.8300000000000001,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 96,
+    "probes": 1,
+    "recall": 0.865,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 128,
+    "probes": 1,
+    "recall": 0.9,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 192,
+    "probes": 1,
+    "recall": 0.915,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 256,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 384,
+    "probes": 1,
+    "recall": 0.945,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 512,
+    "probes": 1,
+    "recall": 0.97,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 768,
+    "probes": 1,
+    "recall": 0.975,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 1024,
+    "probes": 1,
+    "recall": 0.99,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 1536,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 2048,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 4096,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  },
+  {
+    "ef": 8192,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ANNProof-phase0/pilot.csv"
+  }
+]

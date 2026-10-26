@@ -1,0 +1,23 @@
+{
+  "config": {
+    "dataset": "gist1m",
+    "source": "gist1m",
+    "N": 1000000,
+    "D": 960,
+    "n_list": 512,
+    "M": 480,
+    "K": 256,
+    "n_iter": 25,
+    "seed": 0,
+    "capacity": 4096,
+    "query_offset": 100,
+    "query_count": 20,
+    "scale": 65536,
+    "rebalance": "author algorithm with identical row-chunk distances"
+  },
+  "vmin": 0.0,
+  "vmax": 1.4772000312805176,
+  "relocated": 29500,
+  "train_seconds": 151.25163647099998,
+  "coarse_reused": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/gist1m-1000000"
+}

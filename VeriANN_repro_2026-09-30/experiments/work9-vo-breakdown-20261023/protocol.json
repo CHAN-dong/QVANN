@@ -1,0 +1,46 @@
+{
+  "datasets": {
+    "sift1m": [
+      "SIFT1M",
+      1000000,
+      128
+    ],
+    "nytimes256": [
+      "NYTimes-256",
+      289761,
+      256
+    ],
+    "glove100": [
+      "GloVe-100",
+      1183514,
+      100
+    ],
+    "deep1m": [
+      "DEEP1M",
+      1000000,
+      96
+    ]
+  },
+  "methods": [
+    "MR-tree",
+    "ANNProof",
+    "VLAH",
+    "IVF-ADS",
+    "HNSW-ADS"
+  ],
+  "k": 10,
+  "queries": 20,
+  "repeats": 3,
+  "query_offset": 100,
+  "KB": 1000,
+  "definitions": {
+    "A": "query-binding hash32 plus dedicated authentication-proof bytes and their framing; VLAH includes its complete authenticated routing proof; MR includes signed root96 and frontier digests32 each",
+    "T": "all remaining serialized bytes, including vector/ID/adjacency data, MBB pruning witnesses and general control framing; T+A equals full VO; result records are included in T, not subtracted",
+    "result_only": "10*(4+4*D) bytes, IDs plus raw float32 vectors; no authentication or protocol headers"
+  },
+  "scale": "Current overall full-scale data: SIFT1M,NYTimes289761,GloVe1183514,DEEP1M. GloVe IVF/HNSW ADS newly calibrated >=95% and measured, replacing only this new experiment prefix mismatch.",
+  "ANNProof": "Raw measured T/A preserved; displayed T/A each multiplied by previously authorized VO factor2. Must label ANNProof* and explicitly state derived, not measured enlarged packets.",
+  "source_policy": "Reuse verified complete20x3 query sample groups for ANNProof,VLAH, and prior SIFT/NYTimes/DEEP ablations; MR fresh VOs+verification and old-length equality; GloVe IVF/HNSW fresh full-scale VOs+verification",
+  "mapping": "IVF-ADS=ablation variant1 Merkle+IVF; HNSW-ADS=variant2 Merkle+HNSW; no progressive quantization or verification-decoupled traversal",
+  "sample_note": "SIFT overall historically uses100 queries; this experiment uniformly uses first20 (100..119), so means/recalls need not equal old100-query overall means"
+}

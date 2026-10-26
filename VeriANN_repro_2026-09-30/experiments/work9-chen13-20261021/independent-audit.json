@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "dataset": "bigann10m",
+      "N": 100000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 51028881,
+        "opened_vectors": 98830,
+        "closed_subtrees": 21,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "bigann10m",
+      "N": 1000000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 487721037,
+        "opened_vectors": 943285,
+        "closed_subtrees": 839,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "bigann10m",
+      "N": 10000000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 4393288619,
+        "opened_vectors": 8468271,
+        "closed_subtrees": 21287,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "bigann10m",
+      "N": 500000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 249836835,
+        "opened_vectors": 483637,
+        "closed_subtrees": 207,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "bigann10m",
+      "N": 5000000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 2174033931,
+        "opened_vectors": 4181364,
+        "closed_subtrees": 14744,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "deep10m",
+      "N": 10000000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 3833360478,
+        "opened_vectors": 9872304,
+        "closed_subtrees": 1982,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "deep10m",
+      "N": 5000000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 1919500977,
+        "opened_vectors": 4942194,
+        "closed_subtrees": 1166,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "deep1m",
+      "N": 100000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 38810509,
+        "opened_vectors": 100000,
+        "closed_subtrees": 0,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "deep1m",
+      "N": 1000000,
+      "kind": "overall",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 1,
+        "query_id": 100,
+        "proof_bytes": 385394221,
+        "opened_vectors": 992799,
+        "closed_subtrees": 106,
+        "independent_exact_match": true
+      },
+      "samples": 360
+    },
+    {
+      "dataset": "deep1m",
+      "N": 500000,
+      "kind": "size",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 193924951,
+        "opened_vectors": 499634,
+        "closed_subtrees": 5,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "glove100",
+      "N": 1183514,
+      "kind": "overall",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 478264085,
+        "opened_vectors": 1183514,
+        "closed_subtrees": 0,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "nytimes256",
+      "N": 289761,
+      "kind": "overall",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 10,
+        "query_id": 100,
+        "proof_bytes": 297868461,
+        "opened_vectors": 289690,
+        "closed_subtrees": 2,
+        "independent_exact_match": true
+      },
+      "samples": 60
+    },
+    {
+      "dataset": "sift1m",
+      "N": 1000000,
+      "kind": "overall",
+      "snapshot_valid": true,
+      "proof": {
+        "k": 1,
+        "query_id": 100,
+        "proof_bytes": 224442993,
+        "opened_vectors": 426288,
+        "closed_subtrees": 4191,
+        "independent_exact_match": true
+      },
+      "samples": 360
+    }
+  ],
+  "total_measured_samples": 1380,
+  "negative_cases": 207,
+  "shared_float32_ground_truth_agreement": true,
+  "old_cells_preserved": 58429,
+  "new_baseline_cells_verified": 660,
+  "workbook_sha256": "a6118024231f1f4f9c59343366bb855426eed9e94481e0d7e18e9953c1186bf2"
+}

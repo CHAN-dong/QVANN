@@ -1,0 +1,21 @@
+{
+  "gates": 319055,
+  "degree_bits": 19,
+  "static_peak_rss_KiB": 2686164,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "sift1m",
+    "source": "bigann10m",
+    "N": 1000000,
+    "D": 128,
+    "M": 128,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 2048
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

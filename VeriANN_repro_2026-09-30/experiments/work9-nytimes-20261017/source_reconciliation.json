@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_sha256": "cb6fc4cb7538888b7ec573d4fc16e3dce418ec14ca1c9611415e96ab9d712a8e",
+  "archived_source_sha256": "cb6fc4cb7538888b7ec573d4fc16e3dce418ec14ca1c9611415e96ab9d712a8e",
+  "changed_original_values": 0,
+  "changed_original_styles": 0,
+  "reason": "Current workbook hash differs from last writer marker, but every nonempty original cell value/style/number format matches; archived before replacement."
+}

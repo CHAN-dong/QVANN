@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-quantization-20261023/quantization_probe",
+    "--dataset",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/glove100",
+    "--base",
+    "1183514",
+    "--M",
+    "16",
+    "--ef-construction",
+    "200",
+    "--cache",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache",
+    "--output",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-quantization-20261023/glove100",
+    "--queries",
+    "20",
+    "--query-offset",
+    "100",
+    "--repeats",
+    "3",
+    "--build-threads",
+    "1",
+    "--k",
+    "10",
+    "--ef-search",
+    "1536"
+  ],
+  "binary_sha256": "88affe7736174cc75bf798f11ba340360dc0675a4b72d9baf831d2d8fe941492",
+  "graph_sha256": "50456df5b44edb3447df69e6ee0c587037f1b042b3431a442dab99002bcb9722"
+}

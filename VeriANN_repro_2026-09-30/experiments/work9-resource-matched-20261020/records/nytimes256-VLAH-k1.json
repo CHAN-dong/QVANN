@@ -1,0 +1,17 @@
+{
+  "k": 1,
+  "ef": 400,
+  "probes": 6,
+  "recall": 0.65,
+  "query_ms": 115.7082472,
+  "verify_ms": 216.69546196666667,
+  "vo_kb": 57438.2367,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/VLAH/nytimes256-289761-k1-e400",
+  "csv_sha256": "9717be34fc039322eb6f6afc93ebfbfb331ea02532290a3835cd54f569b5f70a",
+  "dataset": "nytimes256",
+  "method": "VLAH",
+  "kind": "k",
+  "N": 289761
+}

@@ -1,0 +1,1 @@
+All variants fully verified, exact shared trace/refinement, negative tests rejected.

@@ -1,0 +1,427 @@
+{
+  "dataset": "sift1m",
+  "method": "VLAH",
+  "kind": "curve",
+  "points": [
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 1,
+      "recall": 0.38,
+      "query_ms": 1.3439224833333332,
+      "verify_ms": 3.5525588333333333,
+      "vo_kb": 561.1591,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.2,
+      "selection": {
+        "ef": 100,
+        "probes": 1,
+        "recall": 0.38,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 1,
+      "recall": 0.38,
+      "query_ms": 1.3439224833333332,
+      "verify_ms": 3.5525588333333333,
+      "vo_kb": 561.1591,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.3,
+      "selection": {
+        "ef": 100,
+        "probes": 1,
+        "recall": 0.38,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 2,
+      "recall": 0.425,
+      "query_ms": 2.7165707,
+      "verify_ms": 7.155118483333334,
+      "vo_kb": 1128.9626,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.4,
+      "selection": {
+        "ef": 100,
+        "probes": 2,
+        "recall": 0.425,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 2,
+      "recall": 0.425,
+      "query_ms": 2.7165707,
+      "verify_ms": 7.155118483333334,
+      "vo_kb": 1128.9626,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.405,
+      "selection": {
+        "ef": 100,
+        "probes": 2,
+        "recall": 0.425,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 3,
+      "recall": 0.505,
+      "query_ms": 4.053067833333333,
+      "verify_ms": 10.8073846,
+      "vo_kb": 1704.33865,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.5,
+      "selection": {
+        "ef": 100,
+        "probes": 3,
+        "recall": 0.505,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 5,
+      "recall": 0.55,
+      "query_ms": 6.9410392,
+      "verify_ms": 18.108825333333336,
+      "vo_kb": 2823.3977,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.55,
+      "selection": {
+        "ef": 100,
+        "probes": 5,
+        "recall": 0.55,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 6,
+      "recall": 0.61,
+      "query_ms": 8.357952033333333,
+      "verify_ms": 21.7666778,
+      "vo_kb": 3409.7624,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.58,
+      "selection": {
+        "ef": 100,
+        "probes": 6,
+        "recall": 0.61,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 6,
+      "recall": 0.61,
+      "query_ms": 8.357952033333333,
+      "verify_ms": 21.7666778,
+      "vo_kb": 3409.7624,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.6,
+      "selection": {
+        "ef": 100,
+        "probes": 6,
+        "recall": 0.61,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 8,
+      "recall": 0.6549999999999999,
+      "query_ms": 11.120150416666666,
+      "verify_ms": 29.39591155,
+      "vo_kb": 4546.566599999999,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.65,
+      "selection": {
+        "ef": 100,
+        "probes": 8,
+        "recall": 0.655,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 11,
+      "recall": 0.715,
+      "query_ms": 15.395179866666666,
+      "verify_ms": 40.73323235,
+      "vo_kb": 6290.2312,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.7,
+      "selection": {
+        "ef": 100,
+        "probes": 11,
+        "recall": 0.715,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 11,
+      "recall": 0.715,
+      "query_ms": 15.395179866666666,
+      "verify_ms": 40.73323235,
+      "vo_kb": 6290.2312,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.705,
+      "selection": {
+        "ef": 100,
+        "probes": 11,
+        "recall": 0.715,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 13,
+      "recall": 0.76,
+      "query_ms": 18.16419966666667,
+      "verify_ms": 48.12635671666667,
+      "vo_kb": 7457.5601,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.75,
+      "selection": {
+        "ef": 100,
+        "probes": 13,
+        "recall": 0.76,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 14,
+      "recall": 0.785,
+      "query_ms": 19.606926166666668,
+      "verify_ms": 51.99301416666666,
+      "vo_kb": 8015.54685,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.78,
+      "selection": {
+        "ef": 100,
+        "probes": 14,
+        "recall": 0.7849999999999999,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 16,
+      "recall": 0.8,
+      "query_ms": 22.281716666666668,
+      "verify_ms": 59.48896041666667,
+      "vo_kb": 9150.6908,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.8,
+      "selection": {
+        "ef": 100,
+        "probes": 16,
+        "recall": 0.8,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 22,
+      "recall": 0.855,
+      "query_ms": 30.596788166666666,
+      "verify_ms": 81.20269065000001,
+      "vo_kb": 12501.898,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.85,
+      "selection": {
+        "ef": 100,
+        "probes": 22,
+        "recall": 0.8550000000000001,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 27,
+      "recall": 0.925,
+      "query_ms": 37.5916012,
+      "verify_ms": 99.50447841666667,
+      "vo_kb": 15228.193449999999,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.9,
+      "selection": {
+        "ef": 100,
+        "probes": 27,
+        "recall": 0.925,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 28,
+      "recall": 0.95,
+      "query_ms": 39.48876018333333,
+      "verify_ms": 103.19992253333334,
+      "vo_kb": 15799.4199,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.95,
+      "selection": {
+        "ef": 100,
+        "probes": 28,
+        "recall": 0.95,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 31,
+      "recall": 0.975,
+      "query_ms": 43.31901946666667,
+      "verify_ms": 113.01735463333333,
+      "vo_kb": 17345.64565,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.97,
+      "selection": {
+        "ef": 100,
+        "probes": 31,
+        "recall": 0.975,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 36,
+      "recall": 0.98,
+      "query_ms": 50.526808566666666,
+      "verify_ms": 129.30430644999998,
+      "vo_kb": 19822.61105,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.98,
+      "selection": {
+        "ef": 100,
+        "probes": 36,
+        "recall": 0.9800000000000001,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 42,
+      "recall": 0.99,
+      "query_ms": 60.772358100000005,
+      "verify_ms": 147.38782465,
+      "vo_kb": 22525.074350000003,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/VLAH/sift1m-1000000-curve-e100",
+      "csv_sha256": "7b62c4155628c7e3efcb6628b82477283ece53782ce524f24e148380c9b54982",
+      "target": 0.99,
+      "selection": {
+        "ef": 100,
+        "probes": 42,
+        "recall": 0.99,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/VLAH-pilot-1000000-resource-phase0"
+      }
+    }
+  ]
+}

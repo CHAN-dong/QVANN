@@ -1,0 +1,10 @@
+[
+  {
+    "ef": 100,
+    "probes": 24,
+    "recall": 0.9550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/VLAH-pilot-500000-ef100",
+    "target": 0.95
+  }
+]

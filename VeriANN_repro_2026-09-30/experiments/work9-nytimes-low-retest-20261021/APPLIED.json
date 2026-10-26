@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "cells_written": 54,
+  "unrelated_values_preserved": 87128,
+  "points": [
+    {
+      "ef": 26,
+      "target": 0.4,
+      "recall": 0.4,
+      "query_ms": 0.7181985,
+      "vo_kb": 353.31059999999997,
+      "verify_ms": 3.691494366666667,
+      "samples": 60
+    },
+    {
+      "ef": 51,
+      "target": 0.45,
+      "recall": 0.45,
+      "query_ms": 1.1067795999999999,
+      "vo_kb": 538.3504,
+      "verify_ms": 5.499685299999999,
+      "samples": 60
+    },
+    {
+      "ef": 80,
+      "target": 0.5,
+      "recall": 0.52,
+      "query_ms": 1.6322260666666668,
+      "vo_kb": 772.0813999999999,
+      "verify_ms": 7.815316566666667,
+      "samples": 60
+    },
+    {
+      "ef": 114,
+      "target": 0.55,
+      "recall": 0.5549999999999999,
+      "query_ms": 2.274746,
+      "vo_kb": 1007.3148,
+      "verify_ms": 10.228914283333333,
+      "samples": 60
+    }
+  ],
+  "workbook_sha256": "7c6e3f830175a5125c7eec148ab035cb9dedb16677e7bf474f1ba2204ab196a0",
+  "backup_sha256": "e754350da392e246a2e7ba07e90967cae162430c215e8e941cf1731739ea58b5",
+  "raw_csv_sha256": "671746f343c600eab2eb8ae8cf5b5099a651bcfe8b4299948fa00a8b02d43a2f"
+}

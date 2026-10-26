@@ -1,0 +1,1 @@
+Native invocation completed; additional row/proof checks are performed before aggregation.

@@ -1,0 +1,2 @@
+leaf_budget,recall,avg_tree_records,avg_internal_expanded,avg_leaf_candidates,routing_parameters,huffman_models,huffman_coarse_codes,huffman_tree_codes,group_metadata,fine_metadata,coarse_proofs,tree_proofs,fine_proofs,routing_total,leaf_total,total_vo,baseline_huffman_total,vo_reduction_vs_baseline,ann_query_ms,baseline_query_ms,violations
+3000,0.9398,7219.6,3529.8,3000.47,50660,2048,49425.75,163351.97,11200,5120,3831.04,68472.64,38637.76,392763.16,202773.29,595536.45,654989.43125,0.0907693749142,5.00770825,3.92996035,0

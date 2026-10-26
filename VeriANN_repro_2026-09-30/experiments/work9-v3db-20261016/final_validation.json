@@ -1,0 +1,13 @@
+{
+  "original_nonempty_cells_preserved": 21756,
+  "workbook_sha256": "f0b76bc8f8af81d950025aacb477769ecf9c0353491169ba67a5826ef258095f",
+  "new_cells": 428,
+  "pending_cells": 210,
+  "resource_limited_cells": 57,
+  "unreachable_target_cells": 18,
+  "passed_20x3_workpoints": [],
+  "resource_limited_workpoints": 4,
+  "all_requested_numeric_measurements_complete": false,
+  "planned_runner_finished": false,
+  "note": "Resource/target limitations are explicit statuses, not numerical measurements."
+}

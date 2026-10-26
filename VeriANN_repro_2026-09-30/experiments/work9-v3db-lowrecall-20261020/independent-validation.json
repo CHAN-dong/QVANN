@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "all planned low-recall experiments",
+  "proof_points_checked": 25,
+  "v3db_curve_metric_cells_checked": 240,
+  "non_curve_cells_unchanged": 6896,
+  "original_baseline_high_recall_curve_cells_preserved": 792,
+  "delivered": true,
+  "all_jobs_finished": true
+}

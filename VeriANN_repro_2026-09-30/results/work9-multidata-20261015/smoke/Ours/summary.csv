@@ -1,0 +1,2 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+VeriANN-LUT,10,64,1,300,0.951284,0.947558,1.12014,0.977284,3.17805,4.01423,1.83171,1.31305,326.742,416.543,0.986,0.99,1,16.0614,41.4827,39.8105,262048,21.6406

@@ -1,0 +1,19 @@
+{
+  "status": "planned_jobs_for_listed_datasets_executed",
+  "datasets": [
+    "nytimes256"
+  ],
+  "protocol": {
+    "sampling": "20x3",
+    "query_offset": 100,
+    "repeats": 3,
+    "search_threads": 1,
+    "proof_threads": "1",
+    "gate_preflight_max": 2000000,
+    "datasets": [
+      "nytimes256"
+    ],
+    "immutable_author_commit": "a82ac732828591bd49b83d8f31c56fa4bd1cd9b2",
+    "adapter_patch": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-adapter.patch"
+  }
+}

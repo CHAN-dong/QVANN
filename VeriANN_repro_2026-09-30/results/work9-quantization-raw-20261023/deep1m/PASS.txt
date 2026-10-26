@@ -1,0 +1,1 @@
+Raw disclosure with fixed SQ4 top-1 traversal;60 authenticated queries passed.

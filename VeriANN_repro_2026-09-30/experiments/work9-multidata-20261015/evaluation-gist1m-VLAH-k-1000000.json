@@ -1,0 +1,24 @@
+{
+  "dataset": "gist1m",
+  "method": "VLAH",
+  "base": 1000000,
+  "purpose": "k",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/VLAH-k-1000000",
+  "selection": [
+    {
+      "ef": 100,
+      "probes": 48,
+      "recall": 0.95,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/VLAH-pilot-1000000-ef100",
+      "target": 0.95
+    }
+  ],
+  "width": 0.46715420226885673,
+  "M": 16,
+  "ef_construction": 200,
+  "query_count": 20,
+  "query_offset": 100,
+  "repeats": 3,
+  "measurement_scope": "20-query quick preview"
+}

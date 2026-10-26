@@ -1,0 +1,195 @@
+{
+  "dataset": "deep1m",
+  "method": "ANNProof",
+  "points": [
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.15,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.2,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.25,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.3,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.35,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.4,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.45,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.5,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.7100000000000001,
+      "query_ms": 1.04057065,
+      "verify_ms": 5.2007129999999995,
+      "vo_kb": 386.5978,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/deep1m/ANNProof/deep1m-1000000-low-all",
+      "csv_sha256": "a8a48ec68f529a139bb6643cc1984221eea8601a079ff9111e052ed3d29673b6",
+      "target": 0.55,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.71,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/deep1m/ANNProof-pilot-1000000-resource-phase0-a7e2488e41"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scripts/prepare_openai_arxiv_20261024.py": "b2eb86a1a1976e411848dfb03af2cb08116ff7421efaff454ba1b3a306457652",
+  "scripts/run_openai_arxiv_20261024.py": "6e4bf3dc1f75265db9c8e421265fb1f23a198c77964d9fddfc9cc081eb7b846f",
+  "scripts/audit_openai_arxiv_20261024.py": "57065c2237380cc8e47a7910088f887ac204a9842256540a68d052c54b818922",
+  "scripts/tune_v3db_openai_arxiv_20261024.py": "60d34ac939ac05d82bf55d01ec412cb68cdec92eb0d3ebeae08b4003e6637f76",
+  "scripts/report_openai_arxiv_20261024.py": "487c3bb2f6a0239bfa4b3b5eb151553116488cc52d49e8258a71df6e82960de4",
+  "build/veriann_lut_benchmark.cpp": "5d5c39d871d46ee88d4e8164463bb9c79fe99686abd34aaa7dec85e8b768b077",
+  "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+  "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+  "src/veriann_query_lut.hpp": "fccc86d3ac5d9391f06131594b6512062db649655be49dc0e2e4ac056ec9d96d",
+  "src/experiments/work9_ablation.cpp": "dfbf8ac27e06528ee92a2b48ae1965149b467120957a6833598a670de75f083c",
+  "ANNProof-24FGCS/annproof.cpp": "8f0dfa4ca43abe86901041894eb3a566f24555829a36eadf226d67277f4cb935",
+  "VLAH-25TrustCom/vlah.cpp": "850fbcc8cfd603282d3249920850c384f9ef6f5435919f6957d188b2029f5439",
+  "Chen13-MR/mr.cpp": "08847d2e2af25d3bb593885f37cde46bdfa6d84f9aaa2d7fb5679a83059390c3",
+  "experiments/openai-arxiv-20261024/index-build/ANNProof.cpp": "0d9c3c4f4c21a2c5f1cc33990fb341120dee775fc780a7b3b4594140fa6bfd2f",
+  "experiments/openai-arxiv-20261024/index-build/Ours.cpp": "145211d2e8bf57d3e2c844a606dcc0ed0b3a6555f88b6b55b90ecddae69ad9e8",
+  "experiments/openai-arxiv-20261024/index-build/VLAH.cpp": "72a3ac5359230c2dbb0dd6393d3b5178f689982e914b19694102d6b38bade45c"
+}

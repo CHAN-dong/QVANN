@@ -1,0 +1,2 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+VeriANN-optimized,10,128,1,300,1.25616,1.29592,1.50671,3.22616,6.85267,9.87518,3.56196,3.21847,230.489,312.469,0.954,0.98,1,2187.86,8377.07,4744.81,268435360,1070.14

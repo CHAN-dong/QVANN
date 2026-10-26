@@ -1,0 +1,26 @@
+{
+  "method": "V3DB",
+  "model": "openai_arxiv1m-1000000-M256",
+  "kind": "index",
+  "status": "measured",
+  "index_mb": 1047.747382,
+  "index_seconds": 308.4992014389991,
+  "training_seconds": 216.9063676299993,
+  "authentication_build_seconds": 91.59283380899979,
+  "threads": "coarse16; PQ8 workers x1; snapshot/proofs1",
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/openai_arxiv1m-1000000-M256/model.json",
+  "source_sha256": "c3012662259631134c2b74d05360d973261acf3e26068de304397eac9c047a47",
+  "snapshot_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/openai_arxiv1m-1000000-M256/snapshot.json",
+  "snapshot_source_sha256": "cddf2ee55c038125f7381dfe1cc65017bc1cdc28a2c082b2211a63a34274b075",
+  "serving_files": {
+    "search.snapshot": {
+      "bytes": 1047738658,
+      "sha256": "4dc492a7ec1895a49f86e433b66feb6488eaef967349227cf232b2dfed482764"
+    },
+    "auth.snapshot": {
+      "bytes": 8724,
+      "sha256": "79838de742de44c83c588489d23f2d01fb2263b652e9287fa488c15170991fd6"
+    }
+  },
+  "scope": "Actual fresh author-compatible model training and Merkle snapshot construction, excludes query circuits/proofs. Offline thread counts differ from ADS8-thread builds; report explicitly."
+}

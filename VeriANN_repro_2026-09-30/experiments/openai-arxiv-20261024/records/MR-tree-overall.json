@@ -1,0 +1,14 @@
+{
+  "method": "MR-tree",
+  "kind": "overall",
+  "status": "measured",
+  "recall": 1.0,
+  "query_ms": 4250.051704766667,
+  "vo_kb": 6148103.949,
+  "verify_ms": 5335.38842685,
+  "samples": 60,
+  "index_mb": 6404.673224,
+  "index_seconds": 8.351146231000001,
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/measurements/MR-tree/samples.csv",
+  "source_sha256": "6499fa89e7f66cc97929a185fb72c01a7d490c690a85a27650605d7b06aafdeb"
+}

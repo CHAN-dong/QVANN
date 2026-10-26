@@ -1,0 +1,365 @@
+{
+  "python": "3.12.15 (main, Oct 14 2026, 01:05:27) [Clang 23.1.3 ]",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "author_commit": "a82ac732828591bd49b83d8f31c56fa4bd1cd9b2",
+  "modified_rust_files": [
+    "src/lib.rs",
+    "src/ivf_pq_verify/proof.rs",
+    "src/utils/metrics.rs"
+  ],
+  "circuit_gadget_sources_unchanged": true,
+  "fingerprints": {
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-adapter.patch": {
+      "sha256": "a0a54d422a19399458edec78329458837d66fc84fcac5db650f55896b94af22e",
+      "bytes": 5566
+    },
+    "/root/.venvs/v3db-work9/lib/python3.12/site-packages/zk_IVF_PQ/zk_IVF_PQ.cpython-312-x86_64-linux-gnu.so": {
+      "sha256": "84e6304712b29dc4f0f93e096ede6d08ce70b0be5af9bf70fd34bff47d689611",
+      "bytes": 3919616
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_adapter_smoke.py": {
+      "sha256": "4f9e86497d3fd9d21c68f5d457b4468eb8c2784fdaec8e25e4e3daa9d5fc9bb8",
+      "bytes": 4954
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_calibrate.py": {
+      "sha256": "409a4110a9b5ba46bf7200f93298e487efbc461309aad1fbde5f7b72b40b7658",
+      "bytes": 12008
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_check_scaling.py": {
+      "sha256": "513d0a1522d5b3002f87ed5ef2e1c374b3c2d1fbf7d808e2b178d0ef8a5b4943",
+      "bytes": 981
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_fill.py": {
+      "sha256": "a04bcb7e04176493497e34586959ee93aaa6bb525cb5c5b8c2efc3060811e0be",
+      "bytes": 15232
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_fingerprint.py": {
+      "sha256": "093f77b7dcc41d6ab2e64f6799ee728cba5cc7680bdad13844a456c13070dde8",
+      "bytes": 1753
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_gate_audit.py": {
+      "sha256": "5dc55204dbb1b9c71d27609a1cc6f34bf77af73d0fc99405d2d9346da2c1d9cb",
+      "bytes": 562
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_inventory.py": {
+      "sha256": "7e937b41bd4b7d4952546dd4fe267e8e32a21c2d9cb37caa2ef5e452d837fe1e",
+      "bytes": 1208
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_measure.py": {
+      "sha256": "426716dd48ddb83297a09916e71fb7c3474378991c56830d5d6b06913cc2e51f",
+      "bytes": 10975
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_run_all.py": {
+      "sha256": "7972aefe5f8e0c205e5d0ccc24b3a7350af238dc36d59efd9db0e36c42b32de2",
+      "bytes": 5892
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_tune.py": {
+      "sha256": "692c3ee363b6800a17b16fdd122ab80064aecce81e94abd12720ebbebf9c8619",
+      "bytes": 2619
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/work9_verify.py": {
+      "sha256": "2ef6b863a2c5196297b184b64a5f32dbfe93280e3e52a3e51ebf4c016e52fc61",
+      "bytes": 3137
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/scripts/build_work9_adapter.py": {
+      "sha256": "199bebfb81be4e580ee73a13a44f2ee9bbac47b0c69a83c9218c4269a2d75926",
+      "bytes": 5484
+    },
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-author/Cargo.lock": {
+      "sha256": "99a02b2aa9df233cc09d79d17970c446947e519262cf22658f6dc5d079b6e1ca",
+      "bytes": 26799
+    }
+  },
+  "input_provenance": {
+    "sift1m": {
+      "url": "https://ann-benchmarks.com/sift-128-euclidean.hdf5",
+      "source_sha256": "dd6f0a6ed6b7ebb8934680f861a33ed01ff33991eaee4fd60914d854a0ca5984",
+      "train": {
+        "shape": [
+          1000000,
+          128
+        ],
+        "sha256": "21f66e2975057b5728ba56de1c825bac4f4d89d596609ae985741c6242631816",
+        "bytes": 516000000
+      },
+      "test": {
+        "shape": [
+          10000,
+          128
+        ],
+        "sha256": "f7fc9be140accdfd64116c2fa2365ecdb69b8f084970c6b0532db5ff79ac8fdc",
+        "bytes": 5160000
+      },
+      "neighbors": {
+        "shape": [
+          10000,
+          100
+        ],
+        "sha256": "75571702a3e995a67479418940df669952e89d9ad99bc8539c2ba0c6365480af",
+        "bytes": 4040000
+      },
+      "sift_base.fvecs_matches_packaged_prefix": true,
+      "sift_query.fvecs_matches_packaged_prefix": true
+    },
+    "gist1m": {
+      "name": "gist1m",
+      "source": {
+        "url": "https://ann-benchmarks.com/gist-960-euclidean.hdf5",
+        "bytes": 3844648288,
+        "remote_total_bytes": 3844648288,
+        "etag": "\"34da1d8a80764582ee4b0c0839b7c32a-459\"",
+        "sha256": "8e95831936bfdbfa0a56086942e2cf98cd703517c67f985914183eb4cdbf026a",
+        "requested_range": "bytes=0-3844648287",
+        "http_ranges_verified": true,
+        "range_query_cache_keys": false
+      },
+      "metric": "squared L2",
+      "original_metric": "euclidean",
+      "normalized": false,
+      "benchmark_metric_argument": "l2",
+      "files": {
+        "train": {
+          "file": "base.fvecs",
+          "shape": [
+            1000000,
+            960
+          ],
+          "bytes": 3844000000,
+          "sha256": "73418110328f5aa522d9f6b0cd9115a6c515dc44e3c48420e506ddeddbdbdbc0",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        },
+        "test": {
+          "file": "query.fvecs",
+          "shape": [
+            1000,
+            960
+          ],
+          "bytes": 3844000,
+          "sha256": "0d1d620049de12da455ed7201e97cbab372c4d54d0e6dedbc8c503f62c911299",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        },
+        "neighbors": {
+          "file": "groundtruth.ivecs",
+          "shape": [
+            1000,
+            100
+          ],
+          "bytes": 404000,
+          "sha256": "339232f719adc65deb34346e733a822966ddbf2183232e1a33182c5177d508af",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        }
+      },
+      "hdf5_attributes": {
+        "distance": "euclidean"
+      },
+      "ground_truth": "Provided top-100 IDs for the full source base. Recompute if using a smaller base subset; angular ranking is represented through normalization.",
+      "legacy_aliases": "sift_base/query.fvecs are hard links for existing loader compatibility; the contents are this named dataset, not SIFT.",
+      "status": "PASS"
+    },
+    "glove100": {
+      "name": "glove100",
+      "source": {
+        "url": "https://ann-benchmarks.com/glove-100-angular.hdf5",
+        "bytes": 485413888,
+        "remote_total_bytes": 485413888,
+        "etag": "\"9ef1a69a639809d4ae43efd5e6707fa1-58\"",
+        "sha256": "544af1d5e84e112cd4749571dcfd8ca109818a572f850af75a3a09e093a953c4",
+        "requested_range": "bytes=0-485413887",
+        "http_ranges_verified": true,
+        "range_query_cache_keys": false
+      },
+      "metric": "cosine via unit-normalized squared L2",
+      "original_metric": "angular/cosine",
+      "normalized": true,
+      "benchmark_metric_argument": "l2",
+      "files": {
+        "train": {
+          "file": "base.fvecs",
+          "shape": [
+            1183514,
+            100
+          ],
+          "bytes": 478139656,
+          "sha256": "07a5c636953d9c71d057f6f430d53d8edb072e697eabb4fd4a1e57bb2e0e4dcb",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        },
+        "test": {
+          "file": "query.fvecs",
+          "shape": [
+            10000,
+            100
+          ],
+          "bytes": 4040000,
+          "sha256": "1fe499c8e1c81a828f61e84efd3205391081b91f0711e611c7ae66bc1a59bdfa",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        },
+        "neighbors": {
+          "file": "groundtruth.ivecs",
+          "shape": [
+            10000,
+            100
+          ],
+          "bytes": 4040000,
+          "sha256": "9f9723a455b26db1378ae4c0b9e4389665a9b8769c4287630eaa6cc350f199eb",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        }
+      },
+      "hdf5_attributes": {
+        "distance": "angular"
+      },
+      "ground_truth": "Provided top-100 IDs for the full source base. Recompute if using a smaller base subset; angular ranking is represented through normalization.",
+      "legacy_aliases": "sift_base/query.fvecs are hard links for existing loader compatibility; the contents are this named dataset, not SIFT.",
+      "status": "PASS"
+    },
+    "deep1m": {
+      "name": "deep1m",
+      "family": "Official Yandex DEEP1B prefix",
+      "metric": "squared L2",
+      "normalized": false,
+      "benchmark_metric_argument": "l2",
+      "files": {
+        "train": {
+          "file": "base.fvecs",
+          "shape": [
+            1000000,
+            96
+          ],
+          "bytes": 388000000,
+          "sha256": "4f418cbd3d87183ad2965fbf85b921c16b3702e973ad585edc4c791380abde90",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        },
+        "test": {
+          "file": "query.fvecs",
+          "shape": [
+            10000,
+            96
+          ],
+          "bytes": 3880000,
+          "sha256": "0359efc4a332e6f79ebeade7665aa314e10b122fea1d54b3878f97c9bb5ba574",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        }
+      },
+      "sources": {
+        "train": {
+          "url": "https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/base.1B.fbin",
+          "bytes": 384000008,
+          "remote_total_bytes": 384000000008,
+          "etag": "\"ed22edcea08640670973dde650b852b9-5723\"",
+          "sha256": "1c5169a4eb8dd860727f47ca641e48f06a2253b7a235ecf4cbde7dda3ec893c3",
+          "requested_range": "bytes=0-384000007",
+          "http_ranges_verified": true,
+          "range_query_cache_keys": true,
+          "declared_count": 1000000000,
+          "used_count": 1000000,
+          "dimension": 96
+        },
+        "test": {
+          "url": "https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/query.public.10K.fbin",
+          "bytes": 3840008,
+          "remote_total_bytes": 3840008,
+          "etag": "\"369d06140c8db325bdb62d621dfa2a67\"",
+          "sha256": "8438fc763f14e0f9741fda15b3e11215aef089ce17d1ad47d53b52a7c9fda5bb",
+          "requested_range": "bytes=0-3840007",
+          "http_ranges_verified": true,
+          "range_query_cache_keys": true,
+          "declared_count": 10000,
+          "used_count": 10000,
+          "dimension": 96
+        }
+      },
+      "ground_truth": "Not supplied for the 1M prefix. Existing benchmark computes exact ground truth for the requested queries and base size. Do not use 1B/10M ground truth for this 1M subset.",
+      "scaling": "To extend to N rows, fetch bytes 0..(8+N*96*4-1) from the same base.1B.fbin; preserve query IDs and recompute exact neighbors for N.",
+      "legacy_aliases": "sift_base/query.fvecs are hard links for existing loader compatibility; the contents are this named dataset, not SIFT.",
+      "status": "PASS"
+    },
+    "bigann10m": {
+      "family": "BIGANN / SIFT1B prefix, distinct from SIFT1M",
+      "base_url": "https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/bigann/base.1B.u8bin",
+      "query_url": "https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/bigann/query.public.10K.u8bin",
+      "requested_range": "bytes=0-1280000007",
+      "sift_base.fvecs": {
+        "declared_source_count": 1000000000,
+        "used_count": 10000000,
+        "dimension": 128,
+        "source_sha256": "24f9c72cb7cf4cb388a2e6e2eeb939f671739be16e84edc9b3b52813063c918f",
+        "converted_sha256": "4e4a922227c4f5f57e183a9900851b79a61998820387c1d9eacfcba00c921213",
+        "converted_bytes": 5160000000
+      },
+      "sift_query.fvecs": {
+        "declared_source_count": 10000,
+        "used_count": 10000,
+        "dimension": 128,
+        "source_sha256": "eca755831fc9a8004e14886df48b81109a8ed3bfc6b632509c93c0460a30d552",
+        "converted_sha256": "4e686785082f56916a6422b120ad4c54b4110701195c17fa582391156bcb32cc",
+        "converted_bytes": 5160000
+      }
+    },
+    "deep10m": {
+      "name": "deep10m",
+      "family": "Official Yandex DEEP1B first 10M",
+      "metric": "squared L2",
+      "normalized": false,
+      "benchmark_metric_argument": "l2",
+      "files": {
+        "train": {
+          "file": "base.fvecs",
+          "shape": [
+            10000000,
+            96
+          ],
+          "bytes": 3880000000,
+          "sha256": "0dfb9964f2c4059f5e9f359bd67ebe474f8260675205e8273e9775b2da210a0a",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        },
+        "test": {
+          "file": "query.fvecs",
+          "shape": [
+            10000,
+            96
+          ],
+          "bytes": 3880000,
+          "sha256": "0359efc4a332e6f79ebeade7665aa314e10b122fea1d54b3878f97c9bb5ba574",
+          "all_row_headers_verified": true,
+          "source_sample_rows_verified": 31
+        }
+      },
+      "sources": {
+        "train": {
+          "url": "https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/base.1B.fbin",
+          "bytes": 3840000008,
+          "remote_total_bytes": 384000000008,
+          "etag": "\"ed22edcea08640670973dde650b852b9-5723\"",
+          "sha256": "4c0321f45905a25a5a95329e3a7c606315cbe00bbfbe0bcda06cd9fc2e9c0d93",
+          "requested_range": "bytes=0-3840000007",
+          "http_ranges_verified": true,
+          "range_query_cache_keys": true
+        },
+        "test": {
+          "url": "https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/query.public.10K.fbin",
+          "bytes": 3840008,
+          "remote_total_bytes": 3840008,
+          "etag": "\"369d06140c8db325bdb62d621dfa2a67\"",
+          "sha256": "8438fc763f14e0f9741fda15b3e11215aef089ce17d1ad47d53b52a7c9fda5bb",
+          "requested_range": "bytes=0-3840007",
+          "http_ranges_verified": true,
+          "range_query_cache_keys": true,
+          "declared_count": 10000,
+          "used_count": 10000,
+          "dimension": 96
+        }
+      },
+      "ground_truth": "Computed exactly by each benchmark for N=5M/10M and the same selected query IDs. Never reuse 1M neighbors.",
+      "legacy_aliases": "sift_base/query.fvecs are hard links for existing loader compatibility; the contents are this named dataset, not SIFT.",
+      "status": "PASS"
+    }
+  }
+}

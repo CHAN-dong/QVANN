@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "paired_answer_comparisons": 5,
+  "tamper_tests": 26,
+  "summary": [
+    {
+      "variant": 5,
+      "name": "(i)+(ii)",
+      "recall": 1.0,
+      "query_ms": 0.9164386,
+      "search_ms": 0.458512,
+      "vo_generation_ms": 0.4579266000000001,
+      "verify_ms": 2.0863564,
+      "authentication_ms": 1.627583,
+      "replay_ms": 0.40187340000000005,
+      "vo_kb": 100.084,
+      "parameter": 64,
+      "visited": 434.8,
+      "expanded": 64.0,
+      "samples": 5,
+      "tamper_tests": 13,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/sift1m/smoke-5-6/variant-5",
+      "source_sha256": "7e55146a10007f14dbc3d99cbf3a461b2058b6e9906db7af6927050cb6821144"
+    },
+    {
+      "variant": 6,
+      "name": "(i)+(ii)+(iii)",
+      "recall": 1.0,
+      "query_ms": 0.5907802,
+      "search_ms": 0.3882044,
+      "vo_generation_ms": 0.20257579999999997,
+      "verify_ms": 1.2426922,
+      "authentication_ms": 0.7562371999999999,
+      "replay_ms": 0.4550658,
+      "vo_kb": 61.124,
+      "parameter": 64,
+      "visited": 434.8,
+      "expanded": 64.0,
+      "samples": 5,
+      "tamper_tests": 13,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/sift1m/smoke-5-6/variant-6",
+      "source_sha256": "3bbf875db2b0c5a281784ed46048d4488deff3add7cbfd350c5085374de501bb"
+    }
+  ]
+}

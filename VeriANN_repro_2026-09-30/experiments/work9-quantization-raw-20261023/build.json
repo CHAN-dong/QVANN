@@ -1,0 +1,31 @@
+{
+  "command": [
+    "g++",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-quantization-20261023",
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++17",
+    "-fopenmp",
+    "-Wall",
+    "-Wextra",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/src",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD/include",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/upstream/source/similarity_search/include",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/scripts/quantization_raw_disclosure_probe.cpp",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/upstream/source/similarity_search/src/Keccak256.cc",
+    "-o",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-quantization-raw-20261023/raw_probe",
+    "-L/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD",
+    "-L/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD/lib",
+    "-lfaiss",
+    "-l_lightgbm",
+    "-lcrypto",
+    "-lpthread",
+    "-ldl"
+  ],
+  "source_sha256": "c26ba6c68d7f37b04d5e21d5ddf8b211742fd8b8fb5562f7d0d2a25d1b71904c",
+  "original_include_sha256": "e03bdfb2cef9e4b7aeba83875b90ebbcbc7e0b960d3346076429ace34c37fc6b",
+  "binary_sha256": "ba3f23f0768ab979ac6e069290b9076ef31c3f6022960074fc39a65ace03a4bb"
+}

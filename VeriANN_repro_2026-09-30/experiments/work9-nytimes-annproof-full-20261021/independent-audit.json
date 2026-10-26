@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "distinct_measured_points": 41,
+  "samples": 2460,
+  "tamper_rejections": 40,
+  "default_recall_percent": 95,
+  "curve_graph": {
+    "M": 12,
+    "efc": 12
+  },
+  "coefficient_cells_verified": true,
+  "fresh_index_and_default_graph_identical": true,
+  "unrelated_values_preserved": 87365,
+  "curve_55_to_60": [
+    {
+      "23": 57.00000000000001,
+      "24": 4673.5776,
+      "38": 32.8654999,
+      "52": 6.336683399999999
+    },
+    {
+      "23": 61.5,
+      "24": 6474.5424,
+      "38": 45.865722875,
+      "52": 8.81913962
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++17",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/scripts/mr_vo_breakdown_probe.cpp",
+    "-lcrypto",
+    "-o",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-vo-breakdown-20261023/mr_breakdown"
+  ],
+  "source_sha256": "76bd1bd5fdf6e5a8cdabc40dd600065f863ba6825942b1e32bef136790d93102",
+  "original_mr_sha256": "08847d2e2af25d3bb593885f37cde46bdfa6d84f9aaa2d7fb5679a83059390c3",
+  "binary_sha256": "658749852d2535b63f6a17b05b716a9b6521add28de7ead36617605da1a1d6f3"
+}

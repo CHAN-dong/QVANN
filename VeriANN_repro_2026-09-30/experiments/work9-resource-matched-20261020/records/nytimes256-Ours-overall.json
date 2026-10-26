@@ -1,0 +1,25 @@
+{
+  "k": 10,
+  "ef": 15,
+  "probes": 1,
+  "recall": 0.5950000000000001,
+  "query_ms": 1.1624734333333335,
+  "verify_ms": 2.9460358166666665,
+  "vo_kb": 184.19420000000002,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+  "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+  "target": 0.58,
+  "selection": {
+    "ef": 15,
+    "probes": 1,
+    "recall": 0.595,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+  },
+  "dataset": "nytimes256",
+  "method": "Ours",
+  "kind": "overall",
+  "N": 289761
+}

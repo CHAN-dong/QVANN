@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Ablation study corresponding to Table4. OpenAI-ArXiv-1M ($d=1536$, $k=10$). Costs are raw measurements.}
+\label{tab:arxiv_table4}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Method & $R$ (\%) & $Q$ (ms) & VO (KB) & $V$ (ms) \\
+\midrule
+IVF-ADS & 96.00 & 7074.45 & 1483631.84 & 3734.29 \\
+IVF-ADS+(i) & 96.00 & 879.02 & 245395.19 & 2345.01 \\
+NSW-ADS & 97.00 & 255.03 & 57221.92 & 149.44 \\
+NSW-ADS+(i) & 97.00 & 170.37 & 38869.48 & 210.19 \\
+(i)+(ii) & 96.50 & 66.03 & 10863.31 & 113.83 \\
+QVANN & 96.50 & 56.03 & 9318.90 & 81.74 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

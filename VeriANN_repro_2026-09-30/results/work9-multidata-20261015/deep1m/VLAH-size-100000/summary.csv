@@ -1,0 +1,2 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+VLAH-algorithmic,10,100,5,60,2.71141,2.7297,3.36345,8.48283,30.6691,38.7095,27.8814,2.35251,4303.31,5483.71,1,1,1,415.927,182.301,68.5146,10485600,157.672

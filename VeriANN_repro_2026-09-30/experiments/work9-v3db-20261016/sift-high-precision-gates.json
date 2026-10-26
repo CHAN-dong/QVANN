@@ -1,0 +1,24 @@
+[
+  {
+    "dataset": "sift1m",
+    "N": 1000000,
+    "M": 128,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 2048,
+    "n_probe": 1,
+    "gates_before_build": 319055,
+    "role": "gate-only resource preflight; not proof/query timing"
+  },
+  {
+    "dataset": "sift1m",
+    "N": 1000000,
+    "M": 128,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 2048,
+    "n_probe": 2,
+    "gates_before_build": 582254,
+    "role": "gate-only resource preflight; not proof/query timing"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "gates": 564926,
+  "degree_bits": 20,
+  "static_peak_rss_KiB": 5244900,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "nytimes256",
+    "source": "nytimes256",
+    "N": 100000,
+    "D": 256,
+    "n_list": 512,
+    "M": 256,
+    "K": 256,
+    "n_iter": 25,
+    "seed": 0,
+    "capacity": 512,
+    "query_offset": 100,
+    "query_count": 20,
+    "scale": 65536,
+    "rebalance": "author algorithm with identical row-chunk distances"
+  },
+  "n_probe": 4,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

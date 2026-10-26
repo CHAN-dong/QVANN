@@ -1,0 +1,42 @@
+[
+  {
+    "variant": 5,
+    "name": "(i)+(ii)",
+    "recall": 0.955,
+    "query_ms": 80.80768321666666,
+    "search_ms": 23.715133316666666,
+    "vo_generation_ms": 57.0925499,
+    "verify_ms": 149.43179758333332,
+    "authentication_ms": 107.1955097,
+    "replay_ms": 38.704642899999996,
+    "vo_kb": 12971.3194,
+    "parameter": 768,
+    "visited": 9593.1,
+    "expanded": 768.0,
+    "samples": 60,
+    "tamper_tests": 13,
+    "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/gist1m/formal-5-6/variant-5",
+    "source_sha256": "56495b464875d372dd741111404656b355ba963ff9e9470e3a36e4ed88022d18",
+    "dataset": "gist1m"
+  },
+  {
+    "variant": 6,
+    "name": "(i)+(ii)+(iii)",
+    "recall": 0.955,
+    "query_ms": 67.74907505,
+    "search_ms": 23.764621066666667,
+    "vo_generation_ms": 43.98445398333333,
+    "verify_ms": 122.0687249,
+    "authentication_ms": 81.43952443333333,
+    "replay_ms": 38.821719349999995,
+    "vo_kb": 11243.758800000001,
+    "parameter": 768,
+    "visited": 9593.1,
+    "expanded": 768.0,
+    "samples": 60,
+    "tamper_tests": 13,
+    "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/gist1m/formal-5-6/variant-6",
+    "source_sha256": "4cdbe215e08550b9c274cbadffb4bfa963bb1de003800be57c0e09811b3c2f57",
+    "dataset": "gist1m"
+  }
+]

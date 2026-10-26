@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/Chen13-MR/mr",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/openai_arxiv1m/sift_base.fvecs",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/openai_arxiv1m/sift_query.fvecs",
+    "1000000",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/measurements/MR-tree",
+    "10",
+    "20",
+    "3",
+    "64"
+  ],
+  "binary_sha256": "d33dbac693f94b412b42c1db04807af8ab04cbab099e8508d24bc234dc2cb999",
+  "threads": 1,
+  "queries": 20,
+  "repeats": 3,
+  "query_offset": 100
+}

@@ -1,0 +1,37 @@
+{
+  "new_cells": 428,
+  "numeric_cells": 140,
+  "original_cells_preserved": 1980,
+  "original_updated": false,
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-v3db-20261016/work9_with_v3db.xlsx",
+  "statuses": {
+    "SIFT1M": {
+      "overall_probe": 16,
+      "calibrated": true,
+      "selected_model": "sift1m-1000000-M128-K1024",
+      "passed_workpoints": 1,
+      "resource_limited_workpoints": 10
+    },
+    "GIST1M": {
+      "overall_probe": 64,
+      "calibrated": true,
+      "selected_model": "gist1m-1000000-M960-K1024",
+      "passed_workpoints": 0,
+      "resource_limited_workpoints": 11
+    },
+    "GloVe-100": {
+      "overall_probe": 256,
+      "calibrated": true,
+      "selected_model": "glove100-1183514-M100-K1024",
+      "passed_workpoints": 0,
+      "resource_limited_workpoints": 11
+    },
+    "DEEP1M": {
+      "overall_probe": 16,
+      "calibrated": true,
+      "selected_model": "deep1m-1000000-M96-K1024",
+      "passed_workpoints": 0,
+      "resource_limited_workpoints": 1
+    }
+  }
+}

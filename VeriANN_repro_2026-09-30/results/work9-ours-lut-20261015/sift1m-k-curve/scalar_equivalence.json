@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "rows": 1800,
+  "unchanged_non_timing_columns": [
+    "query",
+    "repeat",
+    "k",
+    "ef_search",
+    "probes",
+    "vo_bytes",
+    "vo_kib",
+    "record_bytes",
+    "local_proof_bytes",
+    "route_proof_bytes",
+    "visited",
+    "expanded",
+    "buckets",
+    "recall_at_k",
+    "recall_at_1",
+    "kth_distance_ratio",
+    "verified"
+  ],
+  "previous_output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-20261015/sift1m-k-curve",
+  "roots_identical": true
+}

@@ -1,0 +1,262 @@
+{
+  "sift1m": {
+    "M": 128,
+    "K": 1024,
+    "model": "sift1m-1000000-M128-K1024",
+    "best_grid_recall10": 1.0,
+    "best_probe": 128,
+    "query_count": 20,
+    "repeats": 3,
+    "target": 0.99,
+    "trials": [
+      {
+        "M": 8,
+        "K": 256,
+        "model": "sift1m-1000000",
+        "best_grid_recall10": 0.43499999999999994,
+        "best_probe": 8
+      },
+      {
+        "M": 32,
+        "K": 256,
+        "model": "sift1m-1000000-M32",
+        "best_grid_recall10": 0.74,
+        "best_probe": 128
+      },
+      {
+        "M": 64,
+        "K": 256,
+        "model": "sift1m-1000000-M64",
+        "best_grid_recall10": 0.8899999999999999,
+        "best_probe": 64
+      },
+      {
+        "M": 128,
+        "K": 256,
+        "model": "sift1m-1000000-M128",
+        "best_grid_recall10": 0.985,
+        "best_probe": 128
+      },
+      {
+        "M": 128,
+        "K": 512,
+        "model": "sift1m-1000000-M128-K512",
+        "best_grid_recall10": 0.985,
+        "best_probe": 128
+      },
+      {
+        "M": 128,
+        "K": 1024,
+        "model": "sift1m-1000000-M128-K1024",
+        "best_grid_recall10": 1.0,
+        "best_probe": 128
+      }
+    ],
+    "policy": "smallest tested M reaching 99% somewhere in measured probe grid; otherwise highest measured recall; same-query tuning, not held-out"
+  },
+  "gist1m": {
+    "M": 960,
+    "K": 1024,
+    "model": "gist1m-1000000-M960-K1024",
+    "best_grid_recall10": 0.985,
+    "best_probe": 128,
+    "query_count": 20,
+    "repeats": 3,
+    "target": 0.99,
+    "trials": [
+      {
+        "M": 8,
+        "K": 256,
+        "model": "gist1m-1000000",
+        "best_grid_recall10": 0.11500000000000002,
+        "best_probe": 4
+      },
+      {
+        "M": 240,
+        "K": 256,
+        "model": "gist1m-1000000-M240",
+        "best_grid_recall10": 0.7800000000000001,
+        "best_probe": 32
+      },
+      {
+        "M": 480,
+        "K": 256,
+        "model": "gist1m-1000000-M480",
+        "best_grid_recall10": 0.915,
+        "best_probe": 128
+      },
+      {
+        "M": 960,
+        "K": 256,
+        "model": "gist1m-1000000-M960",
+        "best_grid_recall10": 0.9649999999999999,
+        "best_probe": 128
+      },
+      {
+        "M": 960,
+        "K": 512,
+        "model": "gist1m-1000000-M960-K512",
+        "best_grid_recall10": 0.975,
+        "best_probe": 128
+      },
+      {
+        "M": 960,
+        "K": 1024,
+        "model": "gist1m-1000000-M960-K1024",
+        "best_grid_recall10": 0.985,
+        "best_probe": 128
+      }
+    ],
+    "policy": "smallest tested M reaching 99% somewhere in measured probe grid; otherwise highest measured recall; same-query tuning, not held-out"
+  },
+  "glove100": {
+    "M": 100,
+    "K": 1024,
+    "model": "glove100-1183514-M100-K1024",
+    "best_grid_recall10": 0.9800000000000001,
+    "best_probe": 512,
+    "query_count": 20,
+    "repeats": 3,
+    "target": 0.99,
+    "trials": [
+      {
+        "M": 10,
+        "K": 256,
+        "model": "glove100-1183514",
+        "best_grid_recall10": 0.29000000000000004,
+        "best_probe": 128
+      },
+      {
+        "M": 25,
+        "K": 256,
+        "model": "glove100-1183514-M25",
+        "best_grid_recall10": 0.565,
+        "best_probe": 256
+      },
+      {
+        "M": 50,
+        "K": 256,
+        "model": "glove100-1183514-M50",
+        "best_grid_recall10": 0.8350000000000002,
+        "best_probe": 256
+      },
+      {
+        "M": 100,
+        "K": 256,
+        "model": "glove100-1183514-M100",
+        "best_grid_recall10": 0.93,
+        "best_probe": 512
+      },
+      {
+        "M": 100,
+        "K": 512,
+        "model": "glove100-1183514-M100-K512",
+        "best_grid_recall10": 0.96,
+        "best_probe": 512
+      },
+      {
+        "M": 100,
+        "K": 1024,
+        "model": "glove100-1183514-M100-K1024",
+        "best_grid_recall10": 0.9800000000000001,
+        "best_probe": 512
+      }
+    ],
+    "policy": "smallest tested M reaching 99% somewhere in measured probe grid; otherwise highest measured recall; same-query tuning, not held-out"
+  },
+  "deep1m": {
+    "M": 96,
+    "K": 1024,
+    "model": "deep1m-1000000-M96-K1024",
+    "best_grid_recall10": 0.9800000000000001,
+    "best_probe": 64,
+    "query_count": 20,
+    "repeats": 3,
+    "target": 0.99,
+    "trials": [
+      {
+        "M": 8,
+        "K": 256,
+        "model": "deep1m-1000000",
+        "best_grid_recall10": 0.34,
+        "best_probe": 8
+      },
+      {
+        "M": 24,
+        "K": 256,
+        "model": "deep1m-1000000-M24",
+        "best_grid_recall10": 0.7100000000000002,
+        "best_probe": 64
+      },
+      {
+        "M": 48,
+        "K": 256,
+        "model": "deep1m-1000000-M48",
+        "best_grid_recall10": 0.8550000000000001,
+        "best_probe": 64
+      },
+      {
+        "M": 96,
+        "K": 256,
+        "model": "deep1m-1000000-M96",
+        "best_grid_recall10": 0.9649999999999999,
+        "best_probe": 64
+      },
+      {
+        "M": 96,
+        "K": 512,
+        "model": "deep1m-1000000-M96-K512",
+        "best_grid_recall10": 0.9649999999999999,
+        "best_probe": 64
+      },
+      {
+        "M": 96,
+        "K": 1024,
+        "model": "deep1m-1000000-M96-K1024",
+        "best_grid_recall10": 0.9800000000000001,
+        "best_probe": 64
+      }
+    ],
+    "policy": "smallest tested M reaching 99% somewhere in measured probe grid; otherwise highest measured recall; same-query tuning, not held-out"
+  },
+  "nytimes256": {
+    "M": 256,
+    "K": 256,
+    "model": "nytimes256-289761-M256",
+    "best_grid_recall10": 1.0,
+    "best_probe": 512,
+    "trials": [
+      {
+        "M": 8,
+        "K": 256,
+        "model": "nytimes256-289761",
+        "best_grid_recall10": 0.41,
+        "best_probe": 32
+      },
+      {
+        "M": 64,
+        "K": 256,
+        "model": "nytimes256-289761-M64",
+        "best_grid_recall10": 0.7849999999999999,
+        "best_probe": 512
+      },
+      {
+        "M": 128,
+        "K": 256,
+        "model": "nytimes256-289761-M128",
+        "best_grid_recall10": 0.9450000000000001,
+        "best_probe": 512
+      },
+      {
+        "M": 256,
+        "K": 256,
+        "model": "nytimes256-289761-M256",
+        "best_grid_recall10": 1.0,
+        "best_probe": 512
+      }
+    ],
+    "query_count": 20,
+    "repeats": 3,
+    "policy": "same tuning policy as other datasets; no held-out accuracy claim"
+  }
+}

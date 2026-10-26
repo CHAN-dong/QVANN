@@ -1,0 +1,834 @@
+{
+  "ours_numeric_cells": 103,
+  "ours_target_cells": 103,
+  "baseline_numeric_cells_preserved": 206,
+  "pending_cells": [],
+  "source_sha256": "46a6b589559bcb2124e27e64e1892c6835477d31962102f2f03c55496e0b9bd3",
+  "output_sha256": "b335ddfac13476e57440af0a635b73185c5829b4d935309e31f0ea86167f737f",
+  "cells": [
+    {
+      "cell": "E11",
+      "value": 95.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-overall",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "F11",
+      "value": 2.3531383833333335,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-overall",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "G11",
+      "value": 236.02115999999998,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-overall",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "H11",
+      "value": 4.7115578199999995,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-overall",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "F23",
+      "value": 0.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 4
+    },
+    {
+      "cell": "F24",
+      "value": 25.21108,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 4
+    },
+    {
+      "cell": "F33",
+      "value": 0.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 4
+    },
+    {
+      "cell": "F34",
+      "value": 0.51718337,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 4
+    },
+    {
+      "cell": "F43",
+      "value": 0.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 4
+    },
+    {
+      "cell": "F44",
+      "value": 0.15231143333333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 4
+    },
+    {
+      "cell": "G23",
+      "value": 9.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 8
+    },
+    {
+      "cell": "G24",
+      "value": 39.0908,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 8
+    },
+    {
+      "cell": "G33",
+      "value": 9.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 8
+    },
+    {
+      "cell": "G34",
+      "value": 0.7853269033333333,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 8
+    },
+    {
+      "cell": "G43",
+      "value": 9.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 8
+    },
+    {
+      "cell": "G44",
+      "value": 0.26649528333333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 8
+    },
+    {
+      "cell": "H23",
+      "value": 28.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 12
+    },
+    {
+      "cell": "H24",
+      "value": 51.9164,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 12
+    },
+    {
+      "cell": "H33",
+      "value": 28.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 12
+    },
+    {
+      "cell": "H34",
+      "value": 1.0329937100000002,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 12
+    },
+    {
+      "cell": "H43",
+      "value": 28.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 12
+    },
+    {
+      "cell": "H44",
+      "value": 0.37356402666666666,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 12
+    },
+    {
+      "cell": "I23",
+      "value": 44.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 16
+    },
+    {
+      "cell": "I24",
+      "value": 63.65919999999999,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 16
+    },
+    {
+      "cell": "I33",
+      "value": 44.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 16
+    },
+    {
+      "cell": "I34",
+      "value": 1.26803116,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 16
+    },
+    {
+      "cell": "I43",
+      "value": 44.0,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 16
+    },
+    {
+      "cell": "I44",
+      "value": 0.4907945733333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 16
+    },
+    {
+      "cell": "J23",
+      "value": 66.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 24
+    },
+    {
+      "cell": "J24",
+      "value": 82.3378,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 24
+    },
+    {
+      "cell": "J33",
+      "value": 66.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 24
+    },
+    {
+      "cell": "J34",
+      "value": 1.65613921,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 24
+    },
+    {
+      "cell": "J43",
+      "value": 66.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 24
+    },
+    {
+      "cell": "J44",
+      "value": 0.6595459066666667,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 24
+    },
+    {
+      "cell": "K23",
+      "value": 73.9,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 32
+    },
+    {
+      "cell": "K24",
+      "value": 99.42564,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 32
+    },
+    {
+      "cell": "K33",
+      "value": 73.9,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 32
+    },
+    {
+      "cell": "K34",
+      "value": 1.9858088133333334,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 32
+    },
+    {
+      "cell": "K43",
+      "value": 73.9,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 32
+    },
+    {
+      "cell": "K44",
+      "value": 0.8161544233333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 32
+    },
+    {
+      "cell": "L23",
+      "value": 84.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 48
+    },
+    {
+      "cell": "L24",
+      "value": 128.1846,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 48
+    },
+    {
+      "cell": "L33",
+      "value": 84.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 48
+    },
+    {
+      "cell": "L34",
+      "value": 2.5337321,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 48
+    },
+    {
+      "cell": "L43",
+      "value": 84.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 48
+    },
+    {
+      "cell": "L44",
+      "value": 1.10416006,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 48
+    },
+    {
+      "cell": "M23",
+      "value": 87.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "M24",
+      "value": 153.43735999999998,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "M33",
+      "value": 87.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "M34",
+      "value": 3.0637685433333335,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "M43",
+      "value": 87.3,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "M44",
+      "value": 1.4000807533333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "N23",
+      "value": 92.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 96
+    },
+    {
+      "cell": "N24",
+      "value": 196.71248,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 96
+    },
+    {
+      "cell": "N33",
+      "value": 92.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 96
+    },
+    {
+      "cell": "N34",
+      "value": 3.89169788,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 96
+    },
+    {
+      "cell": "N43",
+      "value": 92.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 96
+    },
+    {
+      "cell": "N44",
+      "value": 1.863093983333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 96
+    },
+    {
+      "cell": "O23",
+      "value": 95.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "O24",
+      "value": 236.02115999999998,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "O33",
+      "value": 95.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "O34",
+      "value": 4.741770939999999,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "O43",
+      "value": 95.4,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "O44",
+      "value": 2.392255803333333,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "P23",
+      "value": 97.2,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 192
+    },
+    {
+      "cell": "P24",
+      "value": 307.025,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 192
+    },
+    {
+      "cell": "P33",
+      "value": 97.2,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 192
+    },
+    {
+      "cell": "P34",
+      "value": 6.19963931,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 192
+    },
+    {
+      "cell": "P43",
+      "value": 97.2,
+      "metric": "recall_percent",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 192
+    },
+    {
+      "cell": "P44",
+      "value": 3.24442003,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-recall-curve",
+      "k": 10,
+      "E": 192
+    },
+    {
+      "cell": "F56",
+      "value": 113.31172000000001,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-100000-evaluation",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "F66",
+      "value": 2.2191662033333333,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-100000-evaluation",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "F75",
+      "value": 0.97129939,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-100000-evaluation",
+      "k": 10,
+      "E": 64
+    },
+    {
+      "cell": "G56",
+      "value": 203.17924,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-500000-evaluation",
+      "k": 10,
+      "E": 112
+    },
+    {
+      "cell": "G66",
+      "value": 4.03459994,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-500000-evaluation",
+      "k": 10,
+      "E": 112
+    },
+    {
+      "cell": "G75",
+      "value": 1.9872894166666666,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-500000-evaluation",
+      "k": 10,
+      "E": 112
+    },
+    {
+      "cell": "H56",
+      "value": 240.95032,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-1000000-evaluation",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "H66",
+      "value": 4.828731556666667,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-1000000-evaluation",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "H75",
+      "value": 2.4805410566666666,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-1000000-evaluation",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "I56",
+      "value": 466.39799999999997,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-5000000-evaluation",
+      "k": 10,
+      "E": 256
+    },
+    {
+      "cell": "I66",
+      "value": 9.642151933333333,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-5000000-evaluation",
+      "k": 10,
+      "E": 256
+    },
+    {
+      "cell": "I75",
+      "value": 5.62847572,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-5000000-evaluation",
+      "k": 10,
+      "E": 256
+    },
+    {
+      "cell": "J56",
+      "value": 823.07632,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-10000000-evaluation",
+      "k": 10,
+      "E": 512
+    },
+    {
+      "cell": "J66",
+      "value": 17.241047816666665,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-10000000-evaluation",
+      "k": 10,
+      "E": 512
+    },
+    {
+      "cell": "J75",
+      "value": 10.720266973333334,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/size-10000000-evaluation",
+      "k": 10,
+      "E": 512
+    },
+    {
+      "cell": "F86",
+      "value": 167.24012,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 1,
+      "E": 128
+    },
+    {
+      "cell": "F96",
+      "value": 3.1213444866666666,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 1,
+      "E": 128
+    },
+    {
+      "cell": "F105",
+      "value": 1.9224136133333332,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 1,
+      "E": 128
+    },
+    {
+      "cell": "G86",
+      "value": 206.25892,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 5,
+      "E": 128
+    },
+    {
+      "cell": "G96",
+      "value": 4.03429735,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 5,
+      "E": 128
+    },
+    {
+      "cell": "G105",
+      "value": 2.187426846666667,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 5,
+      "E": 128
+    },
+    {
+      "cell": "H86",
+      "value": 236.02115999999998,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "H96",
+      "value": 4.76585432,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "H105",
+      "value": 2.3711778366666665,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 10,
+      "E": 128
+    },
+    {
+      "cell": "I86",
+      "value": 276.68988,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 20,
+      "E": 128
+    },
+    {
+      "cell": "I96",
+      "value": 5.606409993333333,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 20,
+      "E": 128
+    },
+    {
+      "cell": "I105",
+      "value": 2.6506582933333336,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 20,
+      "E": 128
+    },
+    {
+      "cell": "J86",
+      "value": 358.24827999999997,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 50,
+      "E": 128
+    },
+    {
+      "cell": "J96",
+      "value": 7.28955199,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 50,
+      "E": 128
+    },
+    {
+      "cell": "J105",
+      "value": 3.086042566666667,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 50,
+      "E": 128
+    },
+    {
+      "cell": "K86",
+      "value": 454.30859999999996,
+      "metric": "vo_kb",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 100,
+      "E": 128
+    },
+    {
+      "cell": "K96",
+      "value": 9.077528473333333,
+      "metric": "verify_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 100,
+      "E": 128
+    },
+    {
+      "cell": "K105",
+      "value": 3.6093381100000004,
+      "metric": "query_ms",
+      "run": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ours-lut-20261015/sift1m-k-curve",
+      "k": 100,
+      "E": 128
+    }
+  ]
+}

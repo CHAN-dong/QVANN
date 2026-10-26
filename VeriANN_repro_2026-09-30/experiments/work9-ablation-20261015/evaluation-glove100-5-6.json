@@ -1,0 +1,42 @@
+[
+  {
+    "variant": 5,
+    "name": "(i)+(ii)",
+    "recall": 0.9600000000000001,
+    "query_ms": 58.362424133333334,
+    "search_ms": 20.246797533333332,
+    "vo_generation_ms": 38.115626600000006,
+    "verify_ms": 180.8511168,
+    "authentication_ms": 152.49933736666668,
+    "replay_ms": 24.11025611666667,
+    "vo_kb": 7204.0758,
+    "parameter": 1024,
+    "visited": 19607.6,
+    "expanded": 1024.0,
+    "samples": 60,
+    "tamper_tests": 13,
+    "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/glove100/formal-5-6/variant-5",
+    "source_sha256": "1d511c008d3b71a4de72984130f3cd033ed81949c7604f66239cc0fdf2fbbe39",
+    "dataset": "glove100"
+  },
+  {
+    "variant": 6,
+    "name": "(i)+(ii)+(iii)",
+    "recall": 0.9600000000000001,
+    "query_ms": 35.90875033333334,
+    "search_ms": 19.980846266666667,
+    "vo_generation_ms": 15.927904066666667,
+    "verify_ms": 77.78700821666666,
+    "authentication_ms": 54.95915698333333,
+    "replay_ms": 21.494560783333334,
+    "vo_kb": 2804.3072,
+    "parameter": 1024,
+    "visited": 19607.6,
+    "expanded": 1024.0,
+    "samples": 60,
+    "tamper_tests": 13,
+    "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/glove100/formal-5-6/variant-6",
+    "source_sha256": "4f2864b36717a7ad8ff1a044892b9766d867b87679925708b96a41ffb683bae3",
+    "dataset": "glove100"
+  }
+]

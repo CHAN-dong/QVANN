@@ -1,0 +1,195 @@
+{
+  "dataset": "glove100",
+  "method": "VLAH",
+  "points": [
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 2,
+      "recall": 0.16,
+      "query_ms": 7.3318917,
+      "verify_ms": 20.843654216666668,
+      "vo_kb": 3340.40705,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.15,
+      "selection": {
+        "ef": 100,
+        "probes": 2,
+        "recall": 0.16,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 4,
+      "recall": 0.21,
+      "query_ms": 15.247649233333332,
+      "verify_ms": 43.27356721666667,
+      "vo_kb": 6706.90815,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.2,
+      "selection": {
+        "ef": 100,
+        "probes": 4,
+        "recall": 0.21000000000000002,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 5,
+      "recall": 0.265,
+      "query_ms": 19.975985016666666,
+      "verify_ms": 56.788586083333335,
+      "vo_kb": 8406.96125,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.25,
+      "selection": {
+        "ef": 100,
+        "probes": 5,
+        "recall": 0.265,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 7,
+      "recall": 0.315,
+      "query_ms": 27.80805708333333,
+      "verify_ms": 80.16261456666666,
+      "vo_kb": 11749.45825,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.3,
+      "selection": {
+        "ef": 100,
+        "probes": 7,
+        "recall": 0.315,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 11,
+      "recall": 0.365,
+      "query_ms": 46.37682319999999,
+      "verify_ms": 126.2832732,
+      "vo_kb": 18520.25115,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.35,
+      "selection": {
+        "ef": 100,
+        "probes": 11,
+        "recall": 0.365,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 14,
+      "recall": 0.41000000000000003,
+      "query_ms": 60.56633123333333,
+      "verify_ms": 162.54243325000002,
+      "vo_kb": 23529.4354,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.4,
+      "selection": {
+        "ef": 100,
+        "probes": 14,
+        "recall": 0.41,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 17,
+      "recall": 0.45,
+      "query_ms": 73.60962283333333,
+      "verify_ms": 196.11805404999998,
+      "vo_kb": 28612.079149999998,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.45,
+      "selection": {
+        "ef": 100,
+        "probes": 17,
+        "recall": 0.45,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 21,
+      "recall": 0.525,
+      "query_ms": 94.38046846666666,
+      "verify_ms": 241.9402729,
+      "vo_kb": 35285.3301,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.5,
+      "selection": {
+        "ef": 100,
+        "probes": 21,
+        "recall": 0.525,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 100,
+      "probes": 23,
+      "recall": 0.5549999999999999,
+      "query_ms": 107.98516335000001,
+      "verify_ms": 267.0983323333333,
+      "vo_kb": 38604.66135,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/glove100/VLAH/glove100-1183514-low-e100",
+      "csv_sha256": "b811fcca183b70ec987eb7a3c394554c5afa93d87416ca1e47f78a5f3ddb5ff5",
+      "target": 0.55,
+      "selection": {
+        "ef": 100,
+        "probes": 23,
+        "recall": 0.5549999999999999,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-low-baselines-20261021/search-pilots/glove100/VLAH-pilot-1183514-resource-phase0-ea8772e968"
+      }
+    }
+  ]
+}

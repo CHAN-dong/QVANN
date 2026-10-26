@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "measurements": 16,
+  "filled_cells": 32,
+  "predicted_cells": 0,
+  "unrelated_existing_cells_unchanged": 32887,
+  "source_before_sha256": "7807a62a29cb7f2541902ed66e16ea7a1bf89f84287209a4ebd6efb0568cac97",
+  "source_after_sha256": "a18fb9ff944623705837c887815a27612365ad39ab3c77da4bf41d39ee63054a",
+  "backup": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-index-20261017/work9_before_index_20261018_004357.xlsx",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/work9.xlsx"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "honest": 90,
+  "valid_proof_refinement_omissions_rejected": 90,
+  "valid_proof_incomplete_traversals_rejected": 90,
+  "reordered_answers_rejected": 60
+}

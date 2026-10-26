@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "saved_comparison_curves_checked": 168,
+  "prediction_cells": 209,
+  "reselected_cells": 90,
+  "unchanged_values_verified": 84718,
+  "blank_cells_preserved": 20554,
+  "defaults_unchanged": true,
+  "recall_panel_binding": true,
+  "example_verified_against_original_measurement": true
+}

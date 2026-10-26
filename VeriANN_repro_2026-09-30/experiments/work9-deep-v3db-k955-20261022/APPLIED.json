@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "numeric_cells_written": 18,
+  "other_cell_values_preserved": 88971,
+  "all_points_fit_512GiB": true,
+  "workbook_sha256": "b8e2d5284a354fdd5fa5aed91f7fad9183bf01094542a010015d7af96cba8ec6",
+  "backup_sha256": "8d134af145d877e5cb7a6f0fa4c0865c763581d6ec000ead6c8ce7fac7d116e9",
+  "model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c"
+}

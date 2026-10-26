@@ -1,0 +1,104 @@
+{
+  "dataset": "gist1m",
+  "method": "Ours",
+  "base": 1000000,
+  "purpose": "curve",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-curve-1000000",
+  "selection": [
+    {
+      "ef": 48,
+      "probes": 1,
+      "recall": 0.67,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.6
+    },
+    {
+      "ef": 48,
+      "probes": 1,
+      "recall": 0.67,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.65
+    },
+    {
+      "ef": 64,
+      "probes": 1,
+      "recall": 0.7150000000000001,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.7
+    },
+    {
+      "ef": 96,
+      "probes": 1,
+      "recall": 0.77,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.75
+    },
+    {
+      "ef": 128,
+      "probes": 1,
+      "recall": 0.805,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.8
+    },
+    {
+      "ef": 192,
+      "probes": 1,
+      "recall": 0.865,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.85
+    },
+    {
+      "ef": 256,
+      "probes": 1,
+      "recall": 0.9099999999999999,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.9
+    },
+    {
+      "ef": 768,
+      "probes": 1,
+      "recall": 0.9550000000000001,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.95
+    },
+    {
+      "ef": 1024,
+      "probes": 1,
+      "recall": 0.97,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.97
+    },
+    {
+      "ef": 2048,
+      "probes": 1,
+      "recall": 0.9800000000000001,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase0",
+      "target": 0.98
+    },
+    {
+      "ef": 4096,
+      "probes": 1,
+      "recall": 0.9949999999999999,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/gist1m/Ours-pilot-1000000-phase1",
+      "target": 0.99
+    }
+  ],
+  "width": 0.46715420226885673,
+  "M": 16,
+  "ef_construction": 200,
+  "query_count": 20,
+  "query_offset": 100,
+  "repeats": 3,
+  "measurement_scope": "20-query quick preview"
+}

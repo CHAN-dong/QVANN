@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "formal_authenticated_queries": 2400,
+  "independent_queries_per_dataset": 100,
+  "layouts": 4
+}

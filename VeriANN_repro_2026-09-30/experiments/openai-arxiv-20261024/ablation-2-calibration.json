@@ -1,0 +1,79 @@
+{
+  "parameter": 512,
+  "recall": 0.97,
+  "points": [
+    {
+      "parameter": 10,
+      "recall": 0.515
+    },
+    {
+      "parameter": 16,
+      "recall": 0.6
+    },
+    {
+      "parameter": 24,
+      "recall": 0.6950000000000001
+    },
+    {
+      "parameter": 32,
+      "recall": 0.735
+    },
+    {
+      "parameter": 48,
+      "recall": 0.8099999999999999
+    },
+    {
+      "parameter": 64,
+      "recall": 0.8300000000000001
+    },
+    {
+      "parameter": 96,
+      "recall": 0.865
+    },
+    {
+      "parameter": 128,
+      "recall": 0.9
+    },
+    {
+      "parameter": 192,
+      "recall": 0.915
+    },
+    {
+      "parameter": 256,
+      "recall": 0.93
+    },
+    {
+      "parameter": 384,
+      "recall": 0.945
+    },
+    {
+      "parameter": 512,
+      "recall": 0.97
+    },
+    {
+      "parameter": 768,
+      "recall": 0.975
+    },
+    {
+      "parameter": 1024,
+      "recall": 0.99
+    },
+    {
+      "parameter": 1536,
+      "recall": 1.0
+    },
+    {
+      "parameter": 2048,
+      "recall": 1.0
+    },
+    {
+      "parameter": 4096,
+      "recall": 1.0
+    },
+    {
+      "parameter": 8192,
+      "recall": 1.0
+    }
+  ],
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/ablation-2/pilot.csv"
+}

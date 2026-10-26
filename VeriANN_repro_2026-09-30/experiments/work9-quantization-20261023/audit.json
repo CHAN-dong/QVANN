@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "measured_operating_points": 16,
+  "authenticated_queries": 960,
+  "paired_query_groups": 240,
+  "rejected_tamper_cases": 224,
+  "original_protocol_wire_checks": 240,
+  "old_cells_preserved": 89661,
+  "workbook_sha256": "4f00c938ba3b26204163a487ae74bbb83f2452a250846fd1cf00407e512543c0",
+  "backup_sha256": "ddad46d2b6c9deeb312e0800f70d3723f5e03bdbdd05208b4568cb74f18f77d2",
+  "new_tables": {
+    "sift1m": {
+      "title_row": 153,
+      "header_row": 156,
+      "first_data_row": 157,
+      "last_data_row": 160,
+      "original_last_row": 149
+    },
+    "nytimes256": {
+      "title_row": 152,
+      "header_row": 155,
+      "first_data_row": 156,
+      "last_data_row": 159,
+      "original_last_row": 148
+    },
+    "glove100": {
+      "title_row": 152,
+      "header_row": 155,
+      "first_data_row": 156,
+      "last_data_row": 159,
+      "original_last_row": 148
+    },
+    "deep1m": {
+      "title_row": 154,
+      "header_row": 157,
+      "first_data_row": 158,
+      "last_data_row": 161,
+      "original_last_row": 150
+    }
+  }
+}

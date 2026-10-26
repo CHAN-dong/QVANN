@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "paired_answer_comparisons": 60,
+  "tamper_tests": 27,
+  "summary": [
+    {
+      "variant": 1,
+      "name": "Merkle+IVF",
+      "recall": 0.95,
+      "query_ms": 102.84037146666667,
+      "search_ms": 8.942305166666667,
+      "vo_generation_ms": 93.8980663,
+      "verify_ms": 260.5181445,
+      "authentication_ms": 243.73665845,
+      "replay_ms": 13.803362916666666,
+      "vo_kb": 19218.4102,
+      "parameter": 9,
+      "visited": 36600.25,
+      "expanded": 36600.25,
+      "samples": 60,
+      "tamper_tests": 13,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/formal-1-3/variant-1",
+      "source_sha256": "57054475eba6810c6821fdf65f117e61f9b36369f537b2aafff053b5f4afdc2f"
+    },
+    {
+      "variant": 3,
+      "name": "Merkle+IVF+(i)",
+      "recall": 0.95,
+      "query_ms": 51.435025083333336,
+      "search_ms": 9.302199416666667,
+      "vo_generation_ms": 42.13282566666667,
+      "verify_ms": 259.72821991666666,
+      "authentication_ms": 243.49488913333334,
+      "replay_ms": 13.4771931,
+      "vo_kb": 8058.431,
+      "parameter": 9,
+      "visited": 36600.25,
+      "expanded": 36600.25,
+      "samples": 60,
+      "tamper_tests": 14,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/formal-1-3/variant-3",
+      "source_sha256": "c874e31b785c7f6fbe5ab46af965ffc2ccea0ee6f2e262dbd344fe2e2cec5a40"
+    }
+  ]
+}

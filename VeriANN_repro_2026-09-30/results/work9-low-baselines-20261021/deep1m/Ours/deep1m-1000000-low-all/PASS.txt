@@ -1,0 +1,1 @@
+420 honest measurements; 13 tamper tests rejected; wire bytes checked.

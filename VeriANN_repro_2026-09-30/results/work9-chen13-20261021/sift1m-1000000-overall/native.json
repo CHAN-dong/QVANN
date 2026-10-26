@@ -1,0 +1,1 @@
+{"N":1000000,"D":128,"fanout":16,"leaf_capacity":64,"nodes":20753,"build_seconds":1.0549577670000001,"snapshot_write_seconds":25.462244753,"index_bytes":538911432,"oracle_seconds":1.183628481,"peak_rss_KiB":1442144,"max_vo_bytes":432292965,"tamper_tests":54,"root":"1582ce0d95ca765f6ff302447d81bf6aa7ddaeb30c31cb96ab93c2d42920e96f","threads":1}

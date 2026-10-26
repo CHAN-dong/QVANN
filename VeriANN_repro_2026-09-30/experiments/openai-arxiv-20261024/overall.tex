@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Overall performance. OpenAI-ArXiv-1M ($d=1536$, $k=10$). Costs are raw measurements. V3DB uses one fixed-query proof and20-query search recall; dashes denote unavailable measurements.}
+\label{tab:arxiv_overall}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Method & $R$ (\%) & $Q$ (ms) & VO (KB) & $V$ (ms) \\
+\midrule
+ANNProof & 97.00 & 93.99 & 58303.94 & 320.31 \\
+VLAH & 96.00 & 463.48 & 288373.61 & 563.88 \\
+V3DB & 25.50 & 512825.50 & 235.36 & 13.36 \\
+MR-tree & 100.00 & 4250.05 & 6148103.95 & 5335.39 \\
+QVANN & 96.50 & 58.68 & 9318.90 & 87.76 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

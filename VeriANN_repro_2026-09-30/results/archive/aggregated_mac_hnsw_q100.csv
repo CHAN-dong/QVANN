@@ -1,0 +1,3 @@
+scheme,recall_at_10,avg_expanded,avg_disclosed,avg_raw,avg_sq6_tags,avg_adjacency_tags,avg_raw_tags,authentication_bytes,payload_kib,total_vo_kib,server_aggregation_ms,client_verification_ms,tag_storage_bytes_per_object,verification_failures
+Merkle,0.991,62.99,833.23,22.74,833.23,67.74,22.74,174568.448,98.64322,269.12,,,0,0
+Aggregated-MAC-128,0.991,62.99,833.23,22.74,833.23,67.74,22.74,48,98.64322,98.690095,1.846660,3.422747,49.08256,0

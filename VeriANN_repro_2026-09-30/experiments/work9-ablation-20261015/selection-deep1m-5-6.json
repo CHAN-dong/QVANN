@@ -1,0 +1,122 @@
+{
+  "parameter": 50,
+  "recall": 0.95,
+  "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64",
+  "all_points": [
+    {
+      "parameter": 10,
+      "recall": 0.33999999999999997,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 16,
+      "recall": 0.615,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 24,
+      "recall": 0.79,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 32,
+      "recall": 0.865,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 48,
+      "recall": 0.945,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 64,
+      "recall": 0.975,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 96,
+      "recall": 0.985,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 128,
+      "recall": 0.99,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 192,
+      "recall": 0.9949999999999999,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 256,
+      "recall": 0.9949999999999999,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 384,
+      "recall": 1.0,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 512,
+      "recall": 1.0,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 768,
+      "recall": 1.0,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 1024,
+      "recall": 1.0,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 1536,
+      "recall": 1.0,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 2048,
+      "recall": 1.0,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-phase0"
+    },
+    {
+      "parameter": 50,
+      "recall": 0.95,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    },
+    {
+      "parameter": 52,
+      "recall": 0.9550000000000001,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    },
+    {
+      "parameter": 54,
+      "recall": 0.96,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    },
+    {
+      "parameter": 56,
+      "recall": 0.96,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    },
+    {
+      "parameter": 58,
+      "recall": 0.9650000000000001,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    },
+    {
+      "parameter": 60,
+      "recall": 0.975,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    },
+    {
+      "parameter": 62,
+      "recall": 0.975,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/deep1m/pilot-5-6-refine0-48-64"
+    }
+  ]
+}

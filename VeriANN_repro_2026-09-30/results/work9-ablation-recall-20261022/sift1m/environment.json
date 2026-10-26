@@ -1,0 +1,34 @@
+{
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-ablation-recall-20261022/ablation_recall_probe",
+    "--dataset",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/sift1m",
+    "--base",
+    "1000000",
+    "--cache",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache",
+    "--output",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-recall-20261022/sift1m",
+    "--queries",
+    "20",
+    "--query-offset",
+    "100",
+    "--repeats",
+    "3",
+    "--build-threads",
+    "1",
+    "--M",
+    "16",
+    "--ef-construction",
+    "200",
+    "--k",
+    "10",
+    "--ef-search",
+    "9,32,9,32,34,34"
+  ],
+  "binary_sha256": "e3bd158b80a3de8ba354d4506ac2b2341ecce68a73969ec8068988a88715ee0d",
+  "cache_sha256": {
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache/ac8e11ed111b09e8_M16_efc200.index": "d1ebd4446b3a4d822cad818ed7dc81139d1d345e61a33b73c0bade7d2e2e8766",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/cache/ac8e11ed111b09e8_ivf256_train65536_iter12_seed42_v1.bin": "8cb08d85ca133785353d4a3fe75ba94e5510d807d324a5a7a6e265eb9517eff4"
+  }
+}

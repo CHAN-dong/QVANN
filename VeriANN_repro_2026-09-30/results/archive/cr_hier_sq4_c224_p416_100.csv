@@ -1,0 +1,2 @@
+codec,base,nlist,nprobe,coarse_nlist,coarse_nprobe,train_queries,test_queries,recall,avg_candidate_centroids,avg_visited,avg_refined,avg_exact,base_bits,base_payload,refine_payload,exact_payload,local_merkle,routing_parameters,routing_centroid_codes,routing_group_metadata,routing_proofs,routing_total,leaf_total,total_vo,ann_query_ms,vo_generation_ms,violations
+sq4,100000,65536,416,1024,224,200,100,0.9935,16126.44,713.99,460.19,171.88,488,43553.39,16106.65,2587.18,17259.52,1120,1097628.16,16896,44336.96,1159981.12,79506.74,1239487.86,13.59004671,1.2220339,0

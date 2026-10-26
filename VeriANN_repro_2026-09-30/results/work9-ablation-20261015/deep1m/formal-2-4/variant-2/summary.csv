@@ -1,0 +1,2 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+Merkle+HNSW,10,50,1,60,0.616051,0.588048,0.927624,3.71723,8.36165,11.15,7.88625,0.322819,752.462,913.121,0.95,1,1,1729.34,2261.71,745.955,0,886.75

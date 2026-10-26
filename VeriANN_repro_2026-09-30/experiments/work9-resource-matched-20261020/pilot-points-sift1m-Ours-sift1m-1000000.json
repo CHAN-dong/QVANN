@@ -1,0 +1,562 @@
+[
+  {
+    "ef": 1,
+    "probes": 1,
+    "recall": 0.0,
+    "valid": false,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 2,
+    "probes": 1,
+    "recall": 0.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 3,
+    "probes": 1,
+    "recall": 0.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 4,
+    "probes": 1,
+    "recall": 0.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 5,
+    "probes": 1,
+    "recall": 0.01,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 6,
+    "probes": 1,
+    "recall": 0.025,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 7,
+    "probes": 1,
+    "recall": 0.08499999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 8,
+    "probes": 1,
+    "recall": 0.10500000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 9,
+    "probes": 1,
+    "recall": 0.16499999999999998,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 10,
+    "probes": 1,
+    "recall": 0.195,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 11,
+    "probes": 1,
+    "recall": 0.24,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 12,
+    "probes": 1,
+    "recall": 0.32999999999999996,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 13,
+    "probes": 1,
+    "recall": 0.41,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 14,
+    "probes": 1,
+    "recall": 0.465,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 15,
+    "probes": 1,
+    "recall": 0.51,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 16,
+    "probes": 1,
+    "recall": 0.5549999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 17,
+    "probes": 1,
+    "recall": 0.5900000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 18,
+    "probes": 1,
+    "recall": 0.635,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 19,
+    "probes": 1,
+    "recall": 0.67,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 20,
+    "probes": 1,
+    "recall": 0.705,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 21,
+    "probes": 1,
+    "recall": 0.72,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 22,
+    "probes": 1,
+    "recall": 0.72,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 23,
+    "probes": 1,
+    "recall": 0.735,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 24,
+    "probes": 1,
+    "recall": 0.75,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 25,
+    "probes": 1,
+    "recall": 0.755,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 26,
+    "probes": 1,
+    "recall": 0.76,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 27,
+    "probes": 1,
+    "recall": 0.76,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 28,
+    "probes": 1,
+    "recall": 0.77,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 29,
+    "probes": 1,
+    "recall": 0.78,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 30,
+    "probes": 1,
+    "recall": 0.805,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 31,
+    "probes": 1,
+    "recall": 0.82,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 32,
+    "probes": 1,
+    "recall": 0.82,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 33,
+    "probes": 1,
+    "recall": 0.825,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 34,
+    "probes": 1,
+    "recall": 0.845,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 35,
+    "probes": 1,
+    "recall": 0.85,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 36,
+    "probes": 1,
+    "recall": 0.8550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 37,
+    "probes": 1,
+    "recall": 0.8550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 38,
+    "probes": 1,
+    "recall": 0.86,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 39,
+    "probes": 1,
+    "recall": 0.8699999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 40,
+    "probes": 1,
+    "recall": 0.89,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 41,
+    "probes": 1,
+    "recall": 0.89,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 42,
+    "probes": 1,
+    "recall": 0.8949999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 43,
+    "probes": 1,
+    "recall": 0.9,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 44,
+    "probes": 1,
+    "recall": 0.9,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 45,
+    "probes": 1,
+    "recall": 0.9,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 46,
+    "probes": 1,
+    "recall": 0.905,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 47,
+    "probes": 1,
+    "recall": 0.9099999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 48,
+    "probes": 1,
+    "recall": 0.9099999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 49,
+    "probes": 1,
+    "recall": 0.915,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 50,
+    "probes": 1,
+    "recall": 0.915,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 51,
+    "probes": 1,
+    "recall": 0.915,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 52,
+    "probes": 1,
+    "recall": 0.915,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 53,
+    "probes": 1,
+    "recall": 0.915,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 54,
+    "probes": 1,
+    "recall": 0.9199999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 55,
+    "probes": 1,
+    "recall": 0.9199999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 56,
+    "probes": 1,
+    "recall": 0.9199999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 57,
+    "probes": 1,
+    "recall": 0.9199999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 58,
+    "probes": 1,
+    "recall": 0.925,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 59,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 60,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 61,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 62,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 63,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 64,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 80,
+    "probes": 1,
+    "recall": 0.93,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 96,
+    "probes": 1,
+    "recall": 0.9400000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 112,
+    "probes": 1,
+    "recall": 0.95,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 128,
+    "probes": 1,
+    "recall": 0.9800000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 160,
+    "probes": 1,
+    "recall": 0.99,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 192,
+    "probes": 1,
+    "recall": 0.99,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 224,
+    "probes": 1,
+    "recall": 0.9949999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 256,
+    "probes": 1,
+    "recall": 0.9949999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 320,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 384,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 448,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 512,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 768,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 1024,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 1536,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  {
+    "ef": 2048,
+    "probes": 1,
+    "recall": 1.0,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  }
+]

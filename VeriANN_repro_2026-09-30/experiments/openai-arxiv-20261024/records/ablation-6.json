@@ -1,0 +1,16 @@
+{
+  "status": "measured",
+  "ef": 384,
+  "probes": 1,
+  "recall": 0.965,
+  "query_ms": 56.03316434999999,
+  "vo_kb": 9318.9016,
+  "verify_ms": 81.74038226666667,
+  "samples": 60,
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/ablations/5-6/variant-6/per_query.csv",
+  "source_sha256": "4e706d9ae7bfd25a71324a1559acf127e16256fed81a43bb272e94a6c91a44b2",
+  "variant": 6,
+  "method": "QVANN",
+  "kind": "ablation",
+  "parameter": 384
+}

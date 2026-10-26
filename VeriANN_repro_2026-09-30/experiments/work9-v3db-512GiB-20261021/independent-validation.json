@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "forecast_metric_cells": 66,
+  "actual_search_calibration_recall_cells": 60,
+  "unsupported_missing_cells_left_blank": 150,
+  "all_other_main_cells_preserved": 13195,
+  "workload": "512GiB hypothetical, one thread; forecasts not measurements",
+  "source_workbook_sha256": "2ae7a48f2d0de21acb831b42767c9e8ba3b40be749869da31412c7cb5b39ec64"
+}

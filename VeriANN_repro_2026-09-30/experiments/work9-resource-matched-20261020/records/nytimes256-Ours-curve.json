@@ -1,0 +1,427 @@
+{
+  "dataset": "nytimes256",
+  "method": "Ours",
+  "kind": "curve",
+  "points": [
+    {
+      "k": 10,
+      "ef": 7,
+      "probes": 1,
+      "recall": 0.20500000000000002,
+      "query_ms": 0.6952223333333333,
+      "verify_ms": 1.9192721333333334,
+      "vo_kb": 118.17160000000001,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.2,
+      "selection": {
+        "ef": 7,
+        "probes": 1,
+        "recall": 0.205,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 8,
+      "probes": 1,
+      "recall": 0.3,
+      "query_ms": 0.7695199166666666,
+      "verify_ms": 2.0790368,
+      "vo_kb": 130.8116,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.3,
+      "selection": {
+        "ef": 8,
+        "probes": 1,
+        "recall": 0.3,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 9,
+      "probes": 1,
+      "recall": 0.4,
+      "query_ms": 0.8020659333333333,
+      "verify_ms": 2.29411655,
+      "vo_kb": 137.0668,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.4,
+      "selection": {
+        "ef": 9,
+        "probes": 1,
+        "recall": 0.4,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.46499999999999997,
+      "query_ms": 0.8406141833333334,
+      "verify_ms": 2.3184807666666667,
+      "vo_kb": 143.327,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.405,
+      "selection": {
+        "ef": 10,
+        "probes": 1,
+        "recall": 0.465,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 11,
+      "probes": 1,
+      "recall": 0.51,
+      "query_ms": 0.9834663833333332,
+      "verify_ms": 2.4420751166666665,
+      "vo_kb": 153.4566,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.5,
+      "selection": {
+        "ef": 11,
+        "probes": 1,
+        "recall": 0.51,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 13,
+      "probes": 1,
+      "recall": 0.5549999999999999,
+      "query_ms": 1.0973660666666667,
+      "verify_ms": 2.7583536,
+      "vo_kb": 170.2738,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.55,
+      "selection": {
+        "ef": 13,
+        "probes": 1,
+        "recall": 0.5549999999999999,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 15,
+      "probes": 1,
+      "recall": 0.5950000000000001,
+      "query_ms": 1.1624734333333335,
+      "verify_ms": 2.9460358166666665,
+      "vo_kb": 184.19420000000002,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.58,
+      "selection": {
+        "ef": 15,
+        "probes": 1,
+        "recall": 0.595,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 16,
+      "probes": 1,
+      "recall": 0.61,
+      "query_ms": 1.1521383666666667,
+      "verify_ms": 2.9790481666666664,
+      "vo_kb": 188.3066,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.6,
+      "selection": {
+        "ef": 16,
+        "probes": 1,
+        "recall": 0.61,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 21,
+      "probes": 1,
+      "recall": 0.65,
+      "query_ms": 1.4290963166666668,
+      "verify_ms": 3.5862963166666666,
+      "vo_kb": 225.0524,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.65,
+      "selection": {
+        "ef": 21,
+        "probes": 1,
+        "recall": 0.65,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 24,
+      "probes": 1,
+      "recall": 0.7,
+      "query_ms": 1.6993672499999999,
+      "verify_ms": 3.9815151,
+      "vo_kb": 241.1502,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.7,
+      "selection": {
+        "ef": 24,
+        "probes": 1,
+        "recall": 0.7,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 25,
+      "probes": 1,
+      "recall": 0.725,
+      "query_ms": 1.6691020333333333,
+      "verify_ms": 3.8812135833333334,
+      "vo_kb": 244.283,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.705,
+      "selection": {
+        "ef": 25,
+        "probes": 1,
+        "recall": 0.725,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 26,
+      "probes": 1,
+      "recall": 0.75,
+      "query_ms": 1.6771090833333333,
+      "verify_ms": 3.87067715,
+      "vo_kb": 245.037,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.75,
+      "selection": {
+        "ef": 26,
+        "probes": 1,
+        "recall": 0.75,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 27,
+      "probes": 1,
+      "recall": 0.7799999999999999,
+      "query_ms": 1.7192047166666669,
+      "verify_ms": 4.021636133333334,
+      "vo_kb": 250.23160000000001,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.78,
+      "selection": {
+        "ef": 27,
+        "probes": 1,
+        "recall": 0.78,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 29,
+      "probes": 1,
+      "recall": 0.8049999999999999,
+      "query_ms": 1.7968244,
+      "verify_ms": 4.219823133333334,
+      "vo_kb": 264.3824,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.8,
+      "selection": {
+        "ef": 29,
+        "probes": 1,
+        "recall": 0.805,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 52,
+      "probes": 1,
+      "recall": 0.85,
+      "query_ms": 2.7884442833333334,
+      "verify_ms": 6.4219242,
+      "vo_kb": 400.2764,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.85,
+      "selection": {
+        "ef": 52,
+        "probes": 1,
+        "recall": 0.85,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 80,
+      "probes": 1,
+      "recall": 0.9049999999999999,
+      "query_ms": 3.9479596666666668,
+      "verify_ms": 8.771559966666667,
+      "vo_kb": 538.105,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.9,
+      "selection": {
+        "ef": 80,
+        "probes": 1,
+        "recall": 0.905,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 224,
+      "probes": 1,
+      "recall": 0.95,
+      "query_ms": 9.024006033333333,
+      "verify_ms": 18.947950533333334,
+      "vo_kb": 1151.865,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.95,
+      "selection": {
+        "ef": 224,
+        "probes": 1,
+        "recall": 0.95,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 448,
+      "probes": 1,
+      "recall": 0.9700000000000001,
+      "query_ms": 16.840013966666667,
+      "verify_ms": 33.493700716666666,
+      "vo_kb": 2008.0416,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.97,
+      "selection": {
+        "ef": 448,
+        "probes": 1,
+        "recall": 0.97,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 1024,
+      "probes": 1,
+      "recall": 0.98,
+      "query_ms": 35.6285184,
+      "verify_ms": 69.14619461666666,
+      "vo_kb": 3968.8662000000004,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.98,
+      "selection": {
+        "ef": 1024,
+        "probes": 1,
+        "recall": 0.9800000000000001,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    },
+    {
+      "k": 10,
+      "ef": 1536,
+      "probes": 1,
+      "recall": 1.0,
+      "query_ms": 52.43164226666667,
+      "verify_ms": 100.34085306666665,
+      "vo_kb": 5573.382,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-curve-dense",
+      "csv_sha256": "a9841d5d4191f76ef64349d10cb8e5ae8efa17ecefb4c19e3d3ae7e1ad006ef7",
+      "target": 0.99,
+      "selection": {
+        "ef": 1536,
+        "probes": 1,
+        "recall": 1.0,
+        "valid": true,
+        "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/Ours-pilot-289761-resource-phase0-15bab5a6d9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "index_seconds": 436.984986702,
+  "ads_seconds": 3.496330445,
+  "construct_seconds": 440.481317147,
+  "search_bytes": 339719476,
+  "auth_bytes": 60825116,
+  "total_bytes": 400544592,
+  "peak_rss_KiB": 1322500,
+  "threads": 1,
+  "snapshot_sha256": "a686f518c4f686840a763c0dab586548da026b56775b95df088a2610e9c3e282",
+  "binary_sha256": "4d92e3f7dd434b8c1e665d8f33398879aed146b0ba0f713f8e910f4c6435c862",
+  "M": 16,
+  "efc": 200,
+  "N": 289761
+}

@@ -1,0 +1,17 @@
+{
+  "k": 5,
+  "ef": 20,
+  "probes": 1,
+  "recall": 0.7100000000000001,
+  "query_ms": 0.4338863833333333,
+  "verify_ms": 1.0502331833333334,
+  "vo_kb": 53.6172,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/Ours/sift1m-1000000-k5-e20",
+  "csv_sha256": "f7ac8a914008e4a072f8f4c8a4130a96e03e35c50dd5caf4c772f8a42829be01",
+  "dataset": "sift1m",
+  "method": "Ours",
+  "kind": "k",
+  "N": 1000000
+}

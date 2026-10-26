@@ -1,0 +1,8 @@
+﻿{
+    "proof_threads":  1,
+    "search_threads":  1,
+    "sampling":  "20x3",
+    "pq_tuning_allowed":  true,
+    "reason":  "用户明确要求保持单线程，与原表计算资源口径一致",
+    "source":  "user_explicit_reply"
+}

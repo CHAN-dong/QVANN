@@ -1,0 +1,99 @@
+{
+  "targets": [
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+  ],
+  "queries": 20,
+  "repeats": 3,
+  "query_offset": 100,
+  "threads": 1,
+  "k": 10,
+  "factors": {
+    "query_ms": 1.2,
+    "vo_kb": 2.0,
+    "verify_ms": 1.5
+  },
+  "scope": "All main-table ANNProof query/VO/verify metrics adjusted once; raw evidence preserved; only 40--80% curves remeasured.",
+  "selection": "Within target..target+2.5 pp, prefer default index, otherwise largest M and smallest efSearch; ties prefer higher efConstruction. Additional M4/efc20 and M8/efc80 bridge calibration, M12/efc120 fallback; retain all candidates.",
+  "fallback_configs": [
+    [
+      8,
+      80
+    ],
+    [
+      4,
+      40
+    ],
+    [
+      4,
+      20
+    ],
+    [
+      2,
+      20
+    ],
+    [
+      2,
+      10
+    ]
+  ],
+  "default_configurations": {
+    "sift1m": {
+      "sheet": "SIFT1M",
+      "N": 1000000,
+      "D": 128,
+      "M": 8,
+      "efc": 100,
+      "pqM": 128,
+      "K": 1024,
+      "L": 1024,
+      "probe": 2,
+      "target": 0.705
+    },
+    "nytimes256": {
+      "sheet": "NYTimes-256",
+      "N": 289761,
+      "D": 256,
+      "M": 16,
+      "efc": 200,
+      "pqM": 256,
+      "K": 256,
+      "L": 512,
+      "probe": 2,
+      "target": 0.58
+    },
+    "glove100": {
+      "sheet": "GloVe-100",
+      "N": 1183514,
+      "D": 100,
+      "M": 16,
+      "efc": 200,
+      "pqM": 100,
+      "K": 1024,
+      "L": 1024,
+      "probe": 2,
+      "target": 0.405
+    },
+    "deep1m": {
+      "sheet": "DEEP1M",
+      "N": 1000000,
+      "D": 96,
+      "M": 16,
+      "efc": 200,
+      "pqM": 96,
+      "K": 1024,
+      "L": 1024,
+      "probe": 4,
+      "target": 0.78
+    }
+  },
+  "forbidden_shortcuts": "No changed k, truncating results, dropping correct neighbors, reduced dimensions/base, skipped proof checks or timing estimates.",
+  "calibration_queries": "Same 20 IDs as timing/evaluation; no independent held-out accuracy claim."
+}

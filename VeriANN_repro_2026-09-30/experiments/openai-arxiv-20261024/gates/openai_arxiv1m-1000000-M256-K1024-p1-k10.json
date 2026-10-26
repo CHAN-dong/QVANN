@@ -1,0 +1,21 @@
+{
+  "gates": 1348210,
+  "degree_bits": 21,
+  "static_peak_rss_KiB": 10460348,
+  "status": "resource_limit",
+  "label": "超证明域预算，未出证",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "openai_arxiv1m",
+    "source": "openai_arxiv1m",
+    "N": 1000000,
+    "D": 1536,
+    "n_list": 1024,
+    "M": 256,
+    "K": 1024,
+    "capacity": 2048
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

@@ -1,0 +1,25 @@
+{
+  "k": 10,
+  "ef": 20,
+  "probes": 1,
+  "recall": 0.705,
+  "query_ms": 0.50069465,
+  "verify_ms": 1.2773809833333334,
+  "vo_kb": 65.5752,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/sift1m/Ours/sift1m-1000000-curve-dense",
+  "csv_sha256": "05cfef3935846c89772e833d815765cff6e837a457c824b0c044d5792f207938",
+  "target": 0.705,
+  "selection": {
+    "ef": 20,
+    "probes": 1,
+    "recall": 0.705,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/sift1m/Ours-pilot-1000000-resource-phase0-aa7b060f81"
+  },
+  "dataset": "sift1m",
+  "method": "Ours",
+  "kind": "k",
+  "N": 1000000
+}

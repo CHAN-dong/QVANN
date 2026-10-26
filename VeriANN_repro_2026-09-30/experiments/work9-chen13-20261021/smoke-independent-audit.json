@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "proofs": [
+    {
+      "k": 1,
+      "query_id": 100,
+      "proof_bytes": 29850,
+      "opened_vectors": 57,
+      "closed_subtrees": 8,
+      "independent_exact_match": true
+    },
+    {
+      "k": 1,
+      "query_id": 100,
+      "proof_bytes": 38026,
+      "opened_vectors": 57,
+      "closed_subtrees": 8,
+      "independent_exact_match": true
+    },
+    {
+      "k": 1,
+      "query_id": 100,
+      "proof_bytes": 1874,
+      "opened_vectors": 114,
+      "closed_subtrees": 7,
+      "independent_exact_match": true
+    },
+    {
+      "k": 1,
+      "query_id": 100,
+      "proof_bytes": 75402,
+      "opened_vectors": 57,
+      "closed_subtrees": 8,
+      "independent_exact_match": true
+    }
+  ]
+}

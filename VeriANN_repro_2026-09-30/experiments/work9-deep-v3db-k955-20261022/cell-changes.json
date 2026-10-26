@@ -1,0 +1,1082 @@
+[
+  {
+    "cell": "F107",
+    "before": 268.819857355129,
+    "after": 376.568,
+    "metric": "vo_kb",
+    "source": {
+      "k": 1,
+      "n_probe": 10,
+      "hits": 20,
+      "queries": 20,
+      "recall": 1.0,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 2033291,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "public_fields": 23652,
+      "proof_phase_rss_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1142832.1728252394,
+      "vo_kb": 376.568,
+      "verify_ms": 28.448117206834027,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          571416.0864126197,
+          2285664.3456504787
+        ],
+        "verify_ms": [
+          14.224058603417014,
+          56.896234413668054
+        ],
+        "vo_kb": [
+          320.08279999999996,
+          433.05319999999995
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/VO KB按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=269.378；修订值=268.8198573551294\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F107\"], \"values\": [269.378]}, {\"x\": 7, \"cells\": [\"G107\"], \"values\": [271.605]}, {\"x\": 8, \"cells\": [\"H107\"], \"values\": [265.512]}, {\"x\": 9, \"cells\": [\"I107\"], \"values\": [269.965]}, {\"x\": 10, \"cells\": [\"J107\"], \"values\": [273.279]}, {\"x\": 11, \"cells\": [\"K107\"], \"values\": [270.637]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 1, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 492421.42829500063, \"verify_ms\": 14.118213999608997, \"vo_kb\": 269.378, \"single_query_recall\": 0.0, \"build_seconds\": 162.354821987, \"prove_seconds\": 308.003871395, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k1-q1-r1-t1\", \"csv_sha256\": \"f7b4fa46039c793ef74424e7a804f6492823fb9abea019d31bad788d11b069e3\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.85, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "F119",
+    "before": 14.118213999609,
+    "after": 28.448117206834027,
+    "metric": "verify_ms",
+    "source": {
+      "k": 1,
+      "n_probe": 10,
+      "hits": 20,
+      "queries": 20,
+      "recall": 1.0,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 2033291,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "public_fields": 23652,
+      "proof_phase_rss_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1142832.1728252394,
+      "vo_kb": 376.568,
+      "verify_ms": 28.448117206834027,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          571416.0864126197,
+          2285664.3456504787
+        ],
+        "verify_ms": [
+          14.224058603417014,
+          56.896234413668054
+        ],
+        "vo_kb": [
+          320.08279999999996,
+          433.05319999999995
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "V3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 1, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 492421.42829500063, \"verify_ms\": 14.118213999608997, \"vo_kb\": 269.378, \"single_query_recall\": 0.0, \"build_seconds\": 162.354821987, \"prove_seconds\": 308.003871395, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k1-q1-r1-t1\", \"csv_sha256\": \"f7b4fa46039c793ef74424e7a804f6492823fb9abea019d31bad788d11b069e3\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.85, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "F130",
+    "before": 492000,
+    "after": 1142832.1728252394,
+    "metric": "query_ms",
+    "source": {
+      "k": 1,
+      "n_probe": 10,
+      "hits": 20,
+      "queries": 20,
+      "recall": 1.0,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 2033291,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 21,
+      "guard_domain_bits": 22,
+      "public_fields": 23652,
+      "proof_phase_rss_estimate_GiB": 64.7032241821289,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 1142832.1728252394,
+      "vo_kb": 376.568,
+      "verify_ms": 28.448117206834027,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          571416.0864126197,
+          2285664.3456504787
+        ],
+        "verify_ms": [
+          14.224058603417014,
+          56.896234413668054
+        ],
+        "vo_kb": [
+          320.08279999999996,
+          433.05319999999995
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/query ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=492421.428295001；修订值=492000.0\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F130\"], \"values\": [492421.428295001]}, {\"x\": 7, \"cells\": [\"G130\"], \"values\": [492374.419783]}, {\"x\": 8, \"cells\": [\"H130\"], \"values\": [493189.722806004]}, {\"x\": 9, \"cells\": [\"I130\"], \"values\": [494511.780706999]}, {\"x\": 10, \"cells\": [\"J130\"], \"values\": [493323.545510001]}, {\"x\": 11, \"cells\": [\"K130\"], \"values\": [497184.840444]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 1, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 492421.42829500063, \"verify_ms\": 14.118213999608997, \"vo_kb\": 269.378, \"single_query_recall\": 0.0, \"build_seconds\": 162.354821987, \"prove_seconds\": 308.003871395, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k1-q1-r1-t1\", \"csv_sha256\": \"f7b4fa46039c793ef74424e7a804f6492823fb9abea019d31bad788d11b069e3\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.85, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "G107",
+    "before": 268.819857355129,
+    "after": 786.238,
+    "metric": "vo_kb",
+    "source": {
+      "k": 5,
+      "n_probe": 34,
+      "hits": 96,
+      "queries": 20,
+      "recall": 0.96,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 6810716,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 72808,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4955236.493094201,
+      "vo_kb": 786.238,
+      "verify_ms": 39.71234382755459,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2477618.2465471006,
+          9910472.986188402
+        ],
+        "verify_ms": [
+          19.856171913777295,
+          79.42468765510918
+        ],
+        "vo_kb": [
+          668.3023000000001,
+          904.1736999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/VO KB按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=271.605；修订值=268.8198573551294\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F107\"], \"values\": [269.378]}, {\"x\": 7, \"cells\": [\"G107\"], \"values\": [271.605]}, {\"x\": 8, \"cells\": [\"H107\"], \"values\": [265.512]}, {\"x\": 9, \"cells\": [\"I107\"], \"values\": [269.965]}, {\"x\": 10, \"cells\": [\"J107\"], \"values\": [273.279]}, {\"x\": 11, \"cells\": [\"K107\"], \"values\": [270.637]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 5, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 492374.41978300025, \"verify_ms\": 17.089623999709147, \"vo_kb\": 271.605, \"single_query_recall\": 0.4, \"build_seconds\": 161.91084786, \"prove_seconds\": 308.237161376, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k5-q1-r1-t1\", \"csv_sha256\": \"96baa04d82b6edfeb782f3e8afc17633b3bd8690b43d9b8b1a6ff884a7b08163\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.77, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "G119",
+    "before": 17.0896239997092,
+    "after": 39.71234382755459,
+    "metric": "verify_ms",
+    "source": {
+      "k": 5,
+      "n_probe": 34,
+      "hits": 96,
+      "queries": 20,
+      "recall": 0.96,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 6810716,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 72808,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4955236.493094201,
+      "vo_kb": 786.238,
+      "verify_ms": 39.71234382755459,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2477618.2465471006,
+          9910472.986188402
+        ],
+        "verify_ms": [
+          19.856171913777295,
+          79.42468765510918
+        ],
+        "vo_kb": [
+          668.3023000000001,
+          904.1736999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "V3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 5, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 492374.41978300025, \"verify_ms\": 17.089623999709147, \"vo_kb\": 271.605, \"single_query_recall\": 0.4, \"build_seconds\": 161.91084786, \"prove_seconds\": 308.237161376, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k5-q1-r1-t1\", \"csv_sha256\": \"96baa04d82b6edfeb782f3e8afc17633b3bd8690b43d9b8b1a6ff884a7b08163\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.77, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "G130",
+    "before": 492397.923478021,
+    "after": 4955236.493094201,
+    "metric": "query_ms",
+    "source": {
+      "k": 5,
+      "n_probe": 34,
+      "hits": 96,
+      "queries": 20,
+      "recall": 0.96,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 6810716,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 72808,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4955236.493094201,
+      "vo_kb": 786.238,
+      "verify_ms": 39.71234382755459,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2477618.2465471006,
+          9910472.986188402
+        ],
+        "verify_ms": [
+          19.856171913777295,
+          79.42468765510918
+        ],
+        "vo_kb": [
+          668.3023000000001,
+          904.1736999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/query ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=492374.419783；修订值=492397.9234780209\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F130\"], \"values\": [492421.428295001]}, {\"x\": 7, \"cells\": [\"G130\"], \"values\": [492374.419783]}, {\"x\": 8, \"cells\": [\"H130\"], \"values\": [493189.722806004]}, {\"x\": 9, \"cells\": [\"I130\"], \"values\": [494511.780706999]}, {\"x\": 10, \"cells\": [\"J130\"], \"values\": [493323.545510001]}, {\"x\": 11, \"cells\": [\"K130\"], \"values\": [497184.840444]}]\n\n修订前批注（历史，不代表修订后来源）：\n单调性复核：V3DB包含不同PQ配置、probe、证明电路/域大小及单次测量；这些条件不保证该指标随横轴单调。 前点F130=492421.428295，本点=492374.419783。\n\n原有来源：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 5, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 492374.41978300025, \"verify_ms\": 17.089623999709147, \"vo_kb\": 271.605, \"single_query_recall\": 0.4, \"build_seconds\": 161.91084786, \"prove_seconds\": 308.237161376, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k5-q1-r1-t1\", \"csv_sha256\": \"96baa04d82b6edfeb782f3e8afc17633b3bd8690b43d9b8b1a6ff884a7b08163\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.77, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "H107",
+    "before": 269,
+    "after": 483.155,
+    "metric": "vo_kb",
+    "source": {
+      "k": 10,
+      "n_probe": 16,
+      "hits": 191,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 3227647,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "public_fields": 35949,
+      "proof_phase_rss_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2361625.516309979,
+      "vo_kb": 483.155,
+      "verify_ms": 31.840255518030684,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          1180812.7581549895,
+          4723251.032619958
+        ],
+        "verify_ms": [
+          15.920127759015342,
+          63.68051103606137
+        ],
+        "vo_kb": [
+          410.68174999999997,
+          555.62825
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/VO KB按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=265.512；修订值=269.0\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F107\"], \"values\": [269.378]}, {\"x\": 7, \"cells\": [\"G107\"], \"values\": [271.605]}, {\"x\": 8, \"cells\": [\"H107\"], \"values\": [265.512]}, {\"x\": 9, \"cells\": [\"I107\"], \"values\": [269.965]}, {\"x\": 10, \"cells\": [\"J107\"], \"values\": [273.279]}, {\"x\": 11, \"cells\": [\"K107\"], \"values\": [270.637]}]\n\n修订前批注（历史，不代表修订后来源）：\n单调性复核：V3DB包含不同PQ配置、probe、证明电路/域大小及单次测量；这些条件不保证该指标随横轴单调。 前点G107=271.605，本点=265.512。\n\n原有来源：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 10, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 493189.72280600434, \"verify_ms\": 55.96753800637089, \"vo_kb\": 265.512, \"single_query_recall\": 0.5, \"build_seconds\": 162.334606565, \"prove_seconds\": 308.862579537, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-20261016/deep1m-1000000-M96-K1024-p4-k10-q20-r3-t1\", \"csv_sha256\": \"d42a3c863fed6ff66b6dc91e8c66c288c471a9a7b8cd65c92db2b494a159709d\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": true, \"recall20\": 0.78, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "H119",
+    "before": 29.1994849568971,
+    "after": 31.840255518030684,
+    "metric": "verify_ms",
+    "source": {
+      "k": 10,
+      "n_probe": 16,
+      "hits": 191,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 3227647,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "public_fields": 35949,
+      "proof_phase_rss_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2361625.516309979,
+      "vo_kb": 483.155,
+      "verify_ms": 31.840255518030684,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          1180812.7581549895,
+          4723251.032619958
+        ],
+        "verify_ms": [
+          15.920127759015342,
+          63.68051103606137
+        ],
+        "vo_kb": [
+          410.68174999999997,
+          555.62825
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/verify ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=55.9675380063709；修订值=29.199484956897056\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F119\"], \"values\": [14.118213999609]}, {\"x\": 7, \"cells\": [\"G119\"], \"values\": [17.0896239997092]}, {\"x\": 8, \"cells\": [\"H119\"], \"values\": [55.9675380063709]}, {\"x\": 9, \"cells\": [\"I119\"], \"values\": [15.2340080003341]}, {\"x\": 10, \"cells\": [\"J119\"], \"values\": [60.8361340000556]}, {\"x\": 11, \"cells\": [\"K119\"], \"values\": [16.4847270007158]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 10, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 493189.72280600434, \"verify_ms\": 55.96753800637089, \"vo_kb\": 265.512, \"single_query_recall\": 0.5, \"build_seconds\": 162.334606565, \"prove_seconds\": 308.862579537, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-20261016/deep1m-1000000-M96-K1024-p4-k10-q20-r3-t1\", \"csv_sha256\": \"d42a3c863fed6ff66b6dc91e8c66c288c471a9a7b8cd65c92db2b494a159709d\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": true, \"recall20\": 0.78, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "H130",
+    "before": 493189.722806004,
+    "after": 2361625.516309979,
+    "metric": "query_ms",
+    "source": {
+      "k": 10,
+      "n_probe": 16,
+      "hits": 191,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 3227647,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 22,
+      "guard_domain_bits": 22,
+      "public_fields": 35949,
+      "proof_phase_rss_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 232.20451202392576,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2361625.516309979,
+      "vo_kb": 483.155,
+      "verify_ms": 31.840255518030684,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          1180812.7581549895,
+          4723251.032619958
+        ],
+        "verify_ms": [
+          15.920127759015342,
+          63.68051103606137
+        ],
+        "vo_kb": [
+          410.68174999999997,
+          555.62825
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "V3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 10, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 493189.72280600434, \"verify_ms\": 55.96753800637089, \"vo_kb\": 265.512, \"single_query_recall\": 0.5, \"build_seconds\": 162.334606565, \"prove_seconds\": 308.862579537, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-20261016/deep1m-1000000-M96-K1024-p4-k10-q20-r3-t1\", \"csv_sha256\": \"d42a3c863fed6ff66b6dc91e8c66c288c471a9a7b8cd65c92db2b494a159709d\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": true, \"recall20\": 0.78, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "I107",
+    "before": 269.965,
+    "after": 532.387,
+    "metric": "vo_kb",
+    "source": {
+      "k": 20,
+      "n_probe": 19,
+      "hits": 382,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 3824825,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "public_fields": 42103,
+      "proof_phase_rss_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2386267.1355557158,
+      "vo_kb": 532.387,
+      "verify_ms": 32.96270533033041,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          1193133.5677778579,
+          4772534.2711114315
+        ],
+        "verify_ms": [
+          16.481352665165204,
+          65.92541066066082
+        ],
+        "vo_kb": [
+          452.52894999999995,
+          612.2450499999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "V3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 20, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 494511.7807069993, \"verify_ms\": 15.234008000334143, \"vo_kb\": 269.965, \"single_query_recall\": 0.3, \"build_seconds\": 162.299788974, \"prove_seconds\": 309.885711747, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k20-q1-r1-t1\", \"csv_sha256\": \"342822eb762746c24d9ab7838b7759c121333424fbc8039a91834f8218ae9396\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.76, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "I119",
+    "before": 29.2,
+    "after": 32.96270533033041,
+    "metric": "verify_ms",
+    "source": {
+      "k": 20,
+      "n_probe": 19,
+      "hits": 382,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 3824825,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "public_fields": 42103,
+      "proof_phase_rss_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2386267.1355557158,
+      "vo_kb": 532.387,
+      "verify_ms": 32.96270533033041,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          1193133.5677778579,
+          4772534.2711114315
+        ],
+        "verify_ms": [
+          16.481352665165204,
+          65.92541066066082
+        ],
+        "vo_kb": [
+          452.52894999999995,
+          612.2450499999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/verify ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=15.2340080003341；修订值=29.2\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F119\"], \"values\": [14.118213999609]}, {\"x\": 7, \"cells\": [\"G119\"], \"values\": [17.0896239997092]}, {\"x\": 8, \"cells\": [\"H119\"], \"values\": [55.9675380063709]}, {\"x\": 9, \"cells\": [\"I119\"], \"values\": [15.2340080003341]}, {\"x\": 10, \"cells\": [\"J119\"], \"values\": [60.8361340000556]}, {\"x\": 11, \"cells\": [\"K119\"], \"values\": [16.4847270007158]}]\n\n修订前批注（历史，不代表修订后来源）：\n单调性复核：V3DB包含不同PQ配置、probe、证明电路/域大小及单次测量；这些条件不保证该指标随横轴单调。 前点H119=55.9675380064，本点=15.2340080003。\n\n原有来源：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 20, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 494511.7807069993, \"verify_ms\": 15.234008000334143, \"vo_kb\": 269.965, \"single_query_recall\": 0.3, \"build_seconds\": 162.299788974, \"prove_seconds\": 309.885711747, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k20-q1-r1-t1\", \"csv_sha256\": \"342822eb762746c24d9ab7838b7759c121333424fbc8039a91834f8218ae9396\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.76, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "I130",
+    "before": 493917.30578594,
+    "after": 2386267.1355557158,
+    "metric": "query_ms",
+    "source": {
+      "k": 20,
+      "n_probe": 19,
+      "hits": 382,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 3824825,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 22,
+      "guard_domain_bits": 23,
+      "public_fields": 42103,
+      "proof_phase_rss_estimate_GiB": 129.4064483642578,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 2386267.1355557158,
+      "vo_kb": 532.387,
+      "verify_ms": 32.96270533033041,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          1193133.5677778579,
+          4772534.2711114315
+        ],
+        "verify_ms": [
+          16.481352665165204,
+          65.92541066066082
+        ],
+        "vo_kb": [
+          452.52894999999995,
+          612.2450499999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/query ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=494511.780706999；修订值=493917.3057859397\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F130\"], \"values\": [492421.428295001]}, {\"x\": 7, \"cells\": [\"G130\"], \"values\": [492374.419783]}, {\"x\": 8, \"cells\": [\"H130\"], \"values\": [493189.722806004]}, {\"x\": 9, \"cells\": [\"I130\"], \"values\": [494511.780706999]}, {\"x\": 10, \"cells\": [\"J130\"], \"values\": [493323.545510001]}, {\"x\": 11, \"cells\": [\"K130\"], \"values\": [497184.840444]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 20, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 494511.7807069993, \"verify_ms\": 15.234008000334143, \"vo_kb\": 269.965, \"single_query_recall\": 0.3, \"build_seconds\": 162.299788974, \"prove_seconds\": 309.885711747, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k20-q1-r1-t1\", \"csv_sha256\": \"342822eb762746c24d9ab7838b7759c121333424fbc8039a91834f8218ae9396\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.76, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "J107",
+    "before": 271.954791689722,
+    "after": 589.99,
+    "metric": "vo_kb",
+    "source": {
+      "k": 50,
+      "n_probe": 22,
+      "hits": 955,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 4422003,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 48277,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4853823.737562809,
+      "vo_kb": 589.99,
+      "verify_ms": 35.238048028801806,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2426911.8687814046,
+          9707647.475125618
+        ],
+        "verify_ms": [
+          17.619024014400903,
+          70.47609605760361
+        ],
+        "vo_kb": [
+          501.4915,
+          678.4884999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/VO KB按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=273.279；修订值=271.95479168972196\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F107\"], \"values\": [269.378]}, {\"x\": 7, \"cells\": [\"G107\"], \"values\": [271.605]}, {\"x\": 8, \"cells\": [\"H107\"], \"values\": [265.512]}, {\"x\": 9, \"cells\": [\"I107\"], \"values\": [269.965]}, {\"x\": 10, \"cells\": [\"J107\"], \"values\": [273.279]}, {\"x\": 11, \"cells\": [\"K107\"], \"values\": [270.637]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 50, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 493323.54551000084, \"verify_ms\": 60.83613400005561, \"vo_kb\": 273.279, \"single_query_recall\": 0.2, \"build_seconds\": 162.417008499, \"prove_seconds\": 308.625147293, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k50-q1-r1-t1\", \"csv_sha256\": \"61944b5e37b61dcb4973c42da48c255334249c13c19668b38b8bbf1640c677c6\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.7469999999999999, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "J119",
+    "before": 31.6680763667432,
+    "after": 35.238048028801806,
+    "metric": "verify_ms",
+    "source": {
+      "k": 50,
+      "n_probe": 22,
+      "hits": 955,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 4422003,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 48277,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4853823.737562809,
+      "vo_kb": 589.99,
+      "verify_ms": 35.238048028801806,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2426911.8687814046,
+          9707647.475125618
+        ],
+        "verify_ms": [
+          17.619024014400903,
+          70.47609605760361
+        ],
+        "vo_kb": [
+          501.4915,
+          678.4884999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/verify ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=60.8361340000556；修订值=31.668076366743225\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F119\"], \"values\": [14.118213999609]}, {\"x\": 7, \"cells\": [\"G119\"], \"values\": [17.0896239997092]}, {\"x\": 8, \"cells\": [\"H119\"], \"values\": [55.9675380063709]}, {\"x\": 9, \"cells\": [\"I119\"], \"values\": [15.2340080003341]}, {\"x\": 10, \"cells\": [\"J119\"], \"values\": [60.8361340000556]}, {\"x\": 11, \"cells\": [\"K119\"], \"values\": [16.4847270007158]}]\n\n修订前批注（历史，不代表修订后来源）：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 50, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 493323.54551000084, \"verify_ms\": 60.83613400005561, \"vo_kb\": 273.279, \"single_query_recall\": 0.2, \"build_seconds\": 162.417008499, \"prove_seconds\": 308.625147293, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k50-q1-r1-t1\", \"csv_sha256\": \"61944b5e37b61dcb4973c42da48c255334249c13c19668b38b8bbf1640c677c6\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.7469999999999999, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "J130",
+    "before": 494000,
+    "after": 4853823.737562809,
+    "metric": "query_ms",
+    "source": {
+      "k": 50,
+      "n_probe": 22,
+      "hits": 955,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 4422003,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 48277,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4853823.737562809,
+      "vo_kb": 589.99,
+      "verify_ms": 35.238048028801806,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2426911.8687814046,
+          9707647.475125618
+        ],
+        "verify_ms": [
+          17.619024014400903,
+          70.47609605760361
+        ],
+        "vo_kb": [
+          501.4915,
+          678.4884999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/query ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=493323.545510001；修订值=494000.0\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F130\"], \"values\": [492421.428295001]}, {\"x\": 7, \"cells\": [\"G130\"], \"values\": [492374.419783]}, {\"x\": 8, \"cells\": [\"H130\"], \"values\": [493189.722806004]}, {\"x\": 9, \"cells\": [\"I130\"], \"values\": [494511.780706999]}, {\"x\": 10, \"cells\": [\"J130\"], \"values\": [493323.545510001]}, {\"x\": 11, \"cells\": [\"K130\"], \"values\": [497184.840444]}]\n\n修订前批注（历史，不代表修订后来源）：\n单调性复核：V3DB包含不同PQ配置、probe、证明电路/域大小及单次测量；这些条件不保证该指标随横轴单调。 前点I130=494511.780707，本点=493323.54551。\n\n原有来源：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 50, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 493323.54551000084, \"verify_ms\": 60.83613400005561, \"vo_kb\": 273.279, \"single_query_recall\": 0.2, \"build_seconds\": 162.417008499, \"prove_seconds\": 308.625147293, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k50-q1-r1-t1\", \"csv_sha256\": \"61944b5e37b61dcb4973c42da48c255334249c13c19668b38b8bbf1640c677c6\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.7469999999999999, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "K107",
+    "before": 272,
+    "after": 754.23,
+    "metric": "vo_kb",
+    "source": {
+      "k": 100,
+      "n_probe": 32,
+      "hits": 1910,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 6412597,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 68807,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4938158.409683584,
+      "vo_kb": 754.23,
+      "verify_ms": 38.98258729537857,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2469079.204841792,
+          9876316.819367168
+        ],
+        "verify_ms": [
+          19.491293647689286,
+          77.96517459075714
+        ],
+        "vo_kb": [
+          641.0955,
+          867.3644999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/VO KB按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=270.637；修订值=272.0\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F107\"], \"values\": [269.378]}, {\"x\": 7, \"cells\": [\"G107\"], \"values\": [271.605]}, {\"x\": 8, \"cells\": [\"H107\"], \"values\": [265.512]}, {\"x\": 9, \"cells\": [\"I107\"], \"values\": [269.965]}, {\"x\": 10, \"cells\": [\"J107\"], \"values\": [273.279]}, {\"x\": 11, \"cells\": [\"K107\"], \"values\": [270.637]}]\n\n修订前批注（历史，不代表修订后来源）：\n单调性复核：V3DB包含不同PQ配置、probe、证明电路/域大小及单次测量；这些条件不保证该指标随横轴单调。 前点J107=273.279，本点=270.637。\n\n原有来源：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 100, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 497184.84044399986, \"verify_ms\": 16.484727000715793, \"vo_kb\": 270.637, \"single_query_recall\": 0.21, \"build_seconds\": 162.913159041, \"prove_seconds\": 311.507644582, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k100-q1-r1-t1\", \"csv_sha256\": \"c143b90885fae6d145171be32fa7ee3df042a26f9a388c595b66f7880aa68066\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.7099999999999999, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "K119",
+    "before": 31.7,
+    "after": 38.98258729537857,
+    "metric": "verify_ms",
+    "source": {
+      "k": 100,
+      "n_probe": 32,
+      "hits": 1910,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 6412597,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 68807,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4938158.409683584,
+      "vo_kb": 754.23,
+      "verify_ms": 38.98258729537857,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2469079.204841792,
+          9876316.819367168
+        ],
+        "verify_ms": [
+          19.491293647689286,
+          77.96517459075714
+        ],
+        "vo_kb": [
+          641.0955,
+          867.3644999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "预测修订：K/verify ms按用户要求的非递减趋势假设进行对数空间保序拟合；非新实测、非作者结果，非严格算法定理。不同参数/电路结构原本可产生真实下降；此处仅为趋势预测情景。重复实际召回点等权合并，缺测位置不外推，不重复乘ANNProof系数。\n本次原值=16.4847270007158；修订值=31.7\n来源/拟合输入：[{\"x\": 6, \"cells\": [\"F119\"], \"values\": [14.118213999609]}, {\"x\": 7, \"cells\": [\"G119\"], \"values\": [17.0896239997092]}, {\"x\": 8, \"cells\": [\"H119\"], \"values\": [55.9675380063709]}, {\"x\": 9, \"cells\": [\"I119\"], \"values\": [15.2340080003341]}, {\"x\": 10, \"cells\": [\"J119\"], \"values\": [60.8361340000556]}, {\"x\": 11, \"cells\": [\"K119\"], \"values\": [16.4847270007158]}]\n\n修订前批注（历史，不代表修订后来源）：\n单调性复核：V3DB包含不同PQ配置、probe、证明电路/域大小及单次测量；这些条件不保证该指标随横轴单调。 前点J119=60.8361340001，本点=16.4847270007。\n\n原有来源：\nV3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 100, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 497184.84044399986, \"verify_ms\": 16.484727000715793, \"vo_kb\": 270.637, \"single_query_recall\": 0.21, \"build_seconds\": 162.913159041, \"prove_seconds\": 311.507644582, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k100-q1-r1-t1\", \"csv_sha256\": \"c143b90885fae6d145171be32fa7ee3df042a26f9a388c595b66f7880aa68066\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.7099999999999999, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  },
+  {
+    "cell": "K130",
+    "before": 497184.840444,
+    "after": 4938158.409683584,
+    "metric": "query_ms",
+    "source": {
+      "k": 100,
+      "n_probe": 32,
+      "hits": 1910,
+      "queries": 20,
+      "recall": 0.955,
+      "target_recall": 0.955,
+      "config": {
+        "dataset": "deep1m",
+        "source": "deep1m",
+        "N": 1000000,
+        "D": 96,
+        "n_list": 1024,
+        "M": 96,
+        "K": 1024,
+        "n_iter": 25,
+        "seed": 0,
+        "capacity": 2048,
+        "query_offset": 100,
+        "query_count": 20,
+        "scale": 65536,
+        "rebalance": "author algorithm with identical row-chunk distances"
+      },
+      "gates": 6412597,
+      "gate_source": "existing structural gate predictor; static gadget top_k only registers outputs, so pre-build gate estimate is k-independent at fixed probe; actual k used for public input count",
+      "domain_bits": 23,
+      "guard_domain_bits": 23,
+      "public_fields": 68807,
+      "proof_phase_rss_estimate_GiB": 258.8128967285156,
+      "planned_machine_memory_GiB": 432.4090240478515,
+      "fits_512GiB_scenario": true,
+      "query_ms": 4938158.409683584,
+      "vo_kb": 754.23,
+      "verify_ms": 38.98258729537857,
+      "kind": "conditional prediction; not proof/query/verification measurement",
+      "threads": 1,
+      "sensitivity": {
+        "query_ms": [
+          2469079.204841792,
+          9876316.819367168
+        ],
+        "verify_ms": [
+          19.491293647689286,
+          77.96517459075714
+        ],
+        "vo_kb": [
+          641.0955,
+          867.3644999999999
+        ]
+      },
+      "source_model_sha256": "42bfb4cf7e04255e51f18ad24409d3627385cce2577fbfe061f4d1091337bf2c",
+      "calibration_sha256": "449c82667a17424e89cb9c34c70d7e5e4854efc6d63de041c06cb6a7b21f76b2"
+    },
+    "old_comment": "V3DB单次实测：固定query100，1条×1次；不是平均耗时。Recall来自另行20条搜索校准（若存在），不是20次证明。\n{\"status\": \"passed\", \"dataset\": \"deep1m\", \"model\": \"deep1m-1000000-M96-K1024\", \"config\": {\"dataset\": \"deep1m\", \"source\": \"deep1m\", \"N\": 1000000, \"D\": 96, \"n_list\": 1024, \"M\": 96, \"K\": 1024, \"n_iter\": 25, \"seed\": 0, \"capacity\": 2048, \"query_offset\": 100, \"query_count\": 20, \"scale\": 65536, \"rebalance\": \"author algorithm with identical row-chunk distances\"}, \"n_probe\": 4, \"k\": 100, \"samples\": 1, \"query\": 100, \"repeat\": 0, \"query_ms\": 497184.84044399986, \"verify_ms\": 16.484727000715793, \"vo_kb\": 270.637, \"single_query_recall\": 0.21, \"build_seconds\": 162.913159041, \"prove_seconds\": 311.507644582, \"output\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-single-20261020/deep1m-1000000-M96-K1024-p4-k100-q1-r1-t1\", \"csv_sha256\": \"c143b90885fae6d145171be32fa7ee3df042a26f9a388c595b66f7880aa68066\", \"selection\": \"fixed query100 repeat0; not selected by runtime\", \"reused_existing_sample\": false, \"recall20\": 0.7099999999999999, \"recall_source\": \"/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/V3DB-26VLDB/work9-cache/deep1m-1000000-M96-K1024/calibration.json\", \"recall_query_count\": 20, \"recall_scope\": \"search calibration only; timing/VO use one fixed query, not 20 proofs\", \"kind\": \"k\"}"
+  }
+]

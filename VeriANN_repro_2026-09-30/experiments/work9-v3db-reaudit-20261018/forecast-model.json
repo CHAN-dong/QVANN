@@ -1,0 +1,152 @@
+{
+  "version": 2,
+  "scope": "conditional resource-sufficient single-thread forecast; NOT measured on the 50GiB-limited workstation",
+  "gate_features": [
+    "constant",
+    "L*D",
+    "L",
+    "p*K*D",
+    "p*M*K",
+    "p*n*M",
+    "p*n",
+    "p*max(n*M,M*K)",
+    "K*D",
+    "p*D*log2(L)",
+    "max(n,M,K,p)"
+  ],
+  "gate_coefficients": [
+    45.4334354327575,
+    2169401.531533651,
+    27509.884507010145,
+    2349189.0040243375,
+    59352.713411626304,
+    392268.2271097553,
+    60503.0144828247,
+    471436.0893972447,
+    30240.52222910861,
+    26059.06025240543,
+    0.0
+  ],
+  "feature_scales": [
+    1.0,
+    7864320.0,
+    8192.0,
+    15728640.0,
+    393216.0,
+    1048576.0,
+    16384.0,
+    1048576.0,
+    245760.0,
+    798720.0,
+    16384.0
+  ],
+  "exact_gate_observations": 57,
+  "gate_fit_median_relative_error": 0.001136484575563701,
+  "gate_leave_one_out_median_relative_error": 0.0013123155617586,
+  "gate_leave_one_out_p95_relative_error": 0.005091774615349732,
+  "gate_assumed_relative_sensitivity": 0.1,
+  "prove_seconds_per_domain_log2_domain": 1.5567756431378816e-05,
+  "build_seconds_per_domain_log2_domain": 8.032882088008681e-06,
+  "host_seconds_per_relation_log2_relation": 1.5665889071269112e-06,
+  "memory_GiB_per_domain_row": 3.432952507864684e-05,
+  "proof_body_bytes_at_b15": 138086,
+  "proof_body_bytes_per_extra_domain_bit": 8288.013333333336,
+  "public_input_hash_microbenchmark": [
+    {
+      "fields": 8192,
+      "median_ms": 0.982929,
+      "role": "native public-input hash microbenchmark; not proof verification"
+    },
+    {
+      "fields": 65536,
+      "median_ms": 8.04449,
+      "role": "native public-input hash microbenchmark; not proof verification"
+    },
+    {
+      "fields": 1048576,
+      "median_ms": 127.502322,
+      "role": "native public-input hash microbenchmark; not proof verification"
+    }
+  ],
+  "verify_core_ms_at_b20": 27.75736232183751,
+  "paper_time_formula_for_reference_only": "Tprove=1.364e-6*GB*log2(GB)+0.261 seconds, attached Table11; do not copy to local single-thread columns",
+  "limitations": [
+    "Two complete 20x3 points, one 59/60 partial point, and four new single-query proof shapes calibrate the model. New single-query anchors are not complete benchmarks.",
+    "Measured domain bits are 18, 19 and 20. Higher bins remain unvalidated extrapolation, even when exact static gate counts are available.",
+    "Sufficient RAM, no paging and similar single-core speed are conditions, not properties of the current 50GiB-limited proof process.",
+    "Scenario ranges are not statistical confidence intervals; predictions must not support claims of measured speedup.",
+    "Existing search-calibrated recall and uncalibrated size assumptions are retained, not newly validated or increased."
+  ],
+  "new_verified_calibration_shapes": 4,
+  "observed_domain_bits": [
+    18,
+    19,
+    20
+  ],
+  "verification_core_ms_by_observed_bin": {
+    "18": 11.046644248271473,
+    "19": 12.575823248259308,
+    "20": 27.75736232183751
+  },
+  "previous_coefficients": {
+    "prove": 1.4858024829115073e-05,
+    "build": 7.832621298946539e-06,
+    "host": 1.5590679790595725e-06,
+    "memory": 3.432952507864684e-05,
+    "body_slope": 8288.013333333336
+  },
+  "calibration_reconstruction_checks": [
+    {
+      "job": "deep1m-1000000-M96-K1024-p4-k10-q20-r3-t1",
+      "bin": 20,
+      "actual_seconds": 492.17314455535575,
+      "predicted_seconds": 519.0702429769246,
+      "relative_error": 0.05464966692944717
+    },
+    {
+      "job": "nytimes256-289761-M256-p2-k10-q20-r3-t1",
+      "bin": 20,
+      "actual_seconds": 509.6144407205503,
+      "predicted_seconds": 527.7950133196955,
+      "relative_error": 0.03567515193140802
+    },
+    {
+      "job": "sift1m-1000000-M128-K1024-p2-k10-q20-r3-t1",
+      "bin": 20,
+      "actual_seconds": 498.27931374313334,
+      "predicted_seconds": 510.54679425596066,
+      "relative_error": 0.02461968653820401
+    },
+    {
+      "job": "deep1m-1000000-M48-p2-k10-q1-r1-t1",
+      "bin": 18,
+      "actual_seconds": 119.90013771800002,
+      "predicted_seconds": 116.7780213524737,
+      "relative_error": -0.02603930591697412
+    },
+    {
+      "job": "deep1m-1000000-M96-K1024-p2-k10-q1-r1-t1",
+      "bin": 19,
+      "actual_seconds": 246.41493660599997,
+      "predicted_seconds": 246.54558209670486,
+      "relative_error": 0.000530184949436574
+    },
+    {
+      "job": "nytimes256-289761-M64-p1-k10-q1-r1-t1",
+      "bin": 18,
+      "actual_seconds": 118.89804465000002,
+      "predicted_seconds": 114.85249511346764,
+      "relative_error": -0.034025366425841974
+    },
+    {
+      "job": "sift1m-1000000-p8-k10-q1-r1-t1",
+      "bin": 18,
+      "actual_seconds": 121.384418594,
+      "predicted_seconds": 114.85249511346764,
+      "relative_error": -0.053811877637936156
+    }
+  ],
+  "parameters_policy": "Existing main-table M/K/L/probe unchanged. Do not mix retuned query estimates with previously measured index costs.",
+  "SIFT_parameter_alternative": "M128/K256/p16 has existing search calibration at 95%; listed separately, not silently substituted in the main row.",
+  "note": "New calibration samples do not complete any missing 20x3 benchmark. Big-bin times remain unvalidated conditional estimates, not corrected measured values."
+}

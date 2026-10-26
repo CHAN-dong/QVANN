@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "paired_answer_comparisons": 5,
+  "tamper_tests": 25,
+  "summary": [
+    {
+      "variant": 2,
+      "name": "Merkle+HNSW",
+      "recall": 1.0,
+      "query_ms": 1.4703632,
+      "search_ms": 0.249496,
+      "vo_generation_ms": 1.2208672,
+      "verify_ms": 1.9555204,
+      "authentication_ms": 1.7261701999999999,
+      "replay_ms": 0.165573,
+      "vo_kb": 285.16,
+      "parameter": 64,
+      "visited": 447.2,
+      "expanded": 70.6,
+      "samples": 5,
+      "tamper_tests": 12,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/sift1m/smoke-2-4/variant-2",
+      "source_sha256": "1942af5c39d1ab682118fdf40b8bd815545729536d3f61488704cf44358553bf"
+    },
+    {
+      "variant": 4,
+      "name": "Merkle+HNSW+(i)",
+      "recall": 1.0,
+      "query_ms": 1.0128538,
+      "search_ms": 0.32351019999999997,
+      "vo_generation_ms": 0.6893436,
+      "verify_ms": 2.900869,
+      "authentication_ms": 2.4978736,
+      "replay_ms": 0.3278272,
+      "vo_kb": 202.9456,
+      "parameter": 64,
+      "visited": 447.2,
+      "expanded": 70.6,
+      "samples": 5,
+      "tamper_tests": 13,
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-ablation-20261015/sift1m/smoke-2-4/variant-4",
+      "source_sha256": "36da7d5bc166e5ac63c5720f13eaa091865b151e81028e393021aa12a029bdff"
+    }
+  ]
+}

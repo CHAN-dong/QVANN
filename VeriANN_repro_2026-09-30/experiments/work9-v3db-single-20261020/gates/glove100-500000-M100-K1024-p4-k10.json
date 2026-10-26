@@ -1,0 +1,27 @@
+{
+  "gates": 517940,
+  "degree_bits": 19,
+  "static_peak_rss_KiB": 5220960,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "glove100",
+    "source": "glove100",
+    "N": 500000,
+    "D": 100,
+    "n_list": 1024,
+    "M": 100,
+    "K": 1024,
+    "n_iter": 25,
+    "seed": 0,
+    "capacity": 1024,
+    "query_offset": 100,
+    "query_count": 20,
+    "scale": 65536,
+    "rebalance": "author algorithm with identical row-chunk distances"
+  },
+  "n_probe": 4,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

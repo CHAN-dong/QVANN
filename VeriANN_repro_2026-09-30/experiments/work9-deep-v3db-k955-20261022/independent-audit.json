@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "independently_reconstructed_search_recall_rows": 7680,
+  "matched_points": 6,
+  "predicted_cells_verified": 18,
+  "all_actual_recalls_at_least_955": true,
+  "all_chosen_probes_minimal_on_dense_grid": true,
+  "all_points_within_512GiB_planning": true,
+  "actual_k_used_for_public_input_count": true,
+  "k10_matches_prior_955_model": true,
+  "unrelated_values_and_comments_preserved": 88971
+}

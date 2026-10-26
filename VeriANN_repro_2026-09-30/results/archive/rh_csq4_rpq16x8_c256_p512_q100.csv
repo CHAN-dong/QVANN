@@ -1,0 +1,2 @@
+coarse_codec,residual_codec,base,nlist,nprobe,coarse_nlist,coarse_nprobe,train_queries,test_queries,recall,avg_candidate_residuals,avg_visited,avg_refined,avg_exact,base_bits,routing_parameters,routing_coarse_codes,routing_residual_codes,routing_metadata,routing_proofs,routing_total,leaf_total,total_vo,ann_query_ms,vo_generation_ms,violations
+sq4,pq16x8,100000,65536,512,1024,256,200,100,0.9836,18249.16,852.65,493.19,169.2,480,132192,65536,291986.56,19456,46103.68,555274.24,94035.92,649310.16,7.10470809,1.24633198,0

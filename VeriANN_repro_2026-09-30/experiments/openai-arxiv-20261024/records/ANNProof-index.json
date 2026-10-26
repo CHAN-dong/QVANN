@@ -1,0 +1,10 @@
+{
+  "method": "ANNProof",
+  "kind": "index",
+  "status": "measured",
+  "index_mb": 6474.785644,
+  "index_seconds": 751.517265093,
+  "threads": 8,
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/indexes/ANNProof/offline.json",
+  "source_sha256": "9d43d6b17463d2cf960fcfbc17f4876b4ae95451071a0b61ca429b96c7aa0678"
+}

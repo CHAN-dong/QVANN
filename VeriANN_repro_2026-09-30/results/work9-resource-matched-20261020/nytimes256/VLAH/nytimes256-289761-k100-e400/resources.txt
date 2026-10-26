@@ -1,0 +1,23 @@
+	Command being timed: "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/VLAH-25TrustCom/build/vlah --dataset /mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/nytimes256 --output /mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/VLAH/nytimes256-289761-k100-e400 --cache /mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/VLAH-25TrustCom/cache --base 289761 --queries 20 --query-offset 100 --build-threads 1 --M 16 --ef-construction 200 --shard-size 10000 --bucket-size 20000 --seed 42 --repeats 3 --k 100 --ef-search 400 --probes 6 --metric l2 --proof multiproof --lsh-width 0.3508760872900476"
+	User time (seconds): 23.11
+	System time (seconds): 2.29
+	Percent of CPU this job got: 82%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 975188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 80
+	Minor (reclaiming a frame) page faults: 2054293
+	Voluntary context switches: 43255
+	Involuntary context switches: 98
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

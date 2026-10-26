@@ -1,0 +1,23 @@
+[
+  {
+    "experiment": "e_budget_relaxed_hnsw",
+    "base_vectors": 100000,
+    "peak_rss_kib": 122208,
+    "peak_rss_mib": 119.34,
+    "elapsed_seconds": 4.099
+  },
+  {
+    "experiment": "expansion_centric_merkle",
+    "base_vectors": 100000,
+    "peak_rss_kib": 205080,
+    "peak_rss_mib": 200.27,
+    "elapsed_seconds": 13.329
+  },
+  {
+    "experiment": "refinement_merkle_ordering",
+    "base_vectors": 100000,
+    "peak_rss_kib": 165676,
+    "peak_rss_mib": 161.79,
+    "elapsed_seconds": 5.845
+  }
+]

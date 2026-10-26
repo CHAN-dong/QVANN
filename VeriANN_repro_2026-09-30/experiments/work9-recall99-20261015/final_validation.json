@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "cells": 198,
+  "formal": 9900,
+  "pilot": 9400,
+  "tamper_rejections": 64,
+  "dataset_sha256": "ac8e11ed111b09e882bcf0ef1a77ebdd36c89f495bce8fd596603f69c35148e6",
+  "original_updated": true,
+  "source_fingerprints": {
+    "VLAH-pilot": {
+      "VLAH-25TrustCom/vlah.cpp": "850fbcc8cfd603282d3249920850c384f9ef6f5435919f6957d188b2029f5439",
+      "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+      "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+      "ANNProof-24FGCS/upstream/source/similarity_search/include/Keccak256.h": "51383db26a8df322825ed98117a0920a4247c4222bd23c9bb168a0efe316c812",
+      "ANNProof-24FGCS/upstream/source/similarity_search/src/Keccak256.cc": "05a9b64523f7d1b2782d916e4fdf9408d7588f00009236ec0e1f8e721b963e39"
+    },
+    "VLAH-evaluation": {
+      "VLAH-25TrustCom/vlah.cpp": "850fbcc8cfd603282d3249920850c384f9ef6f5435919f6957d188b2029f5439",
+      "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+      "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+      "ANNProof-24FGCS/upstream/source/similarity_search/include/Keccak256.h": "51383db26a8df322825ed98117a0920a4247c4222bd23c9bb168a0efe316c812",
+      "ANNProof-24FGCS/upstream/source/similarity_search/src/Keccak256.cc": "05a9b64523f7d1b2782d916e4fdf9408d7588f00009236ec0e1f8e721b963e39"
+    },
+    "ANNProof-pilot": {
+      "ANNProof-24FGCS/annproof.cpp": "8f0dfa4ca43abe86901041894eb3a566f24555829a36eadf226d67277f4cb935",
+      "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+      "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+      "ANNProof-24FGCS/upstream/source/similarity_search/include/Keccak256.h": "51383db26a8df322825ed98117a0920a4247c4222bd23c9bb168a0efe316c812",
+      "ANNProof-24FGCS/upstream/source/similarity_search/src/Keccak256.cc": "05a9b64523f7d1b2782d916e4fdf9408d7588f00009236ec0e1f8e721b963e39"
+    },
+    "ANNProof-evaluation": {
+      "ANNProof-24FGCS/annproof.cpp": "8f0dfa4ca43abe86901041894eb3a566f24555829a36eadf226d67277f4cb935",
+      "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+      "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+      "ANNProof-24FGCS/upstream/source/similarity_search/include/Keccak256.h": "51383db26a8df322825ed98117a0920a4247c4222bd23c9bb168a0efe316c812",
+      "ANNProof-24FGCS/upstream/source/similarity_search/src/Keccak256.cc": "05a9b64523f7d1b2782d916e4fdf9408d7588f00009236ec0e1f8e721b963e39"
+    },
+    "Ours-pilot": {
+      "build/veriann_lut_benchmark.cpp": "5d5c39d871d46ee88d4e8164463bb9c79fe99686abd34aaa7dec85e8b768b077",
+      "src/experiments/veriann_optimized_benchmark.cpp": "25953a430800a715f0b4586c99bc91473a5b066f24a3cedecd96655a63af4cd1",
+      "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+      "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+      "src/experiments/aggregated_mac_hnsw.cpp": "53263b0749b32eaee566547687c15ffa73ffbdc681f3fe4554bc2e6356c339f7",
+      "src/experiments/basic_hnsw_vo_breakdown.cpp": "0824f1ecd4e49ac2acd906d3deeec181fcba3b1e946c4401e637cb0b76075f8a",
+      "src/experiments/e_budget_relaxed_hnsw.cpp": "695cfa01475183fe2b2963977e29c364797812d1a65b93cdf8f1af78f4dae301",
+      "src/experiments/global_centroid_hnsw_vo.cpp": "88b1c7558d2d9d118bf2e7e87235fc330d83da0eceda8f0f38f05a8c74b88922",
+      "src/experiments/hnsw_block_graph.cpp": "dfeeb3f5c5b69a1655b2d882d3f69551118ef134d90f36f886c7e7f93ee9d6b2",
+      "src/experiments/hnsw_vo_breakdown.cpp": "1c2aa975014bbad9987dc4a56007394428ac253a472cad1c69db42abf24858e2",
+      "src/experiments/progressive_relaxed_hnsw.cpp": "b130600b643e42a894bddf580a253d8d5824f816d05b161838bff7cb348b8515",
+      "src/experiments/relaxed_hnsw_harvest.cpp": "4b672feaa5edef5e53d5964acb27e09f0b6c2d21277472cc223adbd126a7a4a4",
+      "src/experiments/expansion_centric_merkle.cpp": "cef140c38a375fc6a9748b5c5c53e736003b5e8f42358b6d271a42ce295b2cc2",
+      "src/experiments/refinement_merkle_ordering.cpp": "39f69e298dc47a9ce04e267f04ef64d7f5264b1919e90b10d88a5e011b2e2ae8",
+      "src/veriann_query_lut.hpp": "fccc86d3ac5d9391f06131594b6512062db649655be49dc0e2e4ac056ec9d96d"
+    },
+    "Ours-evaluation": {
+      "build/veriann_lut_benchmark.cpp": "5d5c39d871d46ee88d4e8164463bb9c79fe99686abd34aaa7dec85e8b768b077",
+      "src/experiments/veriann_optimized_benchmark.cpp": "25953a430800a715f0b4586c99bc91473a5b066f24a3cedecd96655a63af4cd1",
+      "src/paper_repro_common.hpp": "a06e710ebe5406d9b8a6d9ffa4f1912a98e63fe411f9f63906e262a40267f048",
+      "src/verifiable_ann_common.hpp": "14ab7476909af2c3e1b6efa6bde03f13d7aeca383cd3bb8f0d53a93505ede1a9",
+      "src/experiments/aggregated_mac_hnsw.cpp": "53263b0749b32eaee566547687c15ffa73ffbdc681f3fe4554bc2e6356c339f7",
+      "src/experiments/basic_hnsw_vo_breakdown.cpp": "0824f1ecd4e49ac2acd906d3deeec181fcba3b1e946c4401e637cb0b76075f8a",
+      "src/experiments/e_budget_relaxed_hnsw.cpp": "695cfa01475183fe2b2963977e29c364797812d1a65b93cdf8f1af78f4dae301",
+      "src/experiments/global_centroid_hnsw_vo.cpp": "88b1c7558d2d9d118bf2e7e87235fc330d83da0eceda8f0f38f05a8c74b88922",
+      "src/experiments/hnsw_block_graph.cpp": "dfeeb3f5c5b69a1655b2d882d3f69551118ef134d90f36f886c7e7f93ee9d6b2",
+      "src/experiments/hnsw_vo_breakdown.cpp": "1c2aa975014bbad9987dc4a56007394428ac253a472cad1c69db42abf24858e2",
+      "src/experiments/progressive_relaxed_hnsw.cpp": "b130600b643e42a894bddf580a253d8d5824f816d05b161838bff7cb348b8515",
+      "src/experiments/relaxed_hnsw_harvest.cpp": "4b672feaa5edef5e53d5964acb27e09f0b6c2d21277472cc223adbd126a7a4a4",
+      "src/experiments/expansion_centric_merkle.cpp": "cef140c38a375fc6a9748b5c5c53e736003b5e8f42358b6d271a42ce295b2cc2",
+      "src/experiments/refinement_merkle_ordering.cpp": "39f69e298dc47a9ce04e267f04ef64d7f5264b1919e90b10d88a5e011b2e2ae8",
+      "src/veriann_query_lut.hpp": "fccc86d3ac5d9391f06131594b6512062db649655be49dc0e2e4ac056ec9d96d"
+    }
+  }
+}

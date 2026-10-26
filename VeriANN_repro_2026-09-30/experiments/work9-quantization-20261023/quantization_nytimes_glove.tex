@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\centering
+\caption{Impact of quantization configurations with fixed SQ4 top-1 graph traversal.}
+\label{tab:quantization_text}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lrrrrrr}
+\toprule
+\multirow{2}{*}{Configuration}
+& \multicolumn{3}{c}{\textsf{NYTimes}} & \multicolumn{3}{c}{\textsf{GloVe}} \\
+\cmidrule(lr){2-4}\cmidrule(l){5-7}
+& Q (ms) & VO (KB) & V (ms) & Q (ms) & VO (KB) & V (ms) \\
+\midrule
+SQ4--raw & 17.501 & 3093.103 & 35.825 & 64.966 & 7291.163 & 139.272 \\
+\textbf{SQ4--SQ6--raw} & 10.473 & 1271.249 & 21.525 & 50.884 & 3831.711 & 109.857 \\
+SQ4--SQ8--raw & 10.566 & 1331.151 & 21.152 & 51.594 & 3994.777 & 109.655 \\
+SQ4--SQ6--SQ8--raw & 10.736 & 1229.283 & 21.466 & 51.764 & 3803.560 & 110.611 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,2 @@
+level0 reachable=866694 total=1000000
+all_levels reachable=870260 total=1000000

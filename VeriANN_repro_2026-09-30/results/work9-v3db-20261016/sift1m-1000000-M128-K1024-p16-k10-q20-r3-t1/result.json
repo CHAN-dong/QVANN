@@ -1,0 +1,28 @@
+{
+  "status": "resource_limit",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-v3db-20261016/sift1m-1000000-M128-K1024-p16-k10-q20-r3-t1",
+  "actual_attempt": true,
+  "address_space_limit_GiB": 50,
+  "reason": "actual author circuit construction/proving attempt failed allocation under 50 GiB process address-space limit",
+  "log": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-v3db-20261016/formal-sift1m-1000000-M128-K1024-p16-k10-q20-r3-t1.log",
+  "job": "sift1m-1000000-M128-K1024-p16-k10-q20-r3-t1",
+  "config": {
+    "dataset": "sift1m",
+    "source": "sift1m",
+    "N": 1000000,
+    "D": 128,
+    "n_list": 1024,
+    "M": 128,
+    "K": 1024,
+    "n_iter": 25,
+    "seed": 0,
+    "capacity": 2048,
+    "query_offset": 100,
+    "query_count": 20,
+    "scale": 65536,
+    "rebalance": "author algorithm with identical row-chunk distances"
+  },
+  "n_probe": 16,
+  "k": 10,
+  "proof_threads": "1"
+}

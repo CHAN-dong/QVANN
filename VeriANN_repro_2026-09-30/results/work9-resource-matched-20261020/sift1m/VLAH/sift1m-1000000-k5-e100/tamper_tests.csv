@@ -1,0 +1,12 @@
+attack,rejected
+vector_bit_flip,1
+adjacency_bit_flip,1
+result_id_change,1
+local_proof_bit_flip,1
+trie_proof_bit_flip,1
+wrong_main_bucket,1
+jump_trace_change,1
+truncated_vo,1
+omitted_record,1
+wrong_trusted_root,1
+wrong_query_binding,1

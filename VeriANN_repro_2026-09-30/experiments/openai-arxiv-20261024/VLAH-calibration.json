@@ -1,0 +1,170 @@
+[
+  {
+    "ef": 50,
+    "probes": 1,
+    "recall": 0.065,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 2,
+    "recall": 0.07,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 4,
+    "recall": 0.135,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 6,
+    "recall": 0.21000000000000002,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 8,
+    "recall": 0.24500000000000002,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 12,
+    "recall": 0.335,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 16,
+    "recall": 0.41500000000000004,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 24,
+    "recall": 0.52,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 32,
+    "recall": 0.66,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 40,
+    "recall": 0.805,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 48,
+    "recall": 0.96,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 50,
+    "probes": 50,
+    "recall": 0.9800000000000001,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e50/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 1,
+    "recall": 0.065,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 2,
+    "recall": 0.07,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 4,
+    "recall": 0.135,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 6,
+    "recall": 0.21000000000000002,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 8,
+    "recall": 0.24500000000000002,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 12,
+    "recall": 0.335,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 16,
+    "recall": 0.42000000000000004,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 24,
+    "recall": 0.525,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 32,
+    "recall": 0.665,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 40,
+    "recall": 0.8150000000000001,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 48,
+    "recall": 0.975,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  },
+  {
+    "ef": 100,
+    "probes": 50,
+    "recall": 0.9949999999999999,
+    "valid": true,
+    "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/pilots/VLAH-e100/pilot.csv"
+  }
+]

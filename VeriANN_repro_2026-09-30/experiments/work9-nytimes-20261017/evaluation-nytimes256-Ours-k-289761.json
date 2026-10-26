@@ -1,0 +1,24 @@
+{
+  "dataset": "nytimes256",
+  "method": "Ours",
+  "base": 289761,
+  "purpose": "k",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-20261017/nytimes256/Ours-k-289761",
+  "selection": [
+    {
+      "ef": 256,
+      "probes": 1,
+      "recall": 0.9550000000000001,
+      "valid": true,
+      "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-20261017/nytimes256/Ours-pilot-289761-phase0",
+      "target": 0.95
+    }
+  ],
+  "width": 0.3508760872900476,
+  "M": 16,
+  "ef_construction": 200,
+  "query_count": 20,
+  "query_offset": 100,
+  "repeats": 3,
+  "measurement_scope": "20-query quick preview"
+}

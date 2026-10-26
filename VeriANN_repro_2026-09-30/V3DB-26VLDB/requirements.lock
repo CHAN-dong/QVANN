@@ -1,0 +1,12 @@
+cloudpickle==3.1.2
+faiss-cpu==1.15.1
+joblib==1.6.0
+maturin==1.9.6
+narwhals==2.27.1
+numpy==2.5.4
+packaging==26.3
+pip==26.2.1
+scikit-learn==1.9.1
+scipy==1.18.1
+threadpoolctl==3.7.0
+tqdm==4.70.1

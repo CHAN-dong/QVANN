@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "sift1m",
+    "coordinates": 128000000,
+    "mismatches": 0
+  },
+  {
+    "dataset": "gist1m",
+    "coordinates": 960000000,
+    "mismatches": 13
+  },
+  {
+    "dataset": "glove100",
+    "coordinates": 118351400,
+    "mismatches": 0
+  },
+  {
+    "dataset": "deep1m",
+    "coordinates": 96000000,
+    "mismatches": 0
+  }
+]

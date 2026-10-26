@@ -1,0 +1,14 @@
+{
+  "chunked_rebalance_identical": true,
+  "cluster_roots_identical": true,
+  "indexed_alignment_matches_author_256_cases": true,
+  "paper_basic_gate_count_unchanged": true,
+  "batched_integer_pq_scores_identical": true,
+  "parallel_pq_matches_serial_author_calls": true,
+  "serialized_proof_verified": true,
+  "public_topk_query_roots_match": true,
+  "tampered_wire_proof_rejected": true,
+  "gates": 429,
+  "vo_bytes": 97147,
+  "note": "adapter functionality test; concurrent calibration means timings excluded"
+}

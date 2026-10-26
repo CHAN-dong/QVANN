@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/work9_V3DB复核更新.xlsx",
+  "original_updated": true,
+  "forecast_cells": 255,
+  "full_measurement_cells": 9,
+  "unchanged_unrelated_nonempty_cells": 21050,
+  "total_V3DB_cells": 428,
+  "raw_CSVs_unchanged": true,
+  "local_reference_sample_counts": [
+    59,
+    60,
+    60
+  ],
+  "source_sha256_before": "a18fb9ff944623705837c887815a27612365ad39ab3c77da4bf41d39ee63054a",
+  "output_sha256": "14fb7e7d2cc847c21c46a30f62def3efb0c6ec64bacfbf33ea9adb83314de0a1",
+  "all_values_are_measured": false,
+  "note": "Conditional forecasts are visibly tagged. Unreachable targets and unavailable sizes remain statuses."
+}

@@ -1,0 +1,21 @@
+{
+  "base_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/src/experiments/veriann_optimized_benchmark.cpp",
+  "base_sha256": "25953a430800a715f0b4586c99bc91473a5b066f24a3cedecd96655a63af4cd1",
+  "lut_header": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/src/veriann_query_lut.hpp",
+  "lut_header_sha256": "fccc86d3ac5d9391f06131594b6512062db649655be49dc0e2e4ac056ec9d96d",
+  "generated_source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/build/veriann_lut_benchmark.cpp",
+  "generated_sha256": "5d5c39d871d46ee88d4e8164463bb9c79fe99686abd34aaa7dec85e8b768b077",
+  "changes": [
+    "per-query SQ4 score / SQ4 and SQ6 lower-bound lookup tables",
+    "prepare cost included in both server and client timers"
+  ],
+  "unchanged": [
+    "wire format",
+    "Merkle trees",
+    "traversal",
+    "E and k",
+    "graph cache",
+    "per-dimension accumulation order",
+    "nextafter boundary rounding"
+  ]
+}

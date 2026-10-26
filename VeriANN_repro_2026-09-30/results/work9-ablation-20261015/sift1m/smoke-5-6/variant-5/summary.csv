@@ -1,0 +1,2 @@
+method,k,ef_search,probes,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+(i)+(ii),10,64,1,5,0.458512,0.369549,0.826468,0.457927,2.08636,2.47694,1.62758,0.401873,97.7383,107.305,1,1,1,10.1195,6.17161,0.455675,0,16.4648

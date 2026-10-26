@@ -1,0 +1,40 @@
+{
+  "N": 289761,
+  "M": 8,
+  "efc": 8,
+  "points": [
+    {
+      "ef": 16384,
+      "recall": 0.945,
+      "valid": true
+    }
+  ],
+  "csv_sha256": "51b2bee671278416235d1f58d80b7139fc2728d8746df0f44c0063bbc469ee3b",
+  "command": [
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/build/multidata_pilot_ANNProof",
+    "--dataset",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/dataset/nytimes256",
+    "--base",
+    "289761",
+    "--M",
+    "8",
+    "--ef-construction",
+    "8",
+    "--cache",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-nytimes-annproof-full-20261021/cache/curve-M8-efc8",
+    "--queries",
+    "20",
+    "--query-offset",
+    "100",
+    "--build-threads",
+    "1",
+    "--probes",
+    "1",
+    "--output",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/pilots/curve-M8-efc8-extend-16384",
+    "--k",
+    "10",
+    "--ef-search",
+    "16384"
+  ]
+}

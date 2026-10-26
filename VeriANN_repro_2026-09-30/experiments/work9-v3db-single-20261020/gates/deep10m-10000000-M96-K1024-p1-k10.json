@@ -1,0 +1,20 @@
+{
+  "status": "resource_limit",
+  "label": "超构建预算，未出证",
+  "reason": "p*max(capacity,K)*M exceeds 2,000,000 padded relation entries",
+  "relation_tuples": 3145728,
+  "actual_attempt": false,
+  "config": {
+    "dataset": "deep1m",
+    "source": "deep10m",
+    "N": 10000000,
+    "D": 96,
+    "M": 96,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 32768
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

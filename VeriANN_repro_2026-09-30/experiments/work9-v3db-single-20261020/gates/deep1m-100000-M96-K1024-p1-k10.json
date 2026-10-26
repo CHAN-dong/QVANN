@@ -1,0 +1,21 @@
+{
+  "gates": 126756,
+  "degree_bits": 17,
+  "static_peak_rss_KiB": 1329172,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "deep1m",
+    "source": "deep1m",
+    "N": 100000,
+    "D": 96,
+    "M": 96,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 256
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

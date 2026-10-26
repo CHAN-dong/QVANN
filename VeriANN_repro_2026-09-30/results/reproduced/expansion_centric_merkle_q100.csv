@@ -1,0 +1,4 @@
+method,recall_at_10,avg_expanded,avg_disclosed,routing_leaf_targets,refinement_leaf_targets,unique_authenticated_leaves,multiproof_sibling_hashes,merkle_proof_kib,routing_sibling_hashes,routing_proof_kib,added_neighbor_commitment_kib,sq4_payload_kib,delta_payload_kib,raw_payload_kib,adjacency_id_payload_kib,metadata_kib,total_authentication_vo_kib,total_vo_kib,avg_neighbor_refs,avg_unique_neighbor_ids,duplicate_commitment_ratio
+Record-wise-Merkle,0.992,64,811.86,880.11,158.84,1038.95,6361.5,198.797,5123.89,160.122,0,50.7413,4.25125,11.4,4.84941,4.70693,198.797,274.746,1241.45,811.66,0.3462
+Previous-Expansion-Centric,0.992,64,811.86,68.25,158.84,227.09,1804.55,56.3922,566.6,17.7063,38.7953,50.7413,4.25125,11.4,4.84941,4.70693,95.1875,171.136,1241.45,811.66,0.3462
+Direct-Content-Expansion-Centric,0.992,64,811.86,68.25,158.84,227.09,1804.55,56.3922,566.6,17.7063,0,50.7413,4.25125,11.4,4.84941,4.70693,56.3922,132.341,1241.45,811.66,0.3462

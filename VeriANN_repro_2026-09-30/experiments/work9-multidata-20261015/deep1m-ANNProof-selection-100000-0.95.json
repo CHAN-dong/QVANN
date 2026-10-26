@@ -1,0 +1,10 @@
+[
+  {
+    "ef": 48,
+    "probes": 1,
+    "recall": 0.95,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-multidata-20261015/deep1m/ANNProof-pilot-100000-phase0",
+    "target": 0.95
+  }
+]

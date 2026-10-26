@@ -1,0 +1,23 @@
+{
+  "status": "resource_limit",
+  "label": "超构建预算，未出证",
+  "reason": "p*max(capacity,K)*M exceeds 2,000,000 padded relation entries",
+  "relation_tuples": 4194304,
+  "actual_attempt": false,
+  "config": {
+    "dataset": "sift1m",
+    "source": "bigann10m",
+    "N": 10000000,
+    "D": 128,
+    "M": 128,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 32768
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50,
+  "dataset": "sift1m",
+  "kind": "size",
+  "N": 10000000
+}

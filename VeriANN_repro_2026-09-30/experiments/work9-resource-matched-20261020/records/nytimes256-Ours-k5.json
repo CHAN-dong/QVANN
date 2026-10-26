@@ -1,0 +1,17 @@
+{
+  "k": 5,
+  "ef": 15,
+  "probes": 1,
+  "recall": 0.63,
+  "query_ms": 0.99991615,
+  "verify_ms": 2.328107783333333,
+  "vo_kb": 142.16979999999998,
+  "samples": 60,
+  "status": "passed",
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/nytimes256/Ours/nytimes256-289761-k5-e15",
+  "csv_sha256": "5cb42aced21d5d61de8e6afc1bd238f01b8d98cb762732f235c8bcdfd34e6c48",
+  "dataset": "nytimes256",
+  "method": "Ours",
+  "kind": "k",
+  "N": 289761
+}

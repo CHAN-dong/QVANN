@@ -1,0 +1,13 @@
+{
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "cpu": "12th Gen Intel(R) Core(TM) i9-12900",
+  "logical_cpus": 24,
+  "memory": [
+    "MemTotal:       65680324 kB",
+    "MemFree:        51407812 kB",
+    "MemAvailable:   51270028 kB"
+  ],
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "query_threads": 1,
+  "offline_graph_build_threads": 8
+}

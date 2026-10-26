@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "metric_cells": 96,
+  "formal_measurements": 1440,
+  "paired_answer_comparisons": 720,
+  "tamper_tests": 312,
+  "preserved_original_cells": 26323,
+  "workbook_sha256": "d91d51440cab311502a2aa203944d568c9d77f37e9d4c03ad1012e4fd71176ae",
+  "cache_artifact_sha256": {
+    "ANNProof-24FGCS/cache/ac8e11ed111b09e8_M16_efc200.index": "d1ebd4446b3a4d822cad818ed7dc81139d1d345e61a33b73c0bade7d2e2e8766",
+    "ANNProof-24FGCS/cache/ac8e11ed111b09e8_ivf256_train65536_iter12_seed42_v1.bin": "8cb08d85ca133785353d4a3fe75ba94e5510d807d324a5a7a6e265eb9517eff4",
+    "ANNProof-24FGCS/cache/1d9dfa933a86b1b7_M16_efc200.index": "7646b0797d1c1362bf7f09d8f2714181d3b85c16c5ff944077b056aac41eab0b",
+    "ANNProof-24FGCS/cache/1d9dfa933a86b1b7_ivf256_train65536_iter12_seed42_v1.bin": "c56921b1fbeb3ef29b5eac2cd32ad0070c35932f17402104f3f34dfbab32e4ae",
+    "ANNProof-24FGCS/cache/798c3e8d6c947699_M16_efc200.index": "20551bb733d96ee6b68f12f669b5dbabe14f5be947a111e6186509b0c57a4fdd",
+    "ANNProof-24FGCS/cache/798c3e8d6c947699_ivf256_train65536_iter12_seed42_v1.bin": "d4a6de01b641b25c3e881e4a18f7d53089a095f2270cb80721afb7ba10641990",
+    "ANNProof-24FGCS/cache/8dca9378a247cbcd_M16_efc200.index": "4bad4decb956f6dc79016a018211be4849aff79b019df9d10a1bff063bec6407",
+    "ANNProof-24FGCS/cache/8dca9378a247cbcd_ivf256_train65536_iter12_seed42_v1.bin": "7db4e72860fd94bd7213dc76d90c7de8ad5c07c2154e962564c53ed1f2f91082"
+  }
+}

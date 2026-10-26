@@ -1,0 +1,21 @@
+{
+  "gates": 565822,
+  "degree_bits": 20,
+  "static_peak_rss_KiB": 3407640,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "openai_arxiv1m",
+    "source": "openai_arxiv1m",
+    "N": 1000000,
+    "D": 1536,
+    "n_list": 1024,
+    "M": 8,
+    "K": 256,
+    "capacity": 2048
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

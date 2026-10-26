@@ -1,0 +1,9 @@
+{
+  "proof_queries": 1,
+  "repeats": 1,
+  "query_id": 100,
+  "threads": 1,
+  "recall_queries": 20,
+  "other_defaults": "original ~95%; untouched",
+  "reuse": "fixed query100 repeat0 only"
+}

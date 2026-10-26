@@ -1,0 +1,16 @@
+{
+  "status": "measured",
+  "ef": 512,
+  "probes": 1,
+  "recall": 0.9700000000000001,
+  "query_ms": 170.37153078333333,
+  "vo_kb": 38869.4792,
+  "verify_ms": 210.19451988333333,
+  "samples": 60,
+  "source": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/openai-arxiv-20261024/ablations/2-4/variant-4/per_query.csv",
+  "source_sha256": "eff3253cd1a97f00d9793ff2aed1dc1f1f70ea242bd5a48cf381b898cae1db7c",
+  "variant": 4,
+  "method": "NSW-ADS+(i)",
+  "kind": "ablation",
+  "parameter": 512
+}

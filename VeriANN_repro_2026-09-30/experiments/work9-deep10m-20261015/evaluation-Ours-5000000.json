@@ -1,0 +1,31 @@
+{
+  "dataset": "deep10m",
+  "method": "Ours",
+  "base": 5000000,
+  "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-deep10m-20261015/Ours-size-5000000",
+  "selection": {
+    "ef": 128,
+    "probes": 1,
+    "recall": 0.9550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-deep10m-20261015/deep10m/Ours-pilot-5000000-phase0",
+    "target": 0.95
+  },
+  "metrics": {
+    "k": 10,
+    "ef": 128,
+    "probes": 1,
+    "samples": 60,
+    "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-deep10m-20261015/Ours-size-5000000",
+    "recall": 0.955,
+    "query_ms": 6.152698766666666,
+    "verify_ms": 13.184774549999998,
+    "vo_kb": 561.5534
+  },
+  "query_count": 20,
+  "repeats": 3,
+  "M": 16,
+  "ef_construction": 200,
+  "width": 0.3456967236059823,
+  "tamper_rejections": 13
+}

@@ -1,0 +1,28 @@
+{
+  "command": [
+    "g++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++17",
+    "-fopenmp",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/src",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD/include",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-index-20261017/VLAH.cpp",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/upstream/source/similarity_search/src/Keccak256.cc",
+    "-I/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/ANNProof-24FGCS/upstream/source/similarity_search/include",
+    "-o",
+    "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-index-20261017/VLAH",
+    "-L/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD",
+    "-L/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/third_party/LearnedEarlyTer-20SIGMOD/lib",
+    "-lfaiss",
+    "-l_lightgbm",
+    "-lcrypto",
+    "-lpthread",
+    "-ldl"
+  ],
+  "source_sha256": "850fbcc8cfd603282d3249920850c384f9ef6f5435919f6957d188b2029f5439",
+  "harness_sha256": "123d2efbced8ff8ad69ec5485d065759cfd37b7d85bc39e8ffe852e2878421fb",
+  "binary_sha256": "1fe0204742f733881892999967c48c4538b897d0fd902ae48498c1d1e66865cd"
+}

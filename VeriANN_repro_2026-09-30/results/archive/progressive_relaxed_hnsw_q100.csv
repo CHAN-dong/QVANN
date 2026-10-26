@@ -1,0 +1,5 @@
+mode,recall_at_10,avg_expanded,avg_disclosed,avg_sq4_only,avg_refined_sq6,avg_raw,sq4_payload_kib,delta46_payload_kib,raw_payload_kib,adjacency_payload_kib,ids_metadata_kib,mac_vo_kib,total_vo_kib,trace_matches_sq6
+sq4,0.989,62.99,824.11,689.35,134.76,22.76,51.5069,4.21125,11.38,4.87332,4.7495,0.0625,76.7834,0
+shortlist2,0.989,62.96,828.75,679.84,148.91,22.71,51.7969,4.65344,11.355,4.88172,4.82213,0.0625,77.5717,0
+shortlist4,0.991,62.99,832.48,662.72,169.76,22.74,52.03,5.305,11.37,4.89809,4.91859,0.0625,78.5842,0
+certified,0.991,62.99,833.23,174.57,658.66,22.74,52.0769,20.5831,11.37,4.89957,6.83124,0.0625,95.8233,1

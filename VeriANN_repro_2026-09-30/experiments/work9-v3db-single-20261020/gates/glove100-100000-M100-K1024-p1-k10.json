@@ -1,0 +1,21 @@
+{
+  "gates": 131211,
+  "degree_bits": 18,
+  "static_peak_rss_KiB": 1328516,
+  "status": "passed",
+  "label": "",
+  "actual_attempt": false,
+  "config": {
+    "dataset": "glove100",
+    "source": "glove100",
+    "N": 100000,
+    "D": 100,
+    "M": 100,
+    "K": 1024,
+    "n_list": 1024,
+    "capacity": 256
+  },
+  "n_probe": 1,
+  "k": 10,
+  "address_space_limit_GiB": 50
+}

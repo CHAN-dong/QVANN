@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "dataset": "NYTimes-256 nonzero-base variant",
+  "N": 289761,
+  "d": 256,
+  "archived_workbook_sha256": "cb6fc4cb7538888b7ec573d4fc16e3dce418ec14ca1c9611415e96ab9d712a8e",
+  "other_main_original_cells_preserved": 1485,
+  "verified_jobs": [
+    {
+      "method": "ANNProof",
+      "purpose": "curve",
+      "N": 289761,
+      "workpoints": 7,
+      "samples": 420
+    },
+    {
+      "method": "ANNProof",
+      "purpose": "k",
+      "N": 289761,
+      "workpoints": 6,
+      "samples": 360
+    },
+    {
+      "method": "ANNProof",
+      "purpose": "size",
+      "N": 100000,
+      "workpoints": 1,
+      "samples": 60
+    },
+    {
+      "method": "Ours",
+      "purpose": "curve",
+      "N": 289761,
+      "workpoints": 9,
+      "samples": 540
+    },
+    {
+      "method": "Ours",
+      "purpose": "k",
+      "N": 289761,
+      "workpoints": 6,
+      "samples": 360
+    },
+    {
+      "method": "Ours",
+      "purpose": "size",
+      "N": 100000,
+      "workpoints": 1,
+      "samples": 60
+    },
+    {
+      "method": "VLAH",
+      "purpose": "curve",
+      "N": 289761,
+      "workpoints": 8,
+      "samples": 480
+    },
+    {
+      "method": "VLAH",
+      "purpose": "k",
+      "N": 289761,
+      "workpoints": 6,
+      "samples": 360
+    },
+    {
+      "method": "VLAH",
+      "purpose": "size",
+      "N": 100000,
+      "workpoints": 1,
+      "samples": 60
+    }
+  ],
+  "pending_cells": 45,
+  "verified_controlled_ablation": [
+    {
+      "variant": 1,
+      "samples": 60,
+      "tamper_tests": 13
+    },
+    {
+      "variant": 3,
+      "samples": 60,
+      "tamper_tests": 14
+    },
+    {
+      "variant": 2,
+      "samples": 60,
+      "tamper_tests": 12
+    },
+    {
+      "variant": 4,
+      "samples": 60,
+      "tamper_tests": 13
+    },
+    {
+      "variant": 5,
+      "samples": 60,
+      "tamper_tests": 13
+    },
+    {
+      "variant": 6,
+      "samples": 60,
+      "tamper_tests": 13
+    }
+  ],
+  "limitations_cells": 15,
+  "all_requested_numeric_measurements_complete": false,
+  "V3DB_verified_20x3_workpoints": [
+    "sift1m-1000000-M128-K1024-p2-k10-q20-r3-t1"
+  ],
+  "replacement_copy": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-nytimes-20261017/work9_nytimes.xlsx"
+}

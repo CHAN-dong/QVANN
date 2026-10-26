@@ -1,0 +1,1689 @@
+{
+  "curve_graph": {
+    "M": 12,
+    "efc": 12,
+    "cache": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/experiments/work9-nytimes-annproof-full-20261021/cache/candidate-M12-efc12",
+    "points": [
+      {
+        "ef": 10,
+        "recall": 0.26,
+        "valid": true
+      },
+      {
+        "ef": 11,
+        "recall": 0.27,
+        "valid": true
+      },
+      {
+        "ef": 12,
+        "recall": 0.27,
+        "valid": true
+      },
+      {
+        "ef": 13,
+        "recall": 0.275,
+        "valid": true
+      },
+      {
+        "ef": 14,
+        "recall": 0.275,
+        "valid": true
+      },
+      {
+        "ef": 15,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 16,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 17,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 18,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 19,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 20,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 21,
+        "recall": 0.31,
+        "valid": true
+      },
+      {
+        "ef": 22,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 23,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 24,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 25,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 26,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 27,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 28,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 29,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 30,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 31,
+        "recall": 0.32,
+        "valid": true
+      },
+      {
+        "ef": 32,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 33,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 34,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 35,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 36,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 37,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 38,
+        "recall": 0.32999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 39,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 40,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 41,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 42,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 43,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 44,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 45,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 46,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 47,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 48,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 49,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 50,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 51,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 52,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 53,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 54,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 55,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 56,
+        "recall": 0.355,
+        "valid": true
+      },
+      {
+        "ef": 57,
+        "recall": 0.395,
+        "valid": true
+      },
+      {
+        "ef": 58,
+        "recall": 0.395,
+        "valid": true
+      },
+      {
+        "ef": 59,
+        "recall": 0.395,
+        "valid": true
+      },
+      {
+        "ef": 60,
+        "recall": 0.395,
+        "valid": true
+      },
+      {
+        "ef": 61,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 62,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 63,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 64,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 65,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 66,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 67,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 68,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 69,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 70,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 71,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 72,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 73,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 74,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 75,
+        "recall": 0.43499999999999994,
+        "valid": true
+      },
+      {
+        "ef": 76,
+        "recall": 0.44000000000000006,
+        "valid": true
+      },
+      {
+        "ef": 77,
+        "recall": 0.44000000000000006,
+        "valid": true
+      },
+      {
+        "ef": 78,
+        "recall": 0.44000000000000006,
+        "valid": true
+      },
+      {
+        "ef": 79,
+        "recall": 0.44000000000000006,
+        "valid": true
+      },
+      {
+        "ef": 80,
+        "recall": 0.44000000000000006,
+        "valid": true
+      },
+      {
+        "ef": 81,
+        "recall": 0.44000000000000006,
+        "valid": true
+      },
+      {
+        "ef": 82,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 83,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 84,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 85,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 86,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 87,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 88,
+        "recall": 0.45999999999999996,
+        "valid": true
+      },
+      {
+        "ef": 89,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 90,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 91,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 92,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 93,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 94,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 95,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 96,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 97,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 98,
+        "recall": 0.485,
+        "valid": true
+      },
+      {
+        "ef": 99,
+        "recall": 0.5,
+        "valid": true
+      },
+      {
+        "ef": 100,
+        "recall": 0.5,
+        "valid": true
+      },
+      {
+        "ef": 101,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 102,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 103,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 104,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 105,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 106,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 107,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 108,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 109,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 110,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 111,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 112,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 113,
+        "recall": 0.505,
+        "valid": true
+      },
+      {
+        "ef": 114,
+        "recall": 0.54,
+        "valid": true
+      },
+      {
+        "ef": 115,
+        "recall": 0.54,
+        "valid": true
+      },
+      {
+        "ef": 116,
+        "recall": 0.54,
+        "valid": true
+      },
+      {
+        "ef": 117,
+        "recall": 0.54,
+        "valid": true
+      },
+      {
+        "ef": 118,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 119,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 120,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 121,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 122,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 123,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 124,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 125,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 126,
+        "recall": 0.545,
+        "valid": true
+      },
+      {
+        "ef": 127,
+        "recall": 0.5700000000000001,
+        "valid": true
+      },
+      {
+        "ef": 128,
+        "recall": 0.5700000000000001,
+        "valid": true
+      },
+      {
+        "ef": 136,
+        "recall": 0.5700000000000001,
+        "valid": true
+      },
+      {
+        "ef": 144,
+        "recall": 0.575,
+        "valid": true
+      },
+      {
+        "ef": 152,
+        "recall": 0.575,
+        "valid": true
+      },
+      {
+        "ef": 160,
+        "recall": 0.575,
+        "valid": true
+      },
+      {
+        "ef": 168,
+        "recall": 0.575,
+        "valid": true
+      },
+      {
+        "ef": 176,
+        "recall": 0.58,
+        "valid": true
+      },
+      {
+        "ef": 184,
+        "recall": 0.58,
+        "valid": true
+      },
+      {
+        "ef": 192,
+        "recall": 0.58,
+        "valid": true
+      },
+      {
+        "ef": 200,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 208,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 216,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 224,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 232,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 240,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 248,
+        "recall": 0.625,
+        "valid": true
+      },
+      {
+        "ef": 256,
+        "recall": 0.635,
+        "valid": true
+      },
+      {
+        "ef": 264,
+        "recall": 0.635,
+        "valid": true
+      },
+      {
+        "ef": 272,
+        "recall": 0.655,
+        "valid": true
+      },
+      {
+        "ef": 280,
+        "recall": 0.655,
+        "valid": true
+      },
+      {
+        "ef": 288,
+        "recall": 0.6599999999999999,
+        "valid": true
+      },
+      {
+        "ef": 296,
+        "recall": 0.6599999999999999,
+        "valid": true
+      },
+      {
+        "ef": 304,
+        "recall": 0.665,
+        "valid": true
+      },
+      {
+        "ef": 312,
+        "recall": 0.665,
+        "valid": true
+      },
+      {
+        "ef": 320,
+        "recall": 0.665,
+        "valid": true
+      },
+      {
+        "ef": 328,
+        "recall": 0.67,
+        "valid": true
+      },
+      {
+        "ef": 336,
+        "recall": 0.67,
+        "valid": true
+      },
+      {
+        "ef": 344,
+        "recall": 0.67,
+        "valid": true
+      },
+      {
+        "ef": 352,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 360,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 368,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 376,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 384,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 392,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 400,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 408,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 416,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 424,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 432,
+        "recall": 0.675,
+        "valid": true
+      },
+      {
+        "ef": 440,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 448,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 456,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 464,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 472,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 480,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 488,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 496,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 504,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 512,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 544,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 576,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 608,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 640,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 672,
+        "recall": 0.6799999999999999,
+        "valid": true
+      },
+      {
+        "ef": 704,
+        "recall": 0.6849999999999999,
+        "valid": true
+      },
+      {
+        "ef": 736,
+        "recall": 0.6900000000000001,
+        "valid": true
+      },
+      {
+        "ef": 768,
+        "recall": 0.6900000000000001,
+        "valid": true
+      },
+      {
+        "ef": 800,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 832,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 864,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 896,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 928,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 960,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 992,
+        "recall": 0.7,
+        "valid": true
+      },
+      {
+        "ef": 1024,
+        "recall": 0.7150000000000001,
+        "valid": true
+      },
+      {
+        "ef": 1056,
+        "recall": 0.7150000000000001,
+        "valid": true
+      },
+      {
+        "ef": 1088,
+        "recall": 0.7150000000000001,
+        "valid": true
+      },
+      {
+        "ef": 1120,
+        "recall": 0.7150000000000001,
+        "valid": true
+      },
+      {
+        "ef": 1152,
+        "recall": 0.7150000000000001,
+        "valid": true
+      },
+      {
+        "ef": 1184,
+        "recall": 0.73,
+        "valid": true
+      },
+      {
+        "ef": 1216,
+        "recall": 0.7350000000000001,
+        "valid": true
+      },
+      {
+        "ef": 1248,
+        "recall": 0.74,
+        "valid": true
+      },
+      {
+        "ef": 1280,
+        "recall": 0.74,
+        "valid": true
+      },
+      {
+        "ef": 1312,
+        "recall": 0.745,
+        "valid": true
+      },
+      {
+        "ef": 1344,
+        "recall": 0.75,
+        "valid": true
+      },
+      {
+        "ef": 1376,
+        "recall": 0.75,
+        "valid": true
+      },
+      {
+        "ef": 1408,
+        "recall": 0.755,
+        "valid": true
+      },
+      {
+        "ef": 1440,
+        "recall": 0.755,
+        "valid": true
+      },
+      {
+        "ef": 1472,
+        "recall": 0.765,
+        "valid": true
+      },
+      {
+        "ef": 1504,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1536,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1568,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1600,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1632,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1664,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1696,
+        "recall": 0.78,
+        "valid": true
+      },
+      {
+        "ef": 1728,
+        "recall": 0.785,
+        "valid": true
+      },
+      {
+        "ef": 1760,
+        "recall": 0.785,
+        "valid": true
+      },
+      {
+        "ef": 1792,
+        "recall": 0.785,
+        "valid": true
+      },
+      {
+        "ef": 1824,
+        "recall": 0.785,
+        "valid": true
+      },
+      {
+        "ef": 1856,
+        "recall": 0.785,
+        "valid": true
+      },
+      {
+        "ef": 1888,
+        "recall": 0.79,
+        "valid": true
+      },
+      {
+        "ef": 1920,
+        "recall": 0.79,
+        "valid": true
+      },
+      {
+        "ef": 1952,
+        "recall": 0.79,
+        "valid": true
+      },
+      {
+        "ef": 1984,
+        "recall": 0.795,
+        "valid": true
+      },
+      {
+        "ef": 2016,
+        "recall": 0.795,
+        "valid": true
+      },
+      {
+        "ef": 2048,
+        "recall": 0.795,
+        "valid": true
+      },
+      {
+        "ef": 3072,
+        "recall": 0.8400000000000001,
+        "valid": true
+      },
+      {
+        "ef": 4096,
+        "recall": 0.875,
+        "valid": true
+      },
+      {
+        "ef": 6144,
+        "recall": 0.915,
+        "valid": true
+      },
+      {
+        "ef": 8192,
+        "recall": 0.93,
+        "valid": true
+      },
+      {
+        "ef": 16384,
+        "recall": 0.985,
+        "valid": true
+      },
+      {
+        "ef": 32768,
+        "recall": 0.99,
+        "valid": true
+      }
+    ]
+  },
+  "curve_selection": [
+    {
+      "target": 0.15,
+      "choice": {
+        "ef": 10,
+        "recall": 0.26,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.2,
+      "choice": {
+        "ef": 10,
+        "recall": 0.26,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.25,
+      "choice": {
+        "ef": 10,
+        "recall": 0.26,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.3,
+      "choice": {
+        "ef": 15,
+        "recall": 0.31,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.35,
+      "choice": {
+        "ef": 39,
+        "recall": 0.355,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.4,
+      "choice": {
+        "ef": 61,
+        "recall": 0.43499999999999994,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.45,
+      "choice": {
+        "ef": 82,
+        "recall": 0.45999999999999996,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.5,
+      "choice": {
+        "ef": 99,
+        "recall": 0.5,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.55,
+      "choice": {
+        "ef": 127,
+        "recall": 0.5700000000000001,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.6,
+      "choice": {
+        "ef": 200,
+        "recall": 0.625,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.65,
+      "choice": {
+        "ef": 272,
+        "recall": 0.655,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.7,
+      "choice": {
+        "ef": 800,
+        "recall": 0.7,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.75,
+      "choice": {
+        "ef": 1344,
+        "recall": 0.75,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.8,
+      "choice": {
+        "ef": 3072,
+        "recall": 0.8400000000000001,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.85,
+      "choice": {
+        "ef": 4096,
+        "recall": 0.875,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.9,
+      "choice": {
+        "ef": 6144,
+        "recall": 0.915,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.95,
+      "choice": {
+        "ef": 16384,
+        "recall": 0.985,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.97,
+      "choice": {
+        "ef": 16384,
+        "recall": 0.985,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.98,
+      "choice": {
+        "ef": 16384,
+        "recall": 0.985,
+        "valid": true
+      }
+    },
+    {
+      "target": 0.99,
+      "choice": {
+        "ef": 32768,
+        "recall": 0.99,
+        "valid": true
+      }
+    }
+  ],
+  "curve_measurements": [
+    {
+      "k": 10,
+      "ef": 10,
+      "probes": 1,
+      "recall": 0.26,
+      "query_ms": 0.66370395,
+      "verify_ms": 3.4833087333333332,
+      "vo_kb": 354.5218,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 15,
+      "probes": 1,
+      "recall": 0.31,
+      "query_ms": 0.9098131999999999,
+      "verify_ms": 4.68725415,
+      "vo_kb": 477.8562,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 39,
+      "probes": 1,
+      "recall": 0.35500000000000004,
+      "query_ms": 1.8995268666666667,
+      "verify_ms": 8.54740185,
+      "vo_kb": 896.7392,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 61,
+      "probes": 1,
+      "recall": 0.435,
+      "query_ms": 2.7717360833333333,
+      "verify_ms": 12.457169316666667,
+      "vo_kb": 1308.4596000000001,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 82,
+      "probes": 1,
+      "recall": 0.46,
+      "query_ms": 3.5594615000000003,
+      "verify_ms": 15.38540785,
+      "vo_kb": 1631.9406000000001,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 99,
+      "probes": 1,
+      "recall": 0.5,
+      "query_ms": 4.2264664,
+      "verify_ms": 17.976082183333332,
+      "vo_kb": 1916.4132,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 127,
+      "probes": 1,
+      "recall": 0.5700000000000001,
+      "query_ms": 5.2805694999999995,
+      "verify_ms": 21.910333266666665,
+      "vo_kb": 2336.7888,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 200,
+      "probes": 1,
+      "recall": 0.625,
+      "query_ms": 7.466334683333333,
+      "verify_ms": 30.398199116666667,
+      "vo_kb": 3285.0184,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 272,
+      "probes": 1,
+      "recall": 0.6549999999999999,
+      "query_ms": 9.373953583333332,
+      "verify_ms": 37.6585543,
+      "vo_kb": 4090.8612000000003,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 800,
+      "probes": 1,
+      "recall": 0.7,
+      "query_ms": 21.310788416666668,
+      "verify_ms": 83.37267616666666,
+      "vo_kb": 9239.366,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 1344,
+      "probes": 1,
+      "recall": 0.75,
+      "query_ms": 34.45523126666667,
+      "verify_ms": 131.57040741666665,
+      "vo_kb": 14780.8408,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 3072,
+      "probes": 1,
+      "recall": 0.84,
+      "query_ms": 79.80146231666667,
+      "verify_ms": 278.11621505000005,
+      "vo_kb": 31624.7612,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 4096,
+      "probes": 1,
+      "recall": 0.875,
+      "query_ms": 111.91753748333333,
+      "verify_ms": 362.49392059999997,
+      "vo_kb": 41361.1928,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 6144,
+      "probes": 1,
+      "recall": 0.9149999999999999,
+      "query_ms": 155.75985486666667,
+      "verify_ms": 520.6912866666667,
+      "vo_kb": 59427.7448,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 16384,
+      "probes": 1,
+      "recall": 0.985,
+      "query_ms": 334.61047205,
+      "verify_ms": 1149.25316255,
+      "vo_kb": 129149.8318,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 32768,
+      "probes": 1,
+      "recall": 0.99,
+      "query_ms": 579.1638619833334,
+      "verify_ms": 1826.9276256666667,
+      "vo_kb": 198246.079,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/selected-fixed-graph-recall-M12-efc12",
+      "csv_sha256": "6695c54e0a870231279302d3bd38e2cb3bc489d878c01d575daef5807ae9ffcc",
+      "N": 289761,
+      "M": 12,
+      "efc": 12,
+      "threads": 1
+    }
+  ],
+  "default_k": [
+    {
+      "k": 1,
+      "ef": 264,
+      "probes": 1,
+      "recall": 1.0,
+      "query_ms": 15.00534045,
+      "verify_ms": 61.51177396666667,
+      "vo_kb": 6828.5686,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/default-and-k",
+      "csv_sha256": "5e9a6852feaf38d90e3acf84c3846b9eb5d49b4741c69062c8e0bf2f251674d4",
+      "N": 289761,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    },
+    {
+      "k": 5,
+      "ef": 264,
+      "probes": 1,
+      "recall": 0.98,
+      "query_ms": 14.661757249999999,
+      "verify_ms": 61.608317766666666,
+      "vo_kb": 6830.7606,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/default-and-k",
+      "csv_sha256": "5e9a6852feaf38d90e3acf84c3846b9eb5d49b4741c69062c8e0bf2f251674d4",
+      "N": 289761,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    },
+    {
+      "k": 10,
+      "ef": 264,
+      "probes": 1,
+      "recall": 0.95,
+      "query_ms": 14.748515616666667,
+      "verify_ms": 61.88278081666667,
+      "vo_kb": 6833.4126,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/default-and-k",
+      "csv_sha256": "5e9a6852feaf38d90e3acf84c3846b9eb5d49b4741c69062c8e0bf2f251674d4",
+      "N": 289761,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    },
+    {
+      "k": 20,
+      "ef": 264,
+      "probes": 1,
+      "recall": 0.9375,
+      "query_ms": 14.863125400000001,
+      "verify_ms": 61.463456449999995,
+      "vo_kb": 6838.4946,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/default-and-k",
+      "csv_sha256": "5e9a6852feaf38d90e3acf84c3846b9eb5d49b4741c69062c8e0bf2f251674d4",
+      "N": 289761,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    },
+    {
+      "k": 50,
+      "ef": 264,
+      "probes": 1,
+      "recall": 0.893,
+      "query_ms": 14.83641,
+      "verify_ms": 62.14353585,
+      "vo_kb": 6852.1726,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/default-and-k",
+      "csv_sha256": "5e9a6852feaf38d90e3acf84c3846b9eb5d49b4741c69062c8e0bf2f251674d4",
+      "N": 289761,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    },
+    {
+      "k": 100,
+      "ef": 264,
+      "probes": 1,
+      "recall": 0.858,
+      "query_ms": 14.841721033333334,
+      "verify_ms": 62.77968833333333,
+      "vo_kb": 6872.0386,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/default-and-k",
+      "csv_sha256": "5e9a6852feaf38d90e3acf84c3846b9eb5d49b4741c69062c8e0bf2f251674d4",
+      "N": 289761,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    }
+  ],
+  "size": [
+    {
+      "k": 10,
+      "ef": 416,
+      "probes": 1,
+      "recall": 0.95,
+      "query_ms": 23.16790715,
+      "verify_ms": 94.46728935,
+      "vo_kb": 11386.4878,
+      "samples": 60,
+      "status": "passed",
+      "output": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-nytimes-annproof-full-20261021/measurements/size100k",
+      "csv_sha256": "190c06d6c1ecc4e7b4c3bdcd14fb81774071c8e4eaf955ea956d8e7a06f0bbc0",
+      "N": 100000,
+      "M": 16,
+      "efc": 200,
+      "threads": 1
+    }
+  ],
+  "index": {
+    "index_seconds": 436.984986702,
+    "ads_seconds": 3.496330445,
+    "construct_seconds": 440.481317147,
+    "search_bytes": 339719476,
+    "auth_bytes": 60825116,
+    "total_bytes": 400544592,
+    "peak_rss_KiB": 1322500,
+    "threads": 1,
+    "snapshot_sha256": "a686f518c4f686840a763c0dab586548da026b56775b95df088a2610e9c3e282",
+    "binary_sha256": "4d92e3f7dd434b8c1e665d8f33398879aed146b0ba0f713f8e910f4c6435c862",
+    "M": 16,
+    "efc": 200,
+    "N": 289761
+  },
+  "backup_sha256": "7c6e3f830175a5125c7eec148ab035cb9dedb16677e7bf474f1ba2204ab196a0"
+}

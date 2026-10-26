@@ -1,0 +1,317 @@
+[
+  {
+    "ef": 100,
+    "probes": 1,
+    "recall": 0.215,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 2,
+    "recall": 0.32,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 3,
+    "recall": 0.385,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 4,
+    "recall": 0.45499999999999996,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 5,
+    "recall": 0.5599999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 6,
+    "recall": 0.5700000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 7,
+    "recall": 0.655,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 8,
+    "recall": 0.7,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 9,
+    "recall": 0.76,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 10,
+    "recall": 0.8,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 11,
+    "recall": 0.8550000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 12,
+    "recall": 0.8699999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 13,
+    "recall": 0.9,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 14,
+    "recall": 0.9349999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 100,
+    "probes": 15,
+    "recall": 0.9650000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase0-3e9fd53b60"
+  },
+  {
+    "ef": 200,
+    "probes": 1,
+    "recall": 0.215,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 2,
+    "recall": 0.32,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 3,
+    "recall": 0.385,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 4,
+    "recall": 0.45499999999999996,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 5,
+    "recall": 0.5599999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 6,
+    "recall": 0.575,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 7,
+    "recall": 0.6599999999999999,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 8,
+    "recall": 0.705,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 9,
+    "recall": 0.765,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 10,
+    "recall": 0.805,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 11,
+    "recall": 0.86,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 12,
+    "recall": 0.875,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 13,
+    "recall": 0.905,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 14,
+    "recall": 0.9400000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 200,
+    "probes": 15,
+    "recall": 0.97,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase1-ebff700f72"
+  },
+  {
+    "ef": 400,
+    "probes": 1,
+    "recall": 0.215,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 2,
+    "recall": 0.32,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 3,
+    "recall": 0.39,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 4,
+    "recall": 0.465,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 5,
+    "recall": 0.5700000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 6,
+    "recall": 0.585,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 7,
+    "recall": 0.67,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 8,
+    "recall": 0.7150000000000001,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 9,
+    "recall": 0.78,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 10,
+    "recall": 0.82,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 11,
+    "recall": 0.875,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 12,
+    "recall": 0.89,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 13,
+    "recall": 0.925,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 14,
+    "recall": 0.96,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  },
+  {
+    "ef": 400,
+    "probes": 15,
+    "recall": 0.99,
+    "valid": true,
+    "pilot": "/mnt/d/paper_source/work_9/VeriANN_repro_2026-09-30/VeriANN_repro_2026-09-30/results/work9-resource-matched-20261020/search-pilots/nytimes256/VLAH-pilot-289761-resource-phase2-0f82a9d703"
+  }
+]
