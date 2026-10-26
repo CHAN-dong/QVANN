@@ -1,0 +1,24 @@
+{
+  "faiss": {
+    "url": "https://github.com/efficient/faiss-learned-termination.git",
+    "commit": "ec2e252e1a316f5a3cb2e108082507ccbfa29ed1",
+    "base_version": "1.5.2",
+    "patch": "faiss.patch",
+    "patched_files": {
+      "HNSW.cpp": "76c669f54c9aadd3942ea38df1bf4cd7136a0dfff8b35e9b0ba68258b0bdef8e",
+      "HNSW.h": "caded6a1a17f9749840aeac84bbfeb4ec4cb87c5bc078b968b1e0324091b2c8a",
+      "Index.h": "774e7b920fa1131640591bb096a862f4635c0b8068d7d654ab0609813689cc63",
+      "IndexHNSW.cpp": "7d74c6ba6e1e85fb32de43572dbc459c4f4c29fc99b31d61ef5b33abc77e295e",
+      "IndexHNSW.h": "fba7a3d745d46daa24b63bb69ea758a0c2801e74714c4f1c040b0be862a5b32d",
+      "IndexPQ.cpp": "6469582696055730a0f43f88a246b3d9a9de6bb94b300e76e0a460184833f262",
+      "IndexPQ.h": "bc6ce3b24e758a0e364a70bca70c88c3baa055e84d88b07f5dec9dfa372244b3",
+      "ProductQuantizer.cpp": "059efa06a8149590fb2f6902f0e79c58f837db015117f7a060beb5ac8737ae22",
+      "ProductQuantizer.h": "d99ada92355ae91ac1a83ed0d50a2f3e781f7f0e3b0e27ee61e32bf48b72f93b"
+    }
+  },
+  "lightgbm": {
+    "url": "https://github.com/microsoft/LightGBM.git",
+    "commit": "471d0aaaaa8574b9a1da2302e992f61b01e3d155",
+    "version": "2.3.1"
+  }
+}

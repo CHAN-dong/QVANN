@@ -1,0 +1,16 @@
+{
+  "method": "QVANN",
+  "base": 5000,
+  "queries": 2,
+  "query_offset": 100,
+  "M": 8,
+  "ef_construction": 100,
+  "repeats": 1,
+  "build_threads": 1,
+  "query_threads": 1,
+  "metric": "squared_l2",
+  "hash": "SHA-256",
+  "proof": "multiproof",
+  "dataset_sha256": "59f514a38de3fb9176059e2df1295b89bf10c784fc0efb5e126f60172266a360",
+  "timing": "steady_clock; network transport excluded"
+}

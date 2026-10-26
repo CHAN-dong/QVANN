@@ -1,0 +1,2 @@
+method,k,budget,samples,search_mean_ms,search_p50_ms,search_p95_ms,vo_generation_mean_ms,verification_mean_ms,verification_p95_ms,authentication_mean_ms,replay_mean_ms,vo_mean_kib,vo_p95_kib,recall_at_k,recall_at_1,verified_fraction,index_ms,ads_ms,ground_truth_ms,ads_bytes,peak_rss_mib
+QVANN,10,128,2,0.621818,0.520304,0.723332,0.334249,1.8434,1.94793,1.22862,0.581645,87.3008,90.6406,1,1,1,13.7753,43.7273,0.68601,1572768,34.3438

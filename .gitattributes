@@ -1,0 +1,7 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+# Patch context whitespace is significant for the pinned dependency sources.
+*.patch text eol=lf -whitespace
+# Evidence checksums must survive Windows checkout without newline conversion.
+validation/raw/** -text -whitespace

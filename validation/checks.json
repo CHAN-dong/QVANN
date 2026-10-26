@@ -1,0 +1,12 @@
+{
+  "final-table3": {
+    "actual_measurements": 2,
+    "verified": true
+  },
+  "final-figure16": {
+    "actual_measurements": 24,
+    "verified": true
+  },
+  "figure16_negative_cases_rejected": 180,
+  "duplicate_and_changed_raw_evidence_rejected": true
+}

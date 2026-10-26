@@ -1,0 +1,19 @@
+name: Build
+on:
+  workflow_dispatch:
+jobs:
+  cpu:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          uname -a
+          python3 --version
+          g++ --version
+          cmake --version
+          openssl version
+      - run: bash scripts/install.sh
+      - run: python3 scripts/deps.py --jobs 2
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build -j2
+      - run: python3 scripts/smoke.py

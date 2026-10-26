@@ -1,53 +1,62 @@
-# QVANN: A Quantization-Driven Authenticated Index for Efficient Verifiable ANN Search
+# QVANN
 
-QVANN supports verifiable approximate nearest neighbor search over outsourced vector data. It reduces verification-object (VO) size through three coordinated designs:
+**A Quantization-Driven Authenticated Index for Efficient Verifiable ANN Search**
 
-- **Progressive verification:** SQ4 → SQ6 → raw refinement with safe distance bounds.
-- **Verification-decoupled traversal:** Coarse-precision graph search followed by result certification.
-- **Expansion-centric authentication:** Expansion records, BFS refinement ordering, and shared Merkle proofs.
-
-## Structure
-
-```text
-src/
-├── index/       # Graph, quantization, and authenticated index
-├── optimize/    # Refinement, traversal, and expansion optimizations
-├── query/       # Search, top-k selection, and VO generation
-├── verify/      # Authentication, replay, and result verification
-├── common/      # Shared types and serialization
-├── utils/       # Input, configuration, and measurement
-└── main.cpp
-tests/           # Quantization, proof, and tamper checks
-scripts/         # Run and smoke-test launchers
-```
+QVANN combines SQ4 graph traversal, progressive SQ4/SQ6/raw certification, and expansion-centric Merkle authentication to reduce verification-object size. Verification certifies the prescribed ANN protocol over a committed index, rather than exact global nearest neighbors.
 
 ## Build
 
-Requires Linux/WSL, C++17, CMake 3.18+, OpenSSL, OpenMP, and Python 3.
-
-Provide the compatible modified Faiss/LightGBM dependencies externally. `QVANN_DEPS_DIR` must contain `LearnedEarlyTer-20SIGMOD/` with its headers, `libfaiss.so`, and `lib/lib_lightgbm.so`. The fork exposes `hnsw.lselect`; stock Faiss is not a drop-in replacement.
+Linux x86-64/WSL, C++17, CMake 3.18+, OpenSSL 1.1.1+, OpenMP, OpenBLAS and Python 3 are required. The dependency builder pins the modified Faiss 1.5.2 fork and LightGBM 2.3.1 to exact commits, applies the recorded patch, and compiles both from source.
 
 ```bash
 git clone https://github.com/CHAN-dong/QVANN.git
 cd QVANN
-export QVANN_DEPS_DIR=/path/to/external/dependencies
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j4
+bash scripts/install.sh                 # Debian/Ubuntu prerequisites; needs sudo unless root
+python3 scripts/deps.py --jobs 2        # Builds into .deps/
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DQVANN_DEPS_DIR="$PWD/.deps"
+cmake --build build -j2
 python3 scripts/smoke.py
 ```
 
-## Run
-
-Prepare `sift_base.fvecs` and `sift_query.fvecs` in one directory. Each record contains a little-endian int32 dimension followed by float32 coordinates. Dimensions must match and be divisible by four. Normalize NYTimes/GloVe base and query vectors to unit length.
+For data conversion and plotting:
 
 ```bash
-python3 scripts/run.py \
-  --dataset /path/to/vectors --preset sift \
-  --output results/sift
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Presets: `sift`, `nytimes`, `glove`, `deep`. Override settings with `--base`, `--M`, `--ef-construction`, `--budget`, and `--k`. The launcher defaults to 20 queries starting at offset 100, repeated three times; provide at least 120 query vectors.
+`requirements.lock` records the tested Python 3.14 environment. See [dependency and data details](docs/reproduce.md) for pinned sources and custom install locations.
 
-`--budget` is the unique-node expansion budget, not conventional HNSW `efSearch`. Run `./build/qvann --help` for executable options. Measurements are written locally to `summary.csv` and `per_query.csv`; use a new or empty output directory.
+## Data and queries
 
-Verification certifies the prescribed ANN protocol over the committed index; it does not guarantee exact global nearest neighbors. The repository includes only QVANN code and supporting scripts; datasets, baseline implementations, papers, result tables, and prebuilt dependencies are excluded.
+Download the real SIFT, NYTimes, GloVe or DEEP inputs using the [data instructions](docs/reproduce.md#data-preparation). Convert each into `data/{sift,nytimes,glove,deep}/`:
+
+```bash
+python scripts/prepare.py --dataset sift \
+  --source /downloads/sift-128-euclidean.hdf5 --output data/sift
+python scripts/run.py --dataset data/sift --preset sift --output results/example
+```
+
+The converter records source checksums and preprocessing. It preserves the original NYTimes query numbering. Inputs, cached indexes and generated results remain local.
+
+## Paper experiments
+
+[configs/paper.json](configs/paper.json) records the paper parameters, query windows, seeds and historical input/index fingerprints. Use these commands instead of the convenience launcher's defaults:
+
+```bash
+python scripts/reproduce.py table3 --data-root data --output results/table3
+python scripts/plot.py table3 --input results/table3/measurements.csv --output results/table3/plots
+python scripts/reproduce.py figure16 --data-root data --output results/figure16
+python scripts/plot.py figure16 --input results/figure16/measurements.csv --output results/figure16/plots
+```
+
+Table 3 reproduces **QVANN's row**; external baseline code is not bundled. Unresolved final baseline parameters are explicit in the configuration and [reproduction notes](docs/reproduce.md#baselines-and-unresolved-provenance). Figure 16 runs Record-wise, Node-wise and ER authentication with the original shared-trace and integrity checks.
+
+Runs preserve native per-query CSVs, calibration, logs, arguments and input/binary/index checksums. `measurements.csv` unifies measured samples; plotting validates their raw CSV hashes. Paper output uses KB=1000 bytes and ms, with no estimates or scaling factors. New graphs can differ from historical indexes; `--require-historical-index` enforces the recorded Table 3 graph fingerprints.
+
+## Layout and validation
+
+`src/` contains `index`, `optimize`, `query`, `verify`, `common` and `utils`; `src/experiments` holds the original authentication ablation. Build configuration, tests, scripts and paper settings are separate.
+
+See [actual validation and limitations](docs/validation.md) and the [retained diagnostic CSVs](validation/README.md). The core ANN algorithm and existing result files are unchanged. Full paper-scale timing and baseline comparisons are not claimed by the smaller diagnostic runs.

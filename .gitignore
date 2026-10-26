@@ -1,11 +1,16 @@
 /build/
+/build-*/
 /cache/
 /results/
 /dataset/
 /third_party/
+/.deps/
+/.venv/
+/data/
 __pycache__/
 *.pyc
 *.csv
+!validation/raw/**/*.csv
 *.xlsx
 *.pdf
 *.tex
