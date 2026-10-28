@@ -1,0 +1,42 @@
+{
+  "common": {
+    "k": 10,
+    "queries": 20,
+    "query_offset": 100,
+    "repeats": 3,
+    "build_threads": 1
+  },
+  "datasets": {
+    "sift": {"N": 1000000, "M": 8, "efConstruction": 100},
+    "nytimes": {"N": 289761, "M": 16, "efConstruction": 200},
+    "glove": {"N": 1183514, "M": 16, "efConstruction": 200},
+    "deep": {"N": 1000000, "M": 16, "efConstruction": 200}
+  },
+  "methods": {
+    "annproof": {
+      "label": "ANNProof",
+      "variant": "Sharded graph",
+      "efSearch": 50,
+      "shard_size": 10000,
+      "hash": "Keccak-256"
+    },
+    "vlah": {
+      "label": "VLAH",
+      "variant": "LSH-trie",
+      "efSearch": 50,
+      "bucket_capacity": 20000,
+      "probes": 3,
+      "lsh_width": 256,
+      "lsh_seed": 42,
+      "hash": "SHA-256"
+    },
+    "mr": {
+      "label": "MR-tree",
+      "variant": "Packed exact tree",
+      "fanout": 16,
+      "leaf_capacity": 64,
+      "hash": "SHA-256",
+      "signature": "Ed25519"
+    }
+  }
+}

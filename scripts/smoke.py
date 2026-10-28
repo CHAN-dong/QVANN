@@ -53,6 +53,25 @@ def main():
         if len(rows) != 60 or any(row["verified"] != "1" for row in rows):
             raise RuntimeError("honest-query verification failed")
         print("Smoke check passed: 60 verified query executions; integrity tests passed.")
+        for method in ("annproof", "vlah", "mr"):
+            if not (build / method).is_file():
+                continue
+            destination = work / method
+            command = ["python3", str(root / "scripts/baseline.py"), method,
+                       "--dataset", str(data), "--preset", "sift", "--base", "2048",
+                       "--queries", "2", "--repeats", "1", "--profile", "diagnostic",
+                       "--build-dir", str(build), "--cache", str(work / (method + "-cache")),
+                       "--output", str(destination)]
+            if method == "annproof":
+                command += ["--shard-size", "256"]
+            elif method == "vlah":
+                command += ["--bucket-size", "256"]
+            subprocess.run(command, env=environment, check=True)
+            with (destination / "measurements.csv").open() as stream:
+                samples = list(csv.DictReader(stream))
+            if len(samples) != 2 or any(row["verified"] != "1" for row in samples):
+                raise RuntimeError(method + " verification failed")
+            print(method + ": query, proof and verification passed")
 
 
 if __name__ == "__main__":

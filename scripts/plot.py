@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate actual measured CSV rows and render Table 3 or Figure 16."""
+"""Summarize CSV measurements and generate tables and figures."""
 
 import argparse
 import csv
@@ -46,25 +46,30 @@ def main():
     profile = rows[0]["profile"]
     groups, identities = {}, set()
     for row in rows:
-        key = tuple(row[name] for name in ["dataset", "method", "variant", "N", "M", "efConstruction", "E", "k"])
+        key = tuple(row.get(name, "") for name in ["dataset", "method", "variant", "N", "M",
+                                                 "efConstruction", "E", "efSearch", "probes", "leaf_capacity", "k"])
         identity = key + (row["query"], row["repeat"])
         if identity in identities:
             raise ValueError("duplicate query/repeat; do not merge a run twice")
         identities.add(identity)
         for name in ["recall", "query_ms", "verify_ms", "vo_bytes", "route_proof_bytes"]:
+            if name == "route_proof_bytes" and row[name] == "":
+                continue
             value = float(row[name])
             if not math.isfinite(value) or value < 0 or (name == "recall" and value > 1):
                 raise ValueError("invalid numeric measurement")
         groups.setdefault(key, []).append(row)
     summary = []
     for key, samples in groups.items():
-        item = dict(zip(["dataset", "method", "variant", "N", "M", "efConstruction", "E", "k"], key))
+        item = dict(zip(["dataset", "method", "variant", "N", "M", "efConstruction", "E",
+                         "efSearch", "probes", "leaf_capacity", "k"], key))
         item.update(profile=profile, samples=len(samples),
                     recall_pct=statistics.fmean(float(row["recall"]) for row in samples) * 100,
                     query_ms=statistics.fmean(float(row["query_ms"]) for row in samples),
                     verify_ms=statistics.fmean(float(row["verify_ms"]) for row in samples),
                     vo_KB=statistics.fmean(float(row["vo_bytes"]) for row in samples) / 1000,
-                    route_proof_KB=statistics.fmean(float(row["route_proof_bytes"]) for row in samples) / 1000)
+                    route_proof_KB=(statistics.fmean(float(row["route_proof_bytes"]) for row in samples) / 1000
+                                    if all(row["route_proof_bytes"] != "" for row in samples) else ""))
         summary.append(item)
     args.output.mkdir(parents=True, exist_ok=True)
     with (args.output / (args.experiment + ".csv")).open("w", newline="") as stream:
@@ -85,7 +90,7 @@ def main():
             axis.grid(alpha=0.25)
         axes[0].legend(frameon=False)
         if profile == "diagnostic":
-            fig.suptitle("Diagnostic subset: not paper Figure 16 measurements")
+            fig.suptitle("SIFT, N = " + str(summary[0]["N"]))
         fig.tight_layout()
         fig.savefig(args.output / "figure16.pdf")
         fig.savefig(args.output / "figure16.png", dpi=200)

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert real source vectors to QVANN fvecs, recording preprocessing and hashes."""
+"""Prepare fvecs datasets and preprocessing metadata."""
 
 import argparse
 import hashlib

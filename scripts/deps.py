@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the pinned CPU dependencies; do not use bundled upstream binaries."""
+"""Build the pinned CPU dependencies."""
 
 import argparse
 import hashlib

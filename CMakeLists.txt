@@ -63,6 +63,21 @@ target_compile_options(qvann_core PRIVATE -Wall -Wextra -Wpedantic)
 add_executable(qvann src/main.cpp)
 target_link_libraries(qvann PRIVATE qvann_core)
 
+option(QVANN_BUILD_BASELINES "Build ANNProof, VLAH and MR-tree" ON)
+if(QVANN_BUILD_BASELINES)
+    add_library(baseline_support STATIC src/baselines/keccak.cpp)
+    target_include_directories(baseline_support SYSTEM PUBLIC
+        "${QVANN_DEPS_DIR}" "${FAISS_DIR}" "${FAISS_DIR}/include")
+    target_link_libraries(baseline_support PUBLIC OpenSSL::Crypto OpenMP::OpenMP_CXX
+        "${FAISS_LIBRARY}" "${LIGHTGBM_LIBRARY}" pthread dl)
+    foreach(method annproof vlah)
+        add_executable(${method} src/baselines/${method}.cpp)
+        target_link_libraries(${method} PRIVATE baseline_support)
+    endforeach()
+    add_executable(mr src/baselines/mr.cpp)
+    target_link_libraries(mr PRIVATE OpenSSL::Crypto)
+endif()
+
 option(QVANN_BUILD_EXPERIMENTS "Build paper-specific measurement executables" ON)
 if(QVANN_BUILD_EXPERIMENTS)
     add_executable(granularity src/experiments/granularity.cpp)

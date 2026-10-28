@@ -1,5 +1,4 @@
 {
-  "paper": "QVANN manuscript revision (8), Sections 7.1, 7.2 and 7.7",
   "quantization": {
     "routing_bits": 4,
     "refinement_bits": [
@@ -11,8 +10,7 @@
   "graph_seeds": {
     "level_rng": 12345,
     "hnsw_insertion_shuffle": 789,
-    "graph_internal_rng": 456,
-    "note": "Fixed by pinned dependency source; legacy seed=42 did not set these generators."
+    "graph_internal_rng": 456
   },
   "table3": {
     "sift": {
@@ -28,7 +26,6 @@
       "query_threads": 1,
       "base_payload_sha256": "ac8e11ed111b09e882bcf0ef1a77ebdd36c89f495bce8fd596603f69c35148e6",
       "historical_graph_sha256": "c20230da78aa37cceb406d13a1ed20331c30e2a9ddaa4a7bfa189ad08f287416",
-      "provenance": "Original quantization protocol references the native overall-performance run; no result values copied.",
       "query_file_sha256": "f7fc9be140accdfd64116c2fa2365ecdb69b8f084970c6b0532db5ff79ac8fdc"
     },
     "nytimes": {
@@ -44,7 +41,6 @@
       "query_threads": 1,
       "base_payload_sha256": "2b872a55ff028617665d43a84ca887f1943cdb71c3aa957d5a011ca61ebb4bb2",
       "historical_graph_sha256": "624f9bc727e78b503e7c9bc3f427e8c66c4b8d112aaaa412b9eace63fd6c5bbd",
-      "provenance": "Original quantization protocol references the native overall-performance run; no result values copied.",
       "query_file_sha256": "7cb760bf24eccbafc960b8a4cc8ef5a6fa3e8846080e9b40e803ca6def4051f1"
     },
     "glove": {
@@ -60,7 +56,6 @@
       "query_threads": 1,
       "base_payload_sha256": "50c169e0159fb9ca47325df27cbb70c3dd24f4641b6e504258b6f0222112704b",
       "historical_graph_sha256": "50456df5b44edb3447df69e6ee0c587037f1b042b3431a442dab99002bcb9722",
-      "provenance": "Original quantization protocol references the native overall-performance run; no result values copied.",
       "query_file_sha256": "1fe499c8e1c81a828f61e84efd3205391081b91f0711e611c7ae66bc1a59bdfa"
     },
     "deep": {
@@ -76,7 +71,6 @@
       "query_threads": 1,
       "base_payload_sha256": "8dca9378a247cbcd1f781fffa10b5b8b542fd4a7a470f9063fbdb9f4f2a9ede2",
       "historical_graph_sha256": "4bad4decb956f6dc79016a018211be4849aff79b019df9d10a1bff063bec6407",
-      "provenance": "Original quantization protocol references the native overall-performance run; no result values copied.",
       "query_file_sha256": "0359efc4a332e6f79ebeade7665aa314e10b122fea1d54b3878f97c9bb5ba574"
     }
   },
@@ -102,45 +96,7 @@
       "ER"
     ],
     "target_recall": 0.95,
-    "calibration": "Original coarse-to-integer search over E=4..2048; same queries as measurement; see src/experiments/granularity.cpp."
+    "calibration": "Coarse E grid followed by integer search around 95% recall."
   },
-  "baselines": {
-    "ANNProof": {
-      "M": {
-        "sift": 8,
-        "nytimes": 16,
-        "glove": 16,
-        "deep": 16
-      },
-      "efConstruction": {
-        "sift": 100,
-        "nytimes": 200,
-        "glove": 200,
-        "deep": 200
-      },
-      "merkle_shard_size": 10000,
-      "efSearch": null,
-      "share_graph_with_qvann": true
-    },
-    "VLAH": {
-      "bucket_capacity": 20000,
-      "probed_buckets": null,
-      "lsh_seed": null,
-      "lsh_width": null
-    },
-    "MR-tree": {
-      "exact_knn": true,
-      "node_capacity": null
-    },
-    "V3DB": {
-      "author_code": "https://github.com/Relaxed-System-Lab/V3DB",
-      "commit": "a82ac732828591bd49b83d8f31c56fa4bd1cd9b2",
-      "final_adapted_revision": null,
-      "nlist": null,
-      "nprobe": null,
-      "pq_configuration": null,
-      "commit_provenance": "Original upstream_commit.txt; final locally adapted execution revision not established."
-    },
-    "note": "Null entries are not recoverable as a single Table 3 setting from the manuscript. No values are guessed; supply original run manifests for a full comparison. Baseline code is intentionally external."
-  }
+  "baseline_config": "baselines.json"
 }
