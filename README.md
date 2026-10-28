@@ -32,7 +32,14 @@ python scripts/prepare.py --dataset sift \
   --source /downloads/sift-128-euclidean.hdf5 --output data/sift
 ```
 
-Prepare SIFT, NYTimes, GloVe and DEEP under `data/{sift,nytimes,glove,deep}/`. Each directory contains `sift_base.fvecs` and `sift_query.fvecs`. Download links and preprocessing steps are in the [data guide](docs/reproduce.md#data-preparation).
+Prepare SIFT, NYTimes, GloVe, DEEP and OpenAI under `data/{sift,nytimes,glove,deep,openai}/`. Each directory contains `sift_base.fvecs` and `sift_query.fvecs`. Download links and preprocessing steps are in the [data guide](docs/reproduce.md#data-preparation).
+
+**OpenAI-ArXiv** contains 2,321,096 arXiv abstract embeddings generated with OpenAI's ada-002 model, with 1536 dimensions and 20,000 queries. The evaluation uses the full base dataset, preserving float32 coordinates and squared L2 distance. Prepare the [BigANN binary files](docs/reproduce.md#openai-arxiv) with:
+
+```bash
+python scripts/prepare.py --dataset openai --source /downloads/openai_base.bin \
+  --queries /downloads/openai_query.bin --output data/openai
+```
 
 ## Run
 

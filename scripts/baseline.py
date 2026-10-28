@@ -78,7 +78,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("method", choices=METHODS)
     parser.add_argument("--dataset", type=Path, required=True)
-    parser.add_argument("--preset", choices=["sift", "nytimes", "glove", "deep"], required=True)
+    parser.add_argument("--preset", choices=["sift", "nytimes", "glove", "deep", "openai"], required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--config", type=Path, default=ROOT / "configs/baselines.json")
     parser.add_argument("--build-dir", type=Path, default=ROOT / "build")

@@ -37,6 +37,7 @@ included source. MR-tree links OpenSSL directly.
 | NYTimes | [HDF5](https://ann-benchmarks.com/nytimes-256-angular.hdf5) | 289,761 / 256 | Remove zero base rows; unit normalization |
 | GloVe | [HDF5](https://ann-benchmarks.com/glove-100-angular.hdf5) | 1,183,514 / 100 | Unit normalization |
 | DEEP | [Base](https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/base.1B.fbin), [queries](https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/query.public.10K.fbin) | 1,000,000 / 96 | First 1M base rows; float32 |
+| OpenAI-ArXiv | [Base](https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_base.bin), [queries](https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_query.bin) | 2,321,096 / 1536 | Full base dataset; float32; squared L2 |
 
 ```bash
 python scripts/prepare.py --dataset sift --source /downloads/sift-128-euclidean.hdf5 --output data/sift
@@ -63,6 +64,31 @@ Each prepared directory contains `sift_base.fvecs`, `sift_query.fvecs` and
 `provenance.json`. An fvecs record contains a little-endian int32 dimension and
 float32 coordinates. The program computes ground truth for the selected base
 and query rows.
+
+### OpenAI-ArXiv
+
+The dataset contains OpenAI ada-002 embeddings of arXiv paper abstracts:
+2,321,096 base vectors, 1536 dimensions, and 20,000 queries. It is provided by
+[BigANN's OpenAIArXivDataset](https://github.com/harsha-simhadri/big-ann-benchmarks/blob/main/benchmark/datasets.py).
+The benchmark identifier is `openai-2M`. Each binary file starts with two
+little-endian int32 values, N and D, followed by contiguous float32 vectors.
+Preparation preserves the coordinates and dimension. Distance is squared L2.
+
+```bash
+curl -fL --retry 3 https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_base.bin -o openai_base.bin
+curl -fL --retry 3 https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_query.bin -o openai_query.bin
+python scripts/prepare.py --dataset openai --source openai_base.bin \
+  --queries openai_query.bin --output data/openai
+python scripts/run.py --dataset data/openai --base 2321096 --M 16 \
+  --ef-construction 200 --output results/openai
+```
+
+Use `--budget` to select QVANN's expansion budget. The prepared OpenAI input also
+works with `scripts/baseline.py --preset openai`, for example:
+
+```bash
+python scripts/baseline.py annproof --dataset data/openai --preset openai --output results/annproof-openai
+```
 
 ## QVANN parameters
 

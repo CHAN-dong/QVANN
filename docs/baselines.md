@@ -19,6 +19,7 @@ and one construction/query thread. Parameters are in `configs/baselines.json`.
 | NYTimes | 289,761 | 16 | 200 |
 | GloVe | 1,183,514 | 16 | 200 |
 | DEEP | 1,000,000 | 16 | 200 |
+| OpenAI-ArXiv | 2,321,096 | 16 | 200 |
 
 M and efConstruction apply to ANNProof and VLAH.
 

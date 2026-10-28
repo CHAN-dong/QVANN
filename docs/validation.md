@@ -22,6 +22,8 @@
   query verification.
 - Each standalone baseline completes its default 20-query, three-repeat workload
   on the 5,000-vector SIFT prefix, with 180 verified executions across the methods.
+- OpenAI-ArXiv: conversion preserves the source float32 bytes; QVANN and all three
+  baselines pass query verification on a 1,000-vector, 1536-dimensional prefix.
 - Duplicate CSV samples and changed source hashes are rejected by the plotting tool.
 
 Generated measurements and build logs remain in local run directories. The

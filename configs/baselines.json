@@ -10,7 +10,8 @@
     "sift": {"N": 1000000, "M": 8, "efConstruction": 100},
     "nytimes": {"N": 289761, "M": 16, "efConstruction": 200},
     "glove": {"N": 1183514, "M": 16, "efConstruction": 200},
-    "deep": {"N": 1000000, "M": 16, "efConstruction": 200}
+    "deep": {"N": 1000000, "M": 16, "efConstruction": 200},
+    "openai": {"N": 2321096, "M": 16, "efConstruction": 200}
   },
   "methods": {
     "annproof": {

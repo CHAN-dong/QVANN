@@ -9,7 +9,7 @@ import struct
 import h5py
 import numpy as np
 
-DIMENSIONS = {"sift": 128, "nytimes": 256, "glove": 100, "deep": 96}
+DIMENSIONS = {"sift": 128, "nytimes": 256, "glove": 100, "deep": 96, "openai": 1536}
 
 
 def sha(path):
@@ -73,8 +73,8 @@ def fbin(path, count, dimension):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", choices=DIMENSIONS, required=True)
-    parser.add_argument("--source", type=Path, required=True, help="HDF5, or DEEP base fbin")
-    parser.add_argument("--queries", type=Path, help="DEEP query fbin")
+    parser.add_argument("--source", type=Path, required=True, help="HDF5, DEEP fbin or OpenAI base bin")
+    parser.add_argument("--queries", type=Path, help="DEEP/OpenAI query binary")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--base", type=int, help="optional diagnostic subset, not a paper run")
     args = parser.parse_args()
@@ -83,16 +83,18 @@ def main():
     if args.output.exists() and any(args.output.iterdir()):
         parser.error("output directory must be new or empty")
     args.output.mkdir(parents=True, exist_ok=True)
-    if args.dataset == "deep" and args.queries is None:
-        parser.error("DEEP requires --queries")
+    if args.dataset in ("deep", "openai") and args.queries is None:
+        parser.error("DEEP/OpenAI require --queries")
     manifest = {"dataset": args.dataset, "source": str(args.source.resolve()),
                 "source_sha256": sha(args.source), "normalized": args.dataset in ("nytimes", "glove"),
                 "diagnostic_subset": args.base is not None}
-    if args.dataset == "deep":
-        base = fbin(args.source, args.base or 1000000, 96)
+    if args.dataset in ("deep", "openai"):
+        dimension = DIMENSIONS[args.dataset]
+        default_base = 2321096 if args.dataset == "openai" else 1000000
+        base = fbin(args.source, args.base or default_base, dimension)
         with args.queries.open("rb") as stream:
             n, d = struct.unpack("<ii", stream.read(8))
-        query = fbin(args.queries, n, 96)
+        query = fbin(args.queries, n, dimension)
         manifest["query_source_sha256"] = sha(args.queries)
         sources = {"train": base, "test": query}
         handle = None
