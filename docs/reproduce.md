@@ -26,25 +26,35 @@ python3 scripts/smoke.py
 ```
 
 Set `-DQVANN_BUILD_BASELINES=OFF` to build only QVANN and its tests. Baseline
-executables share the same dependency installation. Keccak is compiled from the
-included source. MR-tree links OpenSSL directly.
+executables share the same dependency installation. Merkle authentication uses SHA-256. MR-tree links OpenSSL directly.
 
 ## Data preparation
 
 | Dataset | Download | Size / dimension | Preprocessing |
 |---|---|---|---|
-| SIFT | [HDF5](https://ann-benchmarks.com/sift-128-euclidean.hdf5) | 1,000,000 / 128 | Float32 |
+| SIFT | [BIGANN base](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/bigann/base.1B.u8bin), [queries](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/bigann/query.public.10K.u8bin) | 1,000,000 / 128 | First 1M base rows; uint8 to float32 |
 | NYTimes | [HDF5](https://ann-benchmarks.com/nytimes-256-angular.hdf5) | 289,761 / 256 | Remove zero base rows; unit normalization |
 | GloVe | [HDF5](https://ann-benchmarks.com/glove-100-angular.hdf5) | 1,183,514 / 100 | Unit normalization |
 | DEEP | [Base](https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/base.1B.fbin), [queries](https://storage.yandexcloud.net/yandex-research/ann-datasets/DEEP/query.public.10K.fbin) | 1,000,000 / 96 | First 1M base rows; float32 |
 | OpenAI-ArXiv | [Base](https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_base.bin), [queries](https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_query.bin) | 2,321,096 / 1536 | Full base dataset; float32; squared L2 |
 
 ```bash
-python scripts/prepare.py --dataset sift --source /downloads/sift-128-euclidean.hdf5 --output data/sift
+python scripts/prepare.py --dataset sift --source /downloads/base.1M.prefix.u8bin \
+  --queries /downloads/query.public.10K.u8bin --output data/sift
 python scripts/prepare.py --dataset nytimes --source /downloads/nytimes-256-angular.hdf5 --output data/nytimes
 python scripts/prepare.py --dataset glove --source /downloads/glove-100-angular.hdf5 --output data/glove
 python scripts/prepare.py --dataset deep --source /downloads/base.1M.prefix.fbin \
   --queries /downloads/query.public.10K.fbin --output data/deep
+```
+
+Download the SIFT first-million prefix and queries:
+
+```bash
+curl -fL --retry 3 --range 0-128000007 --max-filesize 128000008 \
+  https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/bigann/base.1B.u8bin \
+  -o base.1M.prefix.u8bin
+curl -fL --retry 3 https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/bigann/query.public.10K.u8bin \
+  -o query.public.10K.u8bin
 ```
 
 The DEEP first-million prefix occupies bytes 0–384000007 of the base fbin file:
@@ -79,18 +89,19 @@ curl -fL --retry 3 https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-
 curl -fL --retry 3 https://comp21storage.z5.web.core.windows.net/arxiv-openaiv2-2M/openai_query.bin -o openai_query.bin
 python scripts/prepare.py --dataset openai --source openai_base.bin \
   --queries openai_query.bin --output data/openai
-python scripts/run.py --dataset data/openai --base 2321096 --M 16 \
-  --ef-construction 200 --output results/openai
+python scripts/run.py --dataset data/openai --preset openai --output results/openai
 ```
 
-Use `--budget` to select QVANN's expansion budget. The prepared OpenAI input also
+OpenAI uses E=384, M=16 and efConstruction=200. The prepared input also
 works with `scripts/baseline.py --preset openai`, for example:
 
 ```bash
 python scripts/baseline.py annproof --dataset data/openai --preset openai --output results/annproof-openai
 ```
 
-## QVANN parameters
+## QVANN launch presets
+
+The paper uses Linux with an Intel Xeon Platinum 8369C (2.90 GHz) and 512 GB RAM.
 
 | Dataset | N | M | efConstruction | E | Queries | Offset | Repeats |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -98,19 +109,23 @@ python scripts/baseline.py annproof --dataset data/openai --preset openai --outp
 | NYTimes | 289,761 | 16 | 200 | 256 | 20 | 100 | 3 |
 | GloVe | 1,183,514 | 16 | 200 | 1536 | 20 | 100 | 3 |
 | DEEP | 1,000,000 | 16 | 200 | 64 | 20 | 100 | 3 |
+| OpenAI | 2,321,096 | 16 | 200 | 384 | 20 | 100 | 3 |
 
 QVANN uses k=10, SQ4 top-1 routing, SQ4/SQ6/raw refinement, BFS refinement ordering
 and SHA-256 shared multiproofs. Query and verification use one thread. E counts
 unique expanded nodes. Faiss's level, auxiliary and insertion generators use
 seeds 12345, 456 and 789. Graph checksums are recorded for index reuse.
 
+Select search budgets near 95% Recall@10 and report the measured recall.
 Baseline defaults and overrides are listed in [baselines.md](baselines.md).
 
 ## Experiment commands
 
+Table 4 reports overall performance; Figure 16 evaluates authentication granularity.
+
 ```bash
-python scripts/compare.py --data-root data --output results/table3
-python scripts/plot.py table3 --input results/table3/measurements.csv --output results/table3/plots
+python scripts/compare.py --data-root data --output results/table4
+python scripts/plot.py table4 --input results/table4/measurements.csv --output results/table4/plots
 python scripts/reproduce.py figure16 --data-root data --output results/figure16
 python scripts/plot.py figure16 --input results/figure16/measurements.csv --output results/figure16/plots
 ```
@@ -131,7 +146,7 @@ python scripts/compare.py --data-root data --datasets sift --base 5000 \
 
 Runs retain native per-query CSVs, selected parameters, logs and checksums.
 `measurements.csv` combines methods using a common schema. Table output includes
-`table3.csv` and `table3.tex`; figure output includes CSV, PDF and PNG.
+`table4.csv` and `table4.tex`; figure output includes CSV, PDF and PNG.
 Q includes search and VO generation. V includes parsing, authentication, replay
 and result checking. Times are in ms, chart sizes are in KB=1000 bytes, and native
 KiB fields use 1024 bytes. CSV source hashes are checked when generating figures.

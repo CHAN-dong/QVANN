@@ -60,20 +60,20 @@ def convert(source, output, normalize, limit, drop_zero, preserve_zero=False):
             "file_sha256": sha(output), "payload_sha256": payload.hexdigest()}
 
 
-def fbin(path, count, dimension):
+def fbin(path, count, dimension, dtype="<f4"):
     with path.open("rb") as stream:
         declared, d = struct.unpack("<ii", stream.read(8))
     if d != dimension or declared < count:
         raise ValueError("invalid fbin header or requested prefix exceeds source")
-    if path.stat().st_size < 8 + count * d * 4:
+    if path.stat().st_size < 8 + count * d * np.dtype(dtype).itemsize:
         raise ValueError("truncated requested fbin prefix")
-    return np.memmap(path, dtype="<f4", mode="r", offset=8, shape=(count, d))
+    return np.memmap(path, dtype=dtype, mode="r", offset=8, shape=(count, d))
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", choices=DIMENSIONS, required=True)
-    parser.add_argument("--source", type=Path, required=True, help="HDF5, DEEP fbin or OpenAI base bin")
+    parser.add_argument("--source", type=Path, required=True, help="HDF5, SIFT u8bin or float32 binary")
     parser.add_argument("--queries", type=Path, help="DEEP/OpenAI query binary")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--base", type=int, help="optional diagnostic subset, not a paper run")
@@ -83,18 +83,20 @@ def main():
     if args.output.exists() and any(args.output.iterdir()):
         parser.error("output directory must be new or empty")
     args.output.mkdir(parents=True, exist_ok=True)
-    if args.dataset in ("deep", "openai") and args.queries is None:
-        parser.error("DEEP/OpenAI require --queries")
+    binary_sift = args.dataset == "sift" and args.source.suffix == ".u8bin"
+    if (args.dataset in ("deep", "openai") or binary_sift) and args.queries is None:
+        parser.error("binary inputs require --queries")
     manifest = {"dataset": args.dataset, "source": str(args.source.resolve()),
                 "source_sha256": sha(args.source), "normalized": args.dataset in ("nytimes", "glove"),
                 "diagnostic_subset": args.base is not None}
-    if args.dataset in ("deep", "openai"):
+    if args.dataset in ("deep", "openai") or binary_sift:
         dimension = DIMENSIONS[args.dataset]
         default_base = 2321096 if args.dataset == "openai" else 1000000
-        base = fbin(args.source, args.base or default_base, dimension)
+        dtype = "u1" if binary_sift else "<f4"
+        base = fbin(args.source, args.base or default_base, dimension, dtype)
         with args.queries.open("rb") as stream:
             n, d = struct.unpack("<ii", stream.read(8))
-        query = fbin(args.queries, n, dimension)
+        query = fbin(args.queries, n, dimension, dtype)
         manifest["query_source_sha256"] = sha(args.queries)
         sources = {"train": base, "test": query}
         handle = None

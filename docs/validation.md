@@ -20,11 +20,15 @@
   The combined CSV/table pipeline also passes on a 5,000-vector SIFT prefix.
 - Smoke checks cover multiple ANNProof shards and VLAH buckets, plus MR-tree
   query verification.
-- Each standalone baseline completes its default 20-query, three-repeat workload
+- Each standalone baseline completes a 20-query, three-repeat workload
   on the 5,000-vector SIFT prefix, with 180 verified executions across the methods.
 - OpenAI-ArXiv: conversion preserves the source float32 bytes; QVANN and all three
   baselines pass query verification on a 1,000-vector, 1536-dimensional prefix.
 - Duplicate CSV samples and changed source hashes are rejected by the plotting tool.
+- BIGANN uint8-to-float32 conversion preserves coordinates. After the Table 4
+  command update and ANNProof SHA-256 change, all three CTest checks and 40 real
+  query verifications pass across all five dataset presets and four methods,
+  using 1,000-vector prefixes. Table 4 CSV summary generation also passes.
 
 Generated measurements and build logs remain in local run directories. The
 `validation/raw/` example uses SIFT's first 5,000 vectors and query rows 100–101.

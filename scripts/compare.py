@@ -19,7 +19,7 @@ def main():
     parser.add_argument("--data-root", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--methods", default="qvann,annproof,vlah,mr")
-    parser.add_argument("--datasets", default="sift,nytimes,glove,deep")
+    parser.add_argument("--datasets", default="sift,nytimes,glove,deep,openai")
     parser.add_argument("--build-dir", type=Path, default=ROOT / "build")
     parser.add_argument("--cache", type=Path, default=ROOT / "cache")
     parser.add_argument("--config", type=Path, default=ROOT / "configs/paper.json")
@@ -33,8 +33,8 @@ def main():
     if not methods or len(set(methods)) != len(methods) or any(m not in ("qvann", *METHODS) for m in methods):
         parser.error("choose distinct methods from qvann,annproof,vlah,mr")
     config = json.loads(args.config.read_text())
-    if any(dataset not in config["table3"] for dataset in datasets) or len(set(datasets)) != len(datasets):
-        parser.error("choose distinct datasets from sift,nytimes,glove,deep")
+    if any(dataset not in config["table4"] for dataset in datasets) or len(set(datasets)) != len(datasets):
+        parser.error("choose distinct datasets from " + ",".join(config["table4"]))
     if args.base is None and (args.queries is not None or args.repeats is not None):
         parser.error("--queries and --repeats require --base")
     args.queries = 2 if args.queries is None else args.queries
@@ -53,7 +53,7 @@ def main():
         parser.error("output must be new or empty")
     profile = "diagnostic" if args.base else "paper"
     output.mkdir(parents=True, exist_ok=True)
-    run = {"status": "running", "experiment": "table3", "profile": profile, "methods": methods,
+    run = {"status": "running", "experiment": "table4", "profile": profile, "methods": methods,
            "datasets": datasets, "configuration_sha256": sha(args.config),
            "baseline_configuration_sha256": sha(args.baseline_config), "commands": []}
     (output / "run.json").write_text(json.dumps(run, indent=2) + "\n")
@@ -73,7 +73,7 @@ def main():
     try:
         if "qvann" in methods:
             location = output / "qvann"
-            command = [sys.executable, str(ROOT / "scripts/reproduce.py"), "table3",
+            command = [sys.executable, str(ROOT / "scripts/reproduce.py"), "table4",
                        "--data-root", str(args.data_root.resolve()), "--datasets", ",".join(datasets),
                        "--config", str(args.config.resolve()), "--build-dir", str(args.build_dir.resolve()),
                        "--cache", str(args.cache.resolve()), "--output", str(location)]
@@ -85,7 +85,7 @@ def main():
             if method == "qvann":
                 continue
             for dataset in datasets:
-                settings = config["table3"][dataset]
+                settings = config["table4"][dataset]
                 location = output / method / dataset
                 cache = args.cache.resolve() / dataset
                 if method == "vlah":

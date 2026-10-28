@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("experiment", choices=["table3", "figure16"])
+    parser.add_argument("experiment", choices=["table4", "figure16"])
     parser.add_argument("--input", type=Path, required=True, nargs="+")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
@@ -38,6 +38,9 @@ def main():
                 if actual != row["source_sha256"]:
                     raise ValueError("raw measurement checksum changed: " + str(evidence))
                 checked.add(key)
+        for record in records:
+            if record["experiment"] == "table3":
+                record["experiment"] = "table4"
         rows.extend(records)
     if len({row["profile"] for row in rows}) != 1:
         raise ValueError("paper and diagnostic runs cannot be combined")
@@ -106,7 +109,7 @@ def main():
                          f"{row['recall_pct']:.1f} & {row['query_ms']:.3f} & "
                          f"{row['vo_KB']:.3f} & {row['verify_ms']:.3f} " + r"\\")
         lines.append(r"\end{tabular}")
-        (args.output / "table3.tex").write_text("\n".join(lines) + "\n")
+        (args.output / "table4.tex").write_text("\n".join(lines) + "\n")
     sources = {str(path.resolve()): hashlib.sha256(path.read_bytes()).hexdigest() for path in args.input}
     (args.output / "sources.json").write_text(json.dumps({"profile": profile, "sources": sources}, indent=2) + "\n")
     print("Generated", args.output / (args.experiment + ".csv"))

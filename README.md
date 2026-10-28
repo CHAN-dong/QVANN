@@ -29,7 +29,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/prepare.py --dataset sift \
-  --source /downloads/sift-128-euclidean.hdf5 --output data/sift
+  --source /downloads/base.1M.prefix.u8bin \
+  --queries /downloads/query.public.10K.u8bin --output data/sift
 ```
 
 Prepare SIFT, NYTimes, GloVe, DEEP and OpenAI under `data/{sift,nytimes,glove,deep,openai}/`. Each directory contains `sift_base.fvecs` and `sift_query.fvecs`. Download links and preprocessing steps are in the [data guide](docs/reproduce.md#data-preparation).
@@ -50,13 +51,15 @@ python scripts/baseline.py vlah --dataset data/sift --preset sift --output resul
 python scripts/baseline.py mr --dataset data/sift --preset sift --output results/mr
 ```
 
-Baseline defaults are in [configs/baselines.json](configs/baselines.json). Common settings are k=10, query offset=100, 20 queries and 3 repetitions. See [baseline parameters and commands](docs/baselines.md).
+Baseline defaults are in [configs/baselines.json](configs/baselines.json). Settings are k=10, query offset=100 and 3 repetitions, with 100 queries for SIFT and 20 for the other datasets. See [baseline parameters and commands](docs/baselines.md).
 
 ## Experiments
 
+Overall performance (Table 4) and authentication granularity (Figure 16):
+
 ```bash
-python scripts/compare.py --data-root data --output results/table3
-python scripts/plot.py table3 --input results/table3/measurements.csv --output results/table3/plots
+python scripts/compare.py --data-root data --output results/table4
+python scripts/plot.py table4 --input results/table4/measurements.csv --output results/table4/plots
 python scripts/reproduce.py figure16 --data-root data --output results/figure16
 python scripts/plot.py figure16 --input results/figure16/measurements.csv --output results/figure16/plots
 ```

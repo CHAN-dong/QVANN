@@ -196,9 +196,9 @@ void attacks(const Packet& p, const Anchor& a, const float* q, int k, int ef,
 }
 
 int main(int argc, char** argv) try {
-    keccak = true;
-    require(hex(hash({})) == "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
-            "Keccak known-answer test failed");
+    keccak = false;
+    require(hex(hash({})) == "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "SHA-256 known-answer test failed");
     Config c = args(argc, argv);
     build_threads = c.buildthreads;
     auto base = vann::read_fvecs(c.dataset + "/sift_base.fvecs", c.base), queries = read_queries(c);

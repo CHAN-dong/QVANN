@@ -58,7 +58,7 @@ def measurements(method, settings, raw, output, profile):
         if valid != "1":
             raise ValueError("baseline verification failed")
         rows.append(dict(
-            experiment="table3", profile=profile, dataset=settings["dataset"],
+            experiment="table4", profile=profile, dataset=settings["dataset"],
             method=settings["label"], variant=settings["variant"], N=settings["N"],
             M="" if method == "mr" else settings["M"],
             efConstruction="" if method == "mr" else settings["efConstruction"],
@@ -96,6 +96,7 @@ def main():
     config = json.loads(args.config.read_text())
     settings = {**config["common"], **config["datasets"][args.preset],
                 **config["methods"][args.method], "dataset": args.preset}
+    settings.update(config.get("overrides", {}).get(args.preset, {}).get(args.method, {}))
     for flag, name in options.items():
         value = getattr(args, flag.replace("-", "_"))
         if value is not None:

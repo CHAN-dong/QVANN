@@ -7,11 +7,32 @@
     "build_threads": 1
   },
   "datasets": {
-    "sift": {"N": 1000000, "M": 8, "efConstruction": 100},
-    "nytimes": {"N": 289761, "M": 16, "efConstruction": 200},
-    "glove": {"N": 1183514, "M": 16, "efConstruction": 200},
-    "deep": {"N": 1000000, "M": 16, "efConstruction": 200},
-    "openai": {"N": 2321096, "M": 16, "efConstruction": 200}
+    "sift": {
+      "N": 1000000,
+      "M": 8,
+      "efConstruction": 100,
+      "queries": 100
+    },
+    "nytimes": {
+      "N": 289761,
+      "M": 16,
+      "efConstruction": 200
+    },
+    "glove": {
+      "N": 1183514,
+      "M": 16,
+      "efConstruction": 200
+    },
+    "deep": {
+      "N": 1000000,
+      "M": 16,
+      "efConstruction": 200
+    },
+    "openai": {
+      "N": 2321096,
+      "M": 16,
+      "efConstruction": 200
+    }
   },
   "methods": {
     "annproof": {
@@ -19,7 +40,7 @@
       "variant": "Sharded graph",
       "efSearch": 50,
       "shard_size": 10000,
-      "hash": "Keccak-256"
+      "hash": "SHA-256"
     },
     "vlah": {
       "label": "VLAH",
@@ -38,6 +59,57 @@
       "leaf_capacity": 64,
       "hash": "SHA-256",
       "signature": "Ed25519"
+    }
+  },
+  "overrides": {
+    "openai": {
+      "annproof": {
+        "efSearch": 512
+      },
+      "vlah": {
+        "efSearch": 50,
+        "probes": 46,
+        "lsh_width": 0.17173320405561338
+      }
+    },
+    "sift": {
+      "annproof": {
+        "efSearch": 100
+      },
+      "vlah": {
+        "efSearch": 50,
+        "probes": 41
+      }
+    },
+    "nytimes": {
+      "annproof": {
+        "efSearch": 264
+      },
+      "vlah": {
+        "efSearch": 400,
+        "probes": 14,
+        "lsh_width": 0.3508760872900476
+      }
+    },
+    "glove": {
+      "annproof": {
+        "efSearch": 1536
+      },
+      "vlah": {
+        "efSearch": 200,
+        "probes": 56,
+        "lsh_width": 0.33011345496943795
+      }
+    },
+    "deep": {
+      "annproof": {
+        "efSearch": 64
+      },
+      "vlah": {
+        "efSearch": 100,
+        "probes": 44,
+        "lsh_width": 0.3456967236059823
+      }
     }
   }
 }

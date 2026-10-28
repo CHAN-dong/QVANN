@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run measured QVANN Table 3 rows or the Figure 16 authentication ablation."""
+"""Run measured QVANN Table 4 rows or the Figure 16 authentication ablation."""
 
 import argparse
 import csv
@@ -38,12 +38,12 @@ def write_csv(path, rows):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("experiment", choices=["table3", "figure16"])
+    parser.add_argument("experiment", choices=["table4", "figure16"])
     parser.add_argument("--data-root", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--build-dir", type=Path, default=ROOT / "build")
     parser.add_argument("--config", type=Path, default=ROOT / "configs/paper.json")
-    parser.add_argument("--datasets", help="comma-separated table3 datasets")
+    parser.add_argument("--datasets", help="comma-separated table4 datasets")
     parser.add_argument("--cache", type=Path, default=ROOT / "cache")
     parser.add_argument("--require-historical-index", action="store_true")
     parser.add_argument("--diagnostic-base", type=int, help="explicit non-paper subset")
@@ -53,8 +53,8 @@ def main():
     config = json.loads(args.config.read_text())
     if args.require_historical_index and args.diagnostic_base:
         parser.error("historical indexes cannot be used for diagnostic subsets")
-    if args.require_historical_index and args.experiment != "table3":
-        parser.error("historical graph fingerprints are recorded only for Table 3")
+    if args.require_historical_index and args.experiment != "table4":
+        parser.error("historical graph fingerprints are recorded only for Table 4")
     if args.output.exists() and any(args.output.iterdir()):
         parser.error("output must be new or empty; previous runs are never overwritten")
     if any(v < 1 for v in [args.diagnostic_queries, args.diagnostic_repeats]) or (
@@ -63,14 +63,14 @@ def main():
         parser.error("invalid diagnostic dimensions")
     diagnostic = args.diagnostic_base is not None
     profile = "diagnostic" if diagnostic else "paper"
-    binary = args.build_dir.resolve() / ("qvann" if args.experiment == "table3" else "granularity")
+    binary = args.build_dir.resolve() / ("qvann" if args.experiment == "table4" else "granularity")
     if not binary.is_file():
         parser.error("missing executable: " + str(binary))
-    if args.experiment == "table3":
-        selected = args.datasets.split(",") if args.datasets else list(config["table3"])
-        if any(name not in config["table3"] for name in selected):
+    if args.experiment == "table4":
+        selected = args.datasets.split(",") if args.datasets else list(config["table4"])
+        if any(name not in config["table4"] for name in selected):
             parser.error("unknown dataset")
-        cases = [(name, config["table3"][name].copy()) for name in selected]
+        cases = [(name, config["table4"][name].copy()) for name in selected]
     else:
         if args.datasets and args.datasets != "sift":
             parser.error("Figure 16 in revision (8) uses SIFT")
@@ -112,24 +112,26 @@ def main():
                     raise FileNotFoundError(data / name)
             case = {"dataset": dataset, "settings": settings, "inputs": {
                 name: sha(data / name) for name in ["sift_base.fvecs", "sift_query.fvecs"]}}
-            if args.experiment == "table3" and not diagnostic:
+            if args.experiment == "table4" and not diagnostic and settings.get("query_file_sha256"):
                 if case["inputs"]["sift_query.fvecs"] != settings["query_file_sha256"]:
                     raise ValueError("query file differs from the historical input")
             cache = args.cache.resolve() / dataset
             if args.require_historical_index:
+                if not settings.get("historical_graph_sha256"):
+                    raise ValueError("no archived graph fingerprint for " + dataset)
                 expected = settings["historical_graph_sha256"]
                 graph = cache / (settings["base_payload_sha256"][:16] +
                                  f"_M{settings['M']}_efc{settings['efConstruction']}.index")
                 if not graph.is_file() or sha(graph) != expected:
                     raise ValueError(f"missing or mismatched historical graph: {graph}")
-            tag = dataset if args.experiment == "table3" else f"{dataset}-M{settings['M']}"
+            tag = dataset if args.experiment == "table4" else f"{dataset}-M{settings['M']}"
             output = args.output.resolve() / tag
             command = [str(binary), "--dataset", str(data), "--base", str(settings["N"]),
                        "--M", str(settings["M"]), "--ef-construction", str(settings["efConstruction"]),
                        "--queries", str(settings["queries"]), "--query-offset", str(settings["query_offset"]),
                        "--repeats", str(settings["repeats"]), "--build-threads", str(settings["build_threads"]),
                        "--k", str(settings["k"]), "--cache", str(cache), "--output", str(output)]
-            if args.experiment == "table3":
+            if args.experiment == "table4":
                 command.extend(["--budget", str(settings["E"])])
             case["command"] = command
             run["cases"].append(case)
@@ -137,14 +139,14 @@ def main():
             with (args.output / (tag + ".log")).open("w") as log:
                 subprocess.run(command, env=environment, check=True, stdout=log, stderr=subprocess.STDOUT)
             case["wall_seconds"] = time.monotonic() - started
-            source = output / ("per_query.csv" if args.experiment == "table3" else "samples.csv")
+            source = output / ("per_query.csv" if args.experiment == "table4" else "samples.csv")
             with source.open() as stream:
                 rows = list(csv.DictReader(stream))
-            expected_count = settings["queries"] * settings["repeats"] * (1 if args.experiment == "table3" else 3)
+            expected_count = settings["queries"] * settings["repeats"] * (1 if args.experiment == "table4" else 3)
             if len(rows) != expected_count:
                 raise ValueError(f"incomplete measurements: {source}")
             digest = sha(source)
-            if args.experiment == "table3":
+            if args.experiment == "table4" and settings.get("base_payload_sha256"):
                 identity = json.loads((output / "manifest.json").read_text())
                 case["payload_matches_historical"] = identity["dataset_sha256"] == settings["base_payload_sha256"]
                 if not diagnostic and not case["payload_matches_historical"]:
@@ -152,10 +154,10 @@ def main():
             graphs = list(cache.glob(f"*_M{settings['M']}_efc{settings['efConstruction']}.index"))
             case["graph_files"] = {str(path): sha(path) for path in graphs}
             for row in rows:
-                valid = row["verified"] if args.experiment == "table3" else row["valid"]
+                valid = row["verified"] if args.experiment == "table4" else row["valid"]
                 if valid != "1":
                     raise ValueError("verification failure in raw measurements")
-                native = args.experiment == "table3"
+                native = args.experiment == "table4"
                 result = dict(experiment=args.experiment, profile=profile, dataset=dataset,
                               method="QVANN", variant="ER" if native else row["variant"],
                               N=settings["N"], M=settings["M"], efConstruction=settings["efConstruction"],

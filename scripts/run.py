@@ -12,6 +12,7 @@ PRESETS = {
     "nytimes": (289761, 16, 200, 256),
     "glove": (1183514, 16, 200, 1536),
     "deep": (1000000, 16, 200, 64),
+    "openai": (2321096, 16, 200, 384),
 }
 
 
@@ -25,13 +26,15 @@ def main():
     parser.add_argument("--ef-construction", type=int)
     parser.add_argument("--budget", type=int)
     parser.add_argument("--k", type=int, default=10)
-    parser.add_argument("--queries", type=int, default=20)
+    parser.add_argument("--queries", type=int)
     parser.add_argument("--query-offset", type=int, default=100)
     parser.add_argument("--repeats", type=int, default=3)
     parser.add_argument("--cache", type=Path, default=root / "cache")
     parser.add_argument("--output", type=Path)
     parser.add_argument("--build-dir", type=Path, default=root / "build")
     args = parser.parse_args()
+    if args.queries is None:
+        args.queries = 100 if args.preset == "sift" else 20
     defaults = PRESETS.get(args.preset, (100000, 16, 100, 64))
     values = (args.base, args.M, args.ef_construction, args.budget)
     base, degree, construction, budget = [
