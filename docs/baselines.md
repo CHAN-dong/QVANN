@@ -11,7 +11,7 @@ The CMake build includes ANNProof, VLAH and MR-tree.
 ## Launch defaults
 
 Launchers use k=10, query offset=100, three repetitions and one
-construction/query thread. SIFT uses 100 queries; the other datasets use 20. Parameters are in `configs/baselines.json`.
+construction/query thread. All dataset uses 100 queries. Parameters are in `configs/baselines.json`.
 
 | Dataset | N | M | efConstruction |
 |---|---:|---:|---:|
