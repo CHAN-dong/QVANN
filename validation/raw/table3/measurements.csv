@@ -1,3 +1,0 @@
-experiment,profile,dataset,method,variant,N,M,efConstruction,E,k,query,repeat,recall,query_ms,verify_ms,vo_bytes,route_proof_bytes,verified,source_csv,source_sha256
-table3,diagnostic,sift,QVANN,ER,5000,8,100,128,10,100,0,1,1.0889,1.947933,92816,15460,1,sift/per_query.csv,c256887d0fe8d90beb8e50bc741d87a1006b28c9903e17b8d50e3991559a2b1d
-table3,diagnostic,sift,QVANN,ER,5000,8,100,128,10,101,0,1,0.823233,1.738868,85976,18084,1,sift/per_query.csv,c256887d0fe8d90beb8e50bc741d87a1006b28c9903e17b8d50e3991559a2b1d

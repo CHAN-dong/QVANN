@@ -1,9 +1,0 @@
-{
-  "traversal": "SQ4 top-1",
-  "budget": "unique expanded-node count",
-  "refinement": "SQ4 -> SQ6 -> raw",
-  "authentication": "expansion-centric Merkle",
-  "ordering": "HNSW-BFS",
-  "multiproof": "canonical shared paths",
-  "client": "VO-only authentication, replay and result certification"
-}

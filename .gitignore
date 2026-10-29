@@ -10,7 +10,6 @@
 __pycache__/
 *.pyc
 *.csv
-!validation/raw/**/*.csv
 *.xlsx
 *.pdf
 *.tex

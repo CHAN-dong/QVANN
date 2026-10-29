@@ -1,3 +1,0 @@
-method,query,repeat,k,budget,search_ms,vo_generation_ms,verification_ms,authentication_ms,replay_ms,server_total_ms,end_to_end_compute_ms,vo_bytes,vo_kib,record_bytes,local_proof_bytes,route_proof_bytes,visited,expanded,recall_at_k,recall_at_1,kth_distance_ratio,verified
-QVANN,100,0,10,128,0.723332,0.365568,1.947933,1.292949,0.620866,1.0889,3.036833,92816,90.640625,67684,9672,15460,726,128,1,1,1,1
-QVANN,101,0,10,128,0.520304,0.302929,1.738868,1.164284,0.542423,0.823233,2.562101,85976,83.9609375,58732,9160,18084,630,128,1,1,1,1
