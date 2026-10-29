@@ -106,10 +106,10 @@ The paper uses Linux with an Intel Xeon Platinum 8369C (2.90 GHz) and 512 GB RAM
 | Dataset | N | M | efConstruction | E | Queries | Offset | Repeats |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | SIFT | 1,000,000 | 8 | 100 | 128 | 100 | 100 | 3 |
-| NYTimes | 289,761 | 16 | 200 | 256 | 20 | 100 | 3 |
-| GloVe | 1,183,514 | 16 | 200 | 1536 | 20 | 100 | 3 |
-| DEEP | 1,000,000 | 16 | 200 | 64 | 20 | 100 | 3 |
-| OpenAI | 2,321,096 | 16 | 200 | 384 | 20 | 100 | 3 |
+| NYTimes | 289,761 | 16 | 200 | 256 | 100 | 100 | 3 |
+| GloVe | 1,183,514 | 16 | 200 | 1536 | 100 | 100 | 3 |
+| DEEP | 1,000,000 | 16 | 200 | 64 | 100 | 100 | 3 |
+| OpenAI | 2,321,096 | 16 | 200 | 384 | 100 | 100 | 3 |
 
 QVANN uses k=10, SQ4 top-1 routing, SQ4/SQ6/raw refinement, BFS refinement ordering
 and SHA-256 shared multiproofs. Query and verification use one thread. E counts
