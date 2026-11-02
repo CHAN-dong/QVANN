@@ -51,7 +51,7 @@ python scripts/baseline.py vlah --dataset data/sift --preset sift --output resul
 python scripts/baseline.py mr --dataset data/sift --preset sift --output results/mr
 ```
 
-Baseline defaults are in [configs/baselines.json](configs/baselines.json). Settings are k=10, query offset=100 and 3 repetitions, with 100 queries for SIFT and 20 for the other datasets. See [baseline parameters and commands](docs/baselines.md).
+Baseline defaults are in [configs/baselines.json](configs/baselines.json). Settings are k=10, query offset=100 and 3 repetitions, with 100 queries for each datasets. See [baseline parameters and commands](docs/baselines.md).
 
 ## Experiments
 
