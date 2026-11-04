@@ -55,19 +55,18 @@ Baseline defaults are in [configs/baselines.json](configs/baselines.json). Setti
 
 ## Experiments
 
-Overall performance (Table 4) and authentication granularity (Figure 16):
+Overall performance and authentication granularity:
 
 ```bash
 python scripts/compare.py --data-root data --output results/table4
 python scripts/plot.py table4 --input results/table4/measurements.csv --output results/table4/plots
-python scripts/reproduce.py figure16 --data-root data --output results/figure16
-python scripts/plot.py figure16 --input results/figure16/measurements.csv --output results/figure16/plots
+python scripts/reproduce.py--data-root data --output results/figure16
+python scripts/plot.py --input results/figure16/measurements.csv --output results/figure16/plots
 ```
 
 `compare.py` runs QVANN, ANNProof, VLAH and MR-tree. `--datasets sift,deep` selects datasets; `--methods qvann,annproof` selects methods. Figure 16 evaluates Record-wise, Node-wise and ER authentication. Configurations are in `configs/paper.json` and `configs/baselines.json`.
 
-Outputs include per-query CSVs, run parameters, input/index checksums, summary tables and figures. Timing uses ms and plotted VO sizes use KB=1000 bytes.
-
+Outputs include per-query CSVs, run parameters, input/index checksums, summary tables and figures.
 ## Layout
 
 `src/` contains the index, optimization, query, verification and baseline implementations. `scripts/` provides data preparation and experiment entry points; `tests/` provides query and integrity checks. See [build and test results](docs/validation.md).
